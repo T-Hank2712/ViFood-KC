@@ -1,9 +1,8 @@
-.venv/
+# KHÔNG UP CÁC FILE BẢO MẬT VÀ MÔI TRƯỜNG CỦA MÁY LOCAL
 .env
+.env.*
+
+# (Tùy chọn bổ sung) Bỏ qua môi trường ảo của Python để tránh up hàng nghìn file rác thư viện
+.venv/
 __pycache__/
 .pytest_cache/
-data/raw/
-data/staging/
-data/exports/
-neo4j/data/
-logs/
