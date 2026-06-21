@@ -1,8 +1,16 @@
-# KHÔNG UP CÁC FILE BẢO MẬT VÀ MÔI TRƯỜNG CỦA MÁY LOCAL
+.DS_Store
 .env
-.env.*
-
-# (Tùy chọn bổ sung) Bỏ qua môi trường ảo của Python để tránh up hàng nghìn file rác thư viện
 .venv/
 __pycache__/
+*.py[cod]
 .pytest_cache/
+logs/*
+!logs/.gitkeep
+data/raw/**
+!data/raw/.gitkeep
+data/staging/**
+!data/staging/.gitkeep
+data/review/pending/**
+!data/review/pending/.gitkeep
+data/exports/**
+!data/exports/.gitkeep

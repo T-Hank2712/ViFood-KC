@@ -1,0 +1,38 @@
+sources:
+  - id: SOURCE:FOODON
+    name: FoodOn
+    url: https://github.com/FoodOntology/foodon
+    license: CC-BY-4.0
+    formats: [owl, tsv]
+    roles: [ingredient_taxonomy, food_category_taxonomy, synonyms]
+    ingestion: selective
+  - id: SOURCE:CHEBI
+    name: ChEBI
+    url: https://www.ebi.ac.uk/chebi/downloads/
+    license: CC-BY-4.0
+    formats: [tsv, json, obo, owl]
+    roles: [chemical_identifier, synonym, chemical_hierarchy]
+    ingestion: selective
+  - id: SOURCE:FAO_INFOODS_TAGNAMES
+    name: FAO/INFOODS Tagnames
+    url: https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/
+    roles: [nutrient_identifier]
+    ingestion: curated_master
+  - id: SOURCE:USDA_FDC
+    name: USDA FoodData Central
+    url: https://fdc.nal.usda.gov/download-datasets/
+    license: CC0-1.0
+    formats: [csv, json, api]
+    roles: [ingredient_nutrient]
+    ingestion: foundation_and_sr_legacy_only
+  - id: SOURCE:VN_TT24_2019
+    name: Thông tư 24/2019/TT-BYT
+    url: https://vfa.gov.vn/chi-dao-dieu-hanh/ban-hanh-thong-tu-so-242019tt-byt-quy-dinh-ve-quan-ly-va-su-dung-phu-gia-thuc-pham.html
+    formats: [pdf]
+    roles: [vietnam_additive_regulation]
+    ingestion: extract_stage_review_only
+  - id: SOURCE:WHO_HEALTHY_DIET
+    name: WHO Healthy Diet
+    url: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
+    roles: [health_claim_evidence]
+    ingestion: curated_claims_only

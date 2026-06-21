@@ -1,0 +1,28 @@
+import json
+import os
+from pathlib import Path
+
+import pytest
+
+from food_kg.graph import Neo4jImporter
+from food_kg.models import NodeRecord, RelationshipRecord
+
+pytestmark = pytest.mark.skipif(not all(os.getenv(k) for k in ("NEO4J_URI", "NEO4J_USER", "NEO4J_PASSWORD")), reason="Neo4j environment is not configured")
+
+ROOT = Path(__file__).parents[2]
+
+def load(relative: str, model):
+    return [model.model_validate(item) for item in json.loads((ROOT / relative).read_text())]
+
+def test_seed_import_is_idempotent() -> None:
+    importer = Neo4jImporter.from_environment(os.environ["NEO4J_URI"], os.environ["NEO4J_USER"], os.environ["NEO4J_PASSWORD"], os.getenv("NEO4J_DATABASE", "neo4j"))
+    nodes = load("data/curated/nodes/phase1_seed.json", NodeRecord)
+    relationships = load("data/curated/relationships/phase1_seed.json", RelationshipRecord)
+    try:
+        importer.import_release(nodes, relationships)
+        importer.import_release(nodes, relationships)
+        with importer.driver.session(database=importer.database) as session:
+            count = session.run("MATCH (n) WHERE n.id STARTS WITH 'CLAIM:' RETURN count(n) AS count").single()["count"]
+        assert count == 1
+    finally:
+        importer.close()

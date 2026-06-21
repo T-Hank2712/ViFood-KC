@@ -1,0 +1,4 @@
+version: 0.1.0
+released_at: 2026-06-21
+source_ids: [SOURCE:FOODON, SOURCE:USDA_FDC, SOURCE:VN_TT24_2019, SOURCE:WHO_HEALTHY_DIET]
+notes: Seed data is deliberately small and includes only reviewed, provenance-bearing records.

@@ -1,0 +1,8 @@
+[
+  {"start_id":"INGREDIENT:PALM_OIL","end_id":"NUTRIENT:SATURATED_FAT","type":"HAS_NUTRIENT","properties":{"amount":49.3,"unit":"g","basis":"per 100 g","source":"SOURCE:USDA_FDC"}},
+  {"start_id":"ADDITIVE:INS_621","end_id":"FUNCTION:FLAVOUR_ENHANCER","type":"HAS_FUNCTION","properties":{"source":"SOURCE:VN_TT24_2019"}},
+  {"start_id":"ALIAS:BOT_NGOT","end_id":"ADDITIVE:INS_621","type":"REFERS_TO","properties":{"source":"SOURCE:VN_TT24_2019"}},
+  {"start_id":"CLAIM:SODIUM_HIGH_INTAKE_BP","end_id":"NUTRIENT:SODIUM","type":"SUBJECT_OF","properties":{"role":"primary"}},
+  {"start_id":"CLAIM:SODIUM_HIGH_INTAKE_BP","end_id":"OUTCOME:HIGH_BLOOD_PRESSURE","type":"OUTCOME","properties":{"effect_direction":"increase"}},
+  {"start_id":"CLAIM:SODIUM_HIGH_INTAKE_BP","end_id":"SOURCE:WHO_HEALTHY_DIET","type":"EVIDENCED_BY","properties":{"evidence_role":"primary"}}
+]
