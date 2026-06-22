@@ -1,0 +1,7 @@
+version: nutrients-infoods-v0.1.0
+released_at: '2026-06-22'
+source_ids:
+- SOURCE:FAO_INFOODS_TAGNAMES
+node_count: 77
+relationship_count: 48
+notes: Reviewed nutrient master derived from FAO/INFOODS Tagnames.

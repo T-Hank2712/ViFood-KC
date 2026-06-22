@@ -3,9 +3,12 @@ import os
 from pathlib import Path
 
 import pytest
+from dotenv import load_dotenv
 
 from food_kg.graph import Neo4jImporter
 from food_kg.models import NodeRecord, RelationshipRecord
+
+load_dotenv()
 
 pytestmark = pytest.mark.skipif(not all(os.getenv(k) for k in ("NEO4J_URI", "NEO4J_USER", "NEO4J_PASSWORD")), reason="Neo4j environment is not configured")
 

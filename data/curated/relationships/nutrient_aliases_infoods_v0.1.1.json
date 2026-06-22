@@ -1,0 +1,638 @@
+[
+  {
+    "start_id": "NUTRIENT:ENERGY",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "ENERC"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_ENERC",
+    "end_id": "NUTRIENT:ENERGY",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:ENERGY_VI",
+    "end_id": "NUTRIENT:ENERGY",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:PROTEIN",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "PROCNT"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_PROCNT",
+    "end_id": "NUTRIENT:PROTEIN",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:TOTAL_FAT",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FAT"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_FAT",
+    "end_id": "NUTRIENT:TOTAL_FAT",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:TOTAL_FAT_VI",
+    "end_id": "NUTRIENT:TOTAL_FAT",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:SATURATED_FAT",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FASAT"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_FASAT",
+    "end_id": "NUTRIENT:SATURATED_FAT",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:SATURATED_FAT_VI",
+    "end_id": "NUTRIENT:SATURATED_FAT",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:MONOUNSATURATED_FAT",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FAMS"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_FAMS",
+    "end_id": "NUTRIENT:MONOUNSATURATED_FAT",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:MONOUNSATURATED_FAT_VI",
+    "end_id": "NUTRIENT:MONOUNSATURATED_FAT",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:POLYUNSATURATED_FAT",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FAPU"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_FAPU",
+    "end_id": "NUTRIENT:POLYUNSATURATED_FAT",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:POLYUNSATURATED_FAT_VI",
+    "end_id": "NUTRIENT:POLYUNSATURATED_FAT",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:TRANS_FAT",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FATRN"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_FATRN",
+    "end_id": "NUTRIENT:TRANS_FAT",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:TRANS_FAT_VI",
+    "end_id": "NUTRIENT:TRANS_FAT",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:CARBOHYDRATE",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "CHOCDF"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_CHOCDF",
+    "end_id": "NUTRIENT:CARBOHYDRATE",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:CARBOHYDRATE_VI",
+    "end_id": "NUTRIENT:CARBOHYDRATE",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:DIETARY_FIBER",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FIBTG"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_FIBTG",
+    "end_id": "NUTRIENT:DIETARY_FIBER",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:DIETARY_FIBER_VI",
+    "end_id": "NUTRIENT:DIETARY_FIBER",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:TOTAL_SUGARS",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "SUGAR"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_SUGAR",
+    "end_id": "NUTRIENT:TOTAL_SUGARS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:TOTAL_SUGARS_VI",
+    "end_id": "NUTRIENT:TOTAL_SUGARS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:CHOLESTEROL",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "CHOL-"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_CHOL_",
+    "end_id": "NUTRIENT:CHOLESTEROL",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:SODIUM",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "NA"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_NA",
+    "end_id": "NUTRIENT:SODIUM",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:SODIUM_VI",
+    "end_id": "NUTRIENT:SODIUM",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:POTASSIUM",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "K"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_K",
+    "end_id": "NUTRIENT:POTASSIUM",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:POTASSIUM_VI",
+    "end_id": "NUTRIENT:POTASSIUM",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:CALCIUM",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "CA"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_CA",
+    "end_id": "NUTRIENT:CALCIUM",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:CALCIUM_VI",
+    "end_id": "NUTRIENT:CALCIUM",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:IRON",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FE"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_FE",
+    "end_id": "NUTRIENT:IRON",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:IRON_VI",
+    "end_id": "NUTRIENT:IRON",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:MAGNESIUM",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "MG"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_MG",
+    "end_id": "NUTRIENT:MAGNESIUM",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:MAGNESIUM_VI",
+    "end_id": "NUTRIENT:MAGNESIUM",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:PHOSPHORUS",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "P"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_P",
+    "end_id": "NUTRIENT:PHOSPHORUS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:PHOSPHORUS_VI",
+    "end_id": "NUTRIENT:PHOSPHORUS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:ZINC",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "ZN"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_ZN",
+    "end_id": "NUTRIENT:ZINC",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:ZINC_VI",
+    "end_id": "NUTRIENT:ZINC",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:VITAMIN_A",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITA"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_VITA",
+    "end_id": "NUTRIENT:VITAMIN_A",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:THIAMIN",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "THIA"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_THIA",
+    "end_id": "NUTRIENT:THIAMIN",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:THIAMIN_VI",
+    "end_id": "NUTRIENT:THIAMIN",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:RIBOFLAVIN",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "RIBF"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_RIBF",
+    "end_id": "NUTRIENT:RIBOFLAVIN",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:RIBOFLAVIN_VI",
+    "end_id": "NUTRIENT:RIBOFLAVIN",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:NIACIN",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "NIA"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_NIA",
+    "end_id": "NUTRIENT:NIACIN",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:NIACIN_VI",
+    "end_id": "NUTRIENT:NIACIN",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:FOLATE",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FOL"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_FOL",
+    "end_id": "NUTRIENT:FOLATE",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "ALIAS:FOLATE_VI",
+    "end_id": "NUTRIENT:FOLATE",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:VITAMIN_B12",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITB12"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_VITB12",
+    "end_id": "NUTRIENT:VITAMIN_B12",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:VITAMIN_C",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITC"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_VITC",
+    "end_id": "NUTRIENT:VITAMIN_C",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:VITAMIN_D",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITD"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_VITD",
+    "end_id": "NUTRIENT:VITAMIN_D",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:VITAMIN_E",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITE"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_VITE",
+    "end_id": "NUTRIENT:VITAMIN_E",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:VITAMIN_K",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITK"
+    }
+  },
+  {
+    "start_id": "ALIAS:INFOODS_VITK",
+    "end_id": "NUTRIENT:VITAMIN_K",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES"
+    }
+  }
+]
