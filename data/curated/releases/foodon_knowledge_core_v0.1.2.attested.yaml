@@ -1,0 +1,15 @@
+version: foodon-knowledge-core-v0.1.2
+released_at: '2026-06-22'
+source_ids:
+- SOURCE:FOODON
+- SOURCE:VIFOOD_TRANSLATION_SEED
+node_count: 49
+relationship_count: 47
+notes: FoodOn knowledge taxonomy; ambiguous aliases are held back for review.
+raw_snapshot:
+  files:
+  - path: data/raw/foodon/foodon-v2025-02-01/foodon.owl
+    sha256: 1e11fc50283c6498697a7aca9606c9d914f1cda71cc5510e006d949c32df7db0
+automated_gate:
+  policy_version: strict-v1
+  ambiguous_alias_count: 0

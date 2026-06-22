@@ -1,0 +1,44 @@
+# Scope FoodOn đợt đầu. Các root và toàn bộ descendant được đưa vào review,
+# chưa tự động import Neo4j. Mỗi root được kiểm tra từ staging FoodOn v2025-02-01.
+source_id: SOURCE:FOODON
+source_version: v2025-02-01
+include_descendants: true
+roots:
+  - id: FOODON:00002940
+    label: instant noodle
+    purpose: packaged-food-category
+  - id: FOODON:00002013
+    label: macaroni or noodle food product
+    purpose: packaged-food-category
+  - id: FOODON:03315013
+    label: snack food
+    purpose: packaged-food-category
+  - id: FOODON:00002057
+    label: nonalcoholic beverage
+    purpose: packaged-food-category
+  - id: FOODON:00001256
+    label: dairy food product
+    purpose: packaged-food-category
+  - id: FOODON:03311146
+    label: sauce
+    purpose: packaged-food-category
+  - id: FOODON:00001133
+    label: condiment
+    purpose: packaged-food-category
+  - id: FOODON:03000288
+    label: bread
+    purpose: packaged-food-category
+  - id: FOODON:00002466
+    label: biscuit (hard) food product
+    purpose: packaged-food-category
+  - id: FOODON:03315324
+    label: cereal product (solid)
+    purpose: packaged-food-category
+  - id: FOODON:03315520
+    label: butter-like edible fat
+    purpose: packaged-food-category
+exclusions:
+  - obsolete terms
+  - animal species and agricultural entities
+  - non-FoodOn imported classes
+  - classes without an English label

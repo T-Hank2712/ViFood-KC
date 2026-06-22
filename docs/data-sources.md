@@ -1,13 +1,13 @@
 # Nguồn dữ liệu của ViFood-KG
 
-Tài liệu này mô tả các nguồn dữ liệu dự kiến sử dụng cho ViFood-KG. Mọi dữ liệu, dù đến từ nguồn đáng tin cậy, đều phải đi qua luồng `raw → staging → transform → validate → review → curated release → Neo4j`. Không ghi trực tiếp dữ liệu tải về, OCR hoặc trích xuất PDF vào production graph.
+Tài liệu này mô tả các nguồn dữ liệu dự kiến sử dụng cho ViFood-KG. Mọi dữ liệu đi qua `raw → staging → transform → curated release → attestation → automated quality gate → Neo4j`. Không ghi trực tiếp dữ liệu tải về, OCR hoặc trích xuất PDF vào production graph.
 
 ## Nguyên tắc chung
 
 - Chỉ sử dụng nguồn chính thức hoặc nguồn có xuất xứ và giấy phép rõ ràng.
-- Lưu URL, ngày tải, phiên bản nguồn, mã bản ghi nguồn và giấy phép khi có.
+- Lưu URL, ngày tải, phiên bản nguồn, mã bản ghi nguồn, giấy phép và SHA-256 của raw snapshot khi có.
 - Không diễn giải dữ liệu vượt quá nội dung của nguồn; đặc biệt với claim sức khỏe, ADI/TDI và quy định pháp lý.
-- Dữ liệu pháp lý phải được review thủ công trước khi phát hành curated release.
+- Dữ liệu pháp lý chỉ được import khi vượt qua strict automated quality gate; rule mapping phải có version và source rõ ràng.
 - Codex và JECFA dùng để đối chiếu ngữ nghĩa quốc tế, không thay thế quy định đang có hiệu lực tại Việt Nam.
 
 ## 1. FoodOn
@@ -15,8 +15,8 @@ Tài liệu này mô tả các nguồn dữ liệu dự kiến sử dụng cho V
 - **Trang nguồn:** <https://github.com/FoodOntology/foodon>
 - **Định dạng:** OWL, synonym TSV.
 - **Giấy phép:** CC BY 4.0.
-- **Vai trò:** taxonomy cho `Ingredient` và `FoodCategory`, tên đồng nghĩa và quan hệ phân cấp `IS_A`.
-- **Cách dùng:** chỉ chọn các nhánh liên quan đến thực phẩm đóng gói; không cần import toàn bộ ontology.
+- **Vai trò:** taxonomy/selective vocabulary cho `Ingredient`, `FoodCategory`, synonym và hierarchy.
+- **Cách dùng:** chỉ lấy FoodCategory core phục vụ ngữ cảnh phụ gia/quy định; không dùng FoodOn để nhận diện ảnh và không import toàn bộ ontology.
 
 ## 2. ChEBI
 
@@ -60,7 +60,7 @@ Tài liệu này mô tả các nguồn dữ liệu dự kiến sử dụng cho V
 - **Thông tin cập nhật liên quan Thông tư 17/2023/TT-BYT:** <https://vfa.gov.vn/tin-tuc/huong-dan-tra-cuu-quy-dinh-ve-su-dung-phu-gia-thuc-pham-cua-ub-tieu-chuan-thuc-pham-codex-danh-muc-hoac-co-so-du-lieu-ve-huong-lieu-thuc-pham-cua-jecfa-fema-va-lien-minh-chau-au.html>
 - **Định dạng:** PDF và phụ lục.
 - **Vai trò:** `Additive`, INS, `FunctionalClass`, `PERMITTED_IN`, mức sử dụng tối đa, đơn vị, thời hạn hiệu lực và điều kiện pháp lý tại Việt Nam.
-- **Cách dùng:** extract vào staging, sau đó review thủ công trước khi tạo curated release. Đây là nguồn quyết định cho chức năng cảnh báo tuân thủ tại Việt Nam.
+- **Cách dùng:** extract vào staging, chạy rule mapping version hóa và strict automated quality gate trước khi tạo curated release. Đây là nguồn quyết định cho chức năng cảnh báo tuân thủ tại Việt Nam.
 
 ## 8. Codex GSFA
 
@@ -77,13 +77,14 @@ Tài liệu này mô tả các nguồn dữ liệu dự kiến sử dụng cho V
 ## 10. WHO Healthy Diet và các guideline liên quan
 
 - **Trang nguồn:** <https://www.who.int/news-room/fact-sheets/detail/healthy-diet>
-- **Vai trò:** tạo các `HealthClaim` đã review cho sodium, free sugars, saturated fat, trans fat và các chủ đề liên quan.
+- **Vai trò:** tạo các `HealthClaim` có evidence level, điều kiện/bối cảnh và source cho sodium, free sugars, saturated fat, trans fat và các chủ đề liên quan.
 - **Cách dùng:** tạo từng claim có đối tượng, điều kiện/liều lượng hoặc bối cảnh, mức bằng chứng, nguồn và ngày review; không scrape thành bulk dataset và không biến nội dung nguồn thành tư vấn y khoa cá nhân.
 
 ## Thứ tự ưu tiên ingest
 
-1. FAO/INFOODS Tagnames để tạo nutrient master.
-2. FoodOn và ChEBI để chuẩn hóa ingredient, category, additive và alias.
-3. USDA FoodData Central và AnFooD để tạo quan hệ `HAS_NUTRIENT`.
-4. Quy định phụ gia Việt Nam, sau khi có quy trình review PDF rõ ràng.
-5. Codex GSFA, JECFA và WHO để bổ sung ngữ nghĩa, evidence và health claim.
+1. FAO/INFOODS Tagnames để tạo nutrient master; phần này đã có pipeline.
+2. FoodOn core nhỏ để có FoodCategory context; không mở rộng thành taxonomy ảnh.
+3. Additive master từ quy định phụ gia Việt Nam và Codex GSFA.
+4. ChEBI để bổ sung chemical ID/synonym cho additive và ingredient.
+5. USDA FoodData Central và AnFooD để tạo quan hệ `HAS_NUTRIENT`.
+6. JECFA và WHO để bổ sung safety/evidence/health claim.

@@ -1,4 +1,9 @@
 sources:
+  - id: SOURCE:VIFOOD_TRANSLATION_SEED
+    name: ViFood-KG Vietnamese translation seed
+    url: internal://vi-food-translation-seed
+    roles: [reviewed_translation]
+    ingestion: deterministic_mapping
   - id: SOURCE:FOODON
     name: FoodOn
     url: https://github.com/FoodOntology/foodon

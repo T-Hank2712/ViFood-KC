@@ -1,0 +1,408 @@
+[
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002466_1",
+    "properties": {
+      "name": "biscuit",
+      "normalized_name": "biscuit",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002466_2",
+    "properties": {
+      "name": "cookie",
+      "normalized_name": "cookie",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002466_3",
+    "properties": {
+      "name": "cracker",
+      "normalized_name": "cracker",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001256_4",
+    "properties": {
+      "name": "dairy product",
+      "normalized_name": "dairy product",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001256_5",
+    "properties": {
+      "name": "milk product",
+      "normalized_name": "milk product",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002940_VI_1",
+    "properties": {
+      "name": "Mì ăn liền",
+      "normalized_name": "mì ăn liền",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002940_VI_2",
+    "properties": {
+      "name": "mì gói",
+      "normalized_name": "mì gói",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002013_VI_1",
+    "properties": {
+      "name": "Sản phẩm mì ống và mì sợi",
+      "normalized_name": "sản phẩm mì ống và mì sợi",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002013_VI_2",
+    "properties": {
+      "name": "sản phẩm pasta và mì",
+      "normalized_name": "sản phẩm pasta và mì",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03315013_VI_1",
+    "properties": {
+      "name": "Thực phẩm ăn vặt",
+      "normalized_name": "thực phẩm ăn vặt",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03315013_VI_2",
+    "properties": {
+      "name": "đồ ăn nhẹ",
+      "normalized_name": "đồ ăn nhẹ",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002057_VI_1",
+    "properties": {
+      "name": "Đồ uống không cồn",
+      "normalized_name": "đồ uống không cồn",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001256_VI_1",
+    "properties": {
+      "name": "Sản phẩm sữa",
+      "normalized_name": "sản phẩm sữa",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03311146_VI_1",
+    "properties": {
+      "name": "Nước xốt",
+      "normalized_name": "nước xốt",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03311146_VI_2",
+    "properties": {
+      "name": "xốt",
+      "normalized_name": "xốt",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001133_VI_1",
+    "properties": {
+      "name": "Gia vị",
+      "normalized_name": "gia vị",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03000288_VI_1",
+    "properties": {
+      "name": "Bánh mì",
+      "normalized_name": "bánh mì",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002466_VI_1",
+    "properties": {
+      "name": "Sản phẩm bánh quy cứng",
+      "normalized_name": "sản phẩm bánh quy cứng",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002466_VI_2",
+    "properties": {
+      "name": "bánh quy cứng",
+      "normalized_name": "bánh quy cứng",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03315324_VI_1",
+    "properties": {
+      "name": "Sản phẩm ngũ cốc dạng rắn",
+      "normalized_name": "sản phẩm ngũ cốc dạng rắn",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03315520_VI_1",
+    "properties": {
+      "name": "Chất béo ăn được dạng bơ",
+      "normalized_name": "chất béo ăn được dạng bơ",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001149_VI_1",
+    "properties": {
+      "name": "Thực phẩm bánh kẹo",
+      "normalized_name": "thực phẩm bánh kẹo",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001149_VI_2",
+    "properties": {
+      "name": "bánh kẹo",
+      "normalized_name": "bánh kẹo",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03301051_VI_1",
+    "properties": {
+      "name": "Kẹo",
+      "normalized_name": "kẹo",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03400923_VI_1",
+    "properties": {
+      "name": "Nước đóng chai",
+      "normalized_name": "nước đóng chai",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03543273_VI_1",
+    "properties": {
+      "name": "Nước đóng chai không ga",
+      "normalized_name": "nước đóng chai không ga",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03543274_VI_1",
+    "properties": {
+      "name": "Nước đóng chai có ga",
+      "normalized_name": "nước đóng chai có ga",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03543275_VI_1",
+    "properties": {
+      "name": "Nước đóng chai có hương",
+      "normalized_name": "nước đóng chai có hương",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03543276_VI_1",
+    "properties": {
+      "name": "Nước đóng chai tăng cường vi chất",
+      "normalized_name": "nước đóng chai tăng cường vi chất",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  }
+]

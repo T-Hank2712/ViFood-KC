@@ -1,0 +1,25 @@
+# FoodCategory core phục vụ giải thích thành phần/phụ gia trên thực phẩm đóng gói.
+# Không dùng taxonomy này để nhận diện ảnh, và không lấy descendant sâu.
+source_id: SOURCE:FOODON
+source_version: v2025-02-01
+include_descendants: false
+roots:
+  - {id: FOODON:00002940, label: instant noodle, purpose: knowledge-context}
+  - {id: FOODON:00002013, label: macaroni or noodle food product, purpose: knowledge-context}
+  - {id: FOODON:03315013, label: snack food, purpose: knowledge-context}
+  - {id: FOODON:00001149, label: confectionery food, purpose: knowledge-context}
+  - {id: FOODON:03301051, label: candy, purpose: knowledge-context}
+  - {id: FOODON:00001256, label: dairy food product, purpose: knowledge-context}
+  - {id: FOODON:00002057, label: nonalcoholic beverage, purpose: knowledge-context}
+  - {id: FOODON:03311146, label: sauce, purpose: knowledge-context}
+  - {id: FOODON:00001133, label: condiment, purpose: knowledge-context}
+  - {id: FOODON:03000288, label: bread, purpose: knowledge-context}
+  - {id: FOODON:00002466, label: biscuit (hard) food product, purpose: knowledge-context}
+  - {id: FOODON:03315324, label: cereal product (solid), purpose: knowledge-context}
+  - {id: FOODON:03315520, label: butter-like edible fat, purpose: knowledge-context}
+  - {id: FOODON:03400923, label: packaged water, purpose: knowledge-context}
+  - {id: FOODON:03543273, label: still bottled drinking water, purpose: knowledge-context}
+  - {id: FOODON:03543274, label: carbonated bottled drinking water, purpose: knowledge-context}
+  - {id: FOODON:03543275, label: flavoured bottled water, purpose: knowledge-context}
+  - {id: FOODON:03543276, label: fortified bottled water, purpose: knowledge-context}
+exclusions: [obsolete terms, non-FoodOn imported classes, classes without an English label]

@@ -13,12 +13,12 @@ RELATION_ENDPOINTS = {
     "HAS_NUTRIENT": {("Ingredient", "Nutrient")}, "CONTAINS_ALLERGEN": {("Ingredient", "Allergen")},
     "HAS_FUNCTION": {("Additive", "FunctionalClass")}, "PERMITTED_IN": {("Additive", "FoodCategory")},
     "COMMON_IN": {("Additive", "FoodCategory")}, "OBSERVED_IN": {("Additive", "FoodCategory")},
-    "REFERS_TO": {("Alias", "Ingredient"), ("Alias", "Nutrient"), ("Alias", "Additive")},
+    "REFERS_TO": {("Alias", "Ingredient"), ("Alias", "Nutrient"), ("Alias", "Additive"), ("Alias", "FoodCategory")},
     "SUBJECT_OF": {("HealthClaim", "Nutrient"), ("HealthClaim", "Ingredient"), ("HealthClaim", "Additive")},
     "OUTCOME": {("HealthClaim", "HealthOutcome")}, "EVIDENCED_BY": {("HealthClaim", "Source")},
     "GOVERNS": {("Regulation", "Additive")}, "IN_CATEGORY": {("Ingredient", "FoodCategory")},
     "BROADER_THAN": {("FoodCategory", "FoodCategory")},
-    "SUPPORTED_BY": {("Ingredient", "Source"), ("Nutrient", "Source"), ("Additive", "Source"), ("Regulation", "Source")},
+    "SUPPORTED_BY": {("Ingredient", "Source"), ("Nutrient", "Source"), ("Additive", "Source"), ("FoodCategory", "Source"), ("Regulation", "Source")},
     "SUPERSEDES": {("Regulation", "Regulation")},
 }
 

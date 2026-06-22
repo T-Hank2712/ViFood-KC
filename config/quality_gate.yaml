@@ -1,0 +1,7 @@
+policy_version: strict-v1
+required_node_properties: [source, source_url, reviewed_at, status]
+required_release_fields: [version, released_at, source_ids, raw_snapshot, automated_gate]
+allowed_statuses: [active, deprecated]
+require_source_node_for_every_source: true
+require_raw_snapshot_hashes: true
+require_zero_ambiguous_aliases: true

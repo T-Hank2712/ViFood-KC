@@ -1,0 +1,1752 @@
+[
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002815_1",
+    "properties": {
+      "name": "1% milk",
+      "normalized_name": "1% milk",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601014_2",
+    "properties": {
+      "name": "aloo bhujia",
+      "normalized_name": "aloo bhujia",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03315027_3",
+    "properties": {
+      "name": "artificial sweetener",
+      "normalized_name": "artificial sweetener",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003259_4",
+    "properties": {
+      "name": "bechamel",
+      "normalized_name": "bechamel",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003259_5",
+    "properties": {
+      "name": "besciamella",
+      "normalized_name": "besciamella",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601042_6",
+    "properties": {
+      "name": "bhajiya",
+      "normalized_name": "bhajiya",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601014_7",
+    "properties": {
+      "name": "bikaneri bhujia",
+      "normalized_name": "bikaneri bhujia",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002466_8",
+    "properties": {
+      "name": "biscuit",
+      "normalized_name": "biscuit",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003861_9",
+    "properties": {
+      "name": "boerenkass gouda",
+      "normalized_name": "boerenkass gouda",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001022_10",
+    "properties": {
+      "name": "Bresse Blue",
+      "normalized_name": "bresse blue",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03303837_11",
+    "properties": {
+      "name": "butterfat",
+      "normalized_name": "butterfat",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03304029_12",
+    "properties": {
+      "name": "California dip",
+      "normalized_name": "california dip",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002421_13",
+    "properties": {
+      "name": "camembert-blue cheese",
+      "normalized_name": "camembert-blue cheese",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002422_14",
+    "properties": {
+      "name": "canestrato",
+      "normalized_name": "canestrato",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03302918_15",
+    "properties": {
+      "name": "cheddar-jack",
+      "normalized_name": "cheddar-jack",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001013_16",
+    "properties": {
+      "name": "cheese",
+      "normalized_name": "cheese",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601021_17",
+    "properties": {
+      "name": "chāt",
+      "normalized_name": "chāt",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03302918_18",
+    "properties": {
+      "name": "colby-jack",
+      "normalized_name": "colby-jack",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03301503_19",
+    "properties": {
+      "name": "condensed milk",
+      "normalized_name": "condensed milk",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002466_20",
+    "properties": {
+      "name": "cookie",
+      "normalized_name": "cookie",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03302116_21",
+    "properties": {
+      "name": "cow milk",
+      "normalized_name": "cow milk",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03310780_22",
+    "properties": {
+      "name": "cow whole milk",
+      "normalized_name": "cow whole milk",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002466_23",
+    "properties": {
+      "name": "cracker",
+      "normalized_name": "cracker",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002425_24",
+    "properties": {
+      "name": "crescenza cheese",
+      "normalized_name": "crescenza cheese",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03420245_25",
+    "properties": {
+      "name": "curd",
+      "normalized_name": "curd",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003142_26",
+    "properties": {
+      "name": "curds and whey",
+      "normalized_name": "curds and whey",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601022_27",
+    "properties": {
+      "name": "dahi bhalla",
+      "normalized_name": "dahi bhalla",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001256_28",
+    "properties": {
+      "name": "dairy product",
+      "normalized_name": "dairy product",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002833_29",
+    "properties": {
+      "name": "do'a",
+      "normalized_name": "do'a",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002833_30",
+    "properties": {
+      "name": "du'ah",
+      "normalized_name": "du'ah",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002833_31",
+    "properties": {
+      "name": "dukkah",
+      "normalized_name": "dukkah",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002542_32",
+    "properties": {
+      "name": "El Queso Cotija de Montaña",
+      "normalized_name": "el queso cotija de montaña",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001033_33",
+    "properties": {
+      "name": "Emmental cheese",
+      "normalized_name": "emmental cheese",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001033_34",
+    "properties": {
+      "name": "Emmentaler cheese",
+      "normalized_name": "emmentaler cheese",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003948_35",
+    "properties": {
+      "name": "Equal",
+      "normalized_name": "equal",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003860_36",
+    "properties": {
+      "name": "farmhouse style cheese",
+      "normalized_name": "farmhouse style cheese",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003860_37",
+    "properties": {
+      "name": "farmhouse-style cheese",
+      "normalized_name": "farmhouse-style cheese",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003264_38",
+    "properties": {
+      "name": "fondue bourguignonne",
+      "normalized_name": "fondue bourguignonne",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601024_39",
+    "properties": {
+      "name": "fryum",
+      "normalized_name": "fryum",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601023_40",
+    "properties": {
+      "name": "gallet",
+      "normalized_name": "gallet",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601023_41",
+    "properties": {
+      "name": "galletas de patatas",
+      "normalized_name": "galletas de patatas",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003859_42",
+    "properties": {
+      "name": "graskass gouda",
+      "normalized_name": "graskass gouda",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003258_43",
+    "properties": {
+      "name": "Greek yogurt",
+      "normalized_name": "greek yogurt",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001034_44",
+    "properties": {
+      "name": "Harzerkaese",
+      "normalized_name": "harzerkaese",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03420161_45",
+    "properties": {
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003859_46",
+    "properties": {
+      "name": "hooikaas",
+      "normalized_name": "hooikaas",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03305494_47",
+    "properties": {
+      "name": "horseradish",
+      "normalized_name": "horseradish",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001045_48",
+    "properties": {
+      "name": "ice cream",
+      "normalized_name": "ice cream",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001045_49",
+    "properties": {
+      "name": "ice-cream",
+      "normalized_name": "ice-cream",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03302918_50",
+    "properties": {
+      "name": "jack cheese",
+      "normalized_name": "jack cheese",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003858_51",
+    "properties": {
+      "name": "jong gouda",
+      "normalized_name": "jong gouda",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003142_52",
+    "properties": {
+      "name": "junket",
+      "normalized_name": "junket",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03305135_53",
+    "properties": {
+      "name": "kheer",
+      "normalized_name": "kheer",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03420160_54",
+    "properties": {
+      "name": "light cream",
+      "normalized_name": "light cream",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03420154_55",
+    "properties": {
+      "name": "light whipping cream",
+      "normalized_name": "light whipping cream",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03307306_56",
+    "properties": {
+      "name": "mead wine",
+      "normalized_name": "mead wine",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003859_57",
+    "properties": {
+      "name": "meikaas",
+      "normalized_name": "meikaas",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03303837_58",
+    "properties": {
+      "name": "milk fat",
+      "normalized_name": "milk fat",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001256_59",
+    "properties": {
+      "name": "milk product",
+      "normalized_name": "milk product",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03460748_60",
+    "properties": {
+      "name": "milk protein",
+      "normalized_name": "milk protein",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03307485_61",
+    "properties": {
+      "name": "milk shake",
+      "normalized_name": "milk shake",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03303837_62",
+    "properties": {
+      "name": "milkfat",
+      "normalized_name": "milkfat",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03302918_63",
+    "properties": {
+      "name": "monterey jack",
+      "normalized_name": "monterey jack",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03302918_64",
+    "properties": {
+      "name": "monterey jack cheese",
+      "normalized_name": "monterey jack cheese",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03301484_65",
+    "properties": {
+      "name": "nonfat milk",
+      "normalized_name": "nonfat milk",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003948_66",
+    "properties": {
+      "name": "NutraSweet",
+      "normalized_name": "nutrasweet",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03304029_67",
+    "properties": {
+      "name": "onion dip",
+      "normalized_name": "onion dip",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601042_68",
+    "properties": {
+      "name": "pakoda",
+      "normalized_name": "pakoda",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601042_69",
+    "properties": {
+      "name": "pakodi",
+      "normalized_name": "pakodi",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03303675_70",
+    "properties": {
+      "name": "parmigiano cheese (block)",
+      "normalized_name": "parmigiano cheese (block)",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03302918_71",
+    "properties": {
+      "name": "pepper jack",
+      "normalized_name": "pepper jack",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03301889_72",
+    "properties": {
+      "name": "philadelphia cream cheese",
+      "normalized_name": "philadelphia cream cheese",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601042_73",
+    "properties": {
+      "name": "pikora",
+      "normalized_name": "pikora",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601045_74",
+    "properties": {
+      "name": "ponir",
+      "normalized_name": "ponir",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03302916_75",
+    "properties": {
+      "name": "provolone",
+      "normalized_name": "provolone",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601036_76",
+    "properties": {
+      "name": "Queijo Minas",
+      "normalized_name": "queijo minas",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002542_77",
+    "properties": {
+      "name": "queso cincho",
+      "normalized_name": "queso cincho",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601030_78",
+    "properties": {
+      "name": "qulfi",
+      "normalized_name": "qulfi",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03307455_79",
+    "properties": {
+      "name": "raw milk",
+      "normalized_name": "raw milk",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601039_80",
+    "properties": {
+      "name": "rice pudding",
+      "normalized_name": "rice pudding",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002424_81",
+    "properties": {
+      "name": "roquefort",
+      "normalized_name": "roquefort",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601049_82",
+    "properties": {
+      "name": "rosh malai",
+      "normalized_name": "rosh malai",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601049_83",
+    "properties": {
+      "name": "rossomalai",
+      "normalized_name": "rossomalai",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003258_84",
+    "properties": {
+      "name": "sack yoghurt",
+      "normalized_name": "sack yoghurt",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003883_85",
+    "properties": {
+      "name": "salsa cruda",
+      "normalized_name": "salsa cruda",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003883_86",
+    "properties": {
+      "name": "salsa fresca",
+      "normalized_name": "salsa fresca",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003263_87",
+    "properties": {
+      "name": "Savoyard fondue",
+      "normalized_name": "savoyard fondue",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001043_88",
+    "properties": {
+      "name": "sheep milk",
+      "normalized_name": "sheep milk",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03601055_89",
+    "properties": {
+      "name": "sheer khorma",
+      "normalized_name": "sheer khorma",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03301484_90",
+    "properties": {
+      "name": "skim milk",
+      "normalized_name": "skim milk",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03301484_91",
+    "properties": {
+      "name": "skimmed milk",
+      "normalized_name": "skimmed milk",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03305073_92",
+    "properties": {
+      "name": "snack bar",
+      "normalized_name": "snack bar",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03000476_93",
+    "properties": {
+      "name": "sour cream (reduced fat)",
+      "normalized_name": "sour cream (reduced fat)",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00005579_94",
+    "properties": {
+      "name": "sour whey",
+      "normalized_name": "sour whey",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003947_95",
+    "properties": {
+      "name": "Splenda",
+      "normalized_name": "splenda",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003444_96",
+    "properties": {
+      "name": "sugar cane",
+      "normalized_name": "sugar cane",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001281_97",
+    "properties": {
+      "name": "sweet custard",
+      "normalized_name": "sweet custard",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003949_98",
+    "properties": {
+      "name": "Sweet'N Low",
+      "normalized_name": "sweet'n low",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003855_99",
+    "properties": {
+      "name": "tahina",
+      "normalized_name": "tahina",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002542_100",
+    "properties": {
+      "name": "Tajo cheese",
+      "normalized_name": "tajo cheese",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03301460_101",
+    "properties": {
+      "name": "tomato catsup",
+      "normalized_name": "tomato catsup",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03420244_102",
+    "properties": {
+      "name": "whey",
+      "normalized_name": "whey",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003259_103",
+    "properties": {
+      "name": "white sauce",
+      "normalized_name": "white sauce",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003873_104",
+    "properties": {
+      "name": "white tahina",
+      "normalized_name": "white tahina",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03310780_105",
+    "properties": {
+      "name": "whole milk",
+      "normalized_name": "whole milk",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001014_106",
+    "properties": {
+      "name": "yoghourt",
+      "normalized_name": "yoghourt",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001014_107",
+    "properties": {
+      "name": "yoghurt",
+      "normalized_name": "yoghurt",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00003258_108",
+    "properties": {
+      "name": "yogurt cheese",
+      "normalized_name": "yogurt cheese",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001014_109",
+    "properties": {
+      "name": "yougert",
+      "normalized_name": "yougert",
+      "language": "en",
+      "alias_type": "synonym",
+      "source": "SOURCE:FOODON",
+      "source_url": "https://github.com/FoodOntology/foodon",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002940_VI_1",
+    "properties": {
+      "name": "Mì ăn liền",
+      "normalized_name": "mì ăn liền",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002940_VI_2",
+    "properties": {
+      "name": "mì gói",
+      "normalized_name": "mì gói",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002013_VI_1",
+    "properties": {
+      "name": "Sản phẩm mì ống và mì sợi",
+      "normalized_name": "sản phẩm mì ống và mì sợi",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002013_VI_2",
+    "properties": {
+      "name": "sản phẩm pasta và mì",
+      "normalized_name": "sản phẩm pasta và mì",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03315013_VI_1",
+    "properties": {
+      "name": "Thực phẩm ăn vặt",
+      "normalized_name": "thực phẩm ăn vặt",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03315013_VI_2",
+    "properties": {
+      "name": "đồ ăn nhẹ",
+      "normalized_name": "đồ ăn nhẹ",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002057_VI_1",
+    "properties": {
+      "name": "Đồ uống không cồn",
+      "normalized_name": "đồ uống không cồn",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001256_VI_1",
+    "properties": {
+      "name": "Sản phẩm sữa",
+      "normalized_name": "sản phẩm sữa",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03311146_VI_1",
+    "properties": {
+      "name": "Nước xốt",
+      "normalized_name": "nước xốt",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03311146_VI_2",
+    "properties": {
+      "name": "xốt",
+      "normalized_name": "xốt",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00001133_VI_1",
+    "properties": {
+      "name": "Gia vị",
+      "normalized_name": "gia vị",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03000288_VI_1",
+    "properties": {
+      "name": "Bánh mì",
+      "normalized_name": "bánh mì",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002466_VI_1",
+    "properties": {
+      "name": "Sản phẩm bánh quy cứng",
+      "normalized_name": "sản phẩm bánh quy cứng",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_00002466_VI_2",
+    "properties": {
+      "name": "bánh quy cứng",
+      "normalized_name": "bánh quy cứng",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03315324_VI_1",
+    "properties": {
+      "name": "Sản phẩm ngũ cốc dạng rắn",
+      "normalized_name": "sản phẩm ngũ cốc dạng rắn",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:FOODON_03315520_VI_1",
+    "properties": {
+      "name": "Chất béo ăn được dạng bơ",
+      "normalized_name": "chất béo ăn được dạng bơ",
+      "language": "vi",
+      "alias_type": "common-name",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-22",
+      "status": "active"
+    }
+  }
+]

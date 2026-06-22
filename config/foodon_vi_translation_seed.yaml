@@ -1,0 +1,21 @@
+source_id: SOURCE:VIFOOD_TRANSLATION_SEED
+source_url: internal://vi-food-translation-seed
+translations:
+  - {foodon_id: FOODON:00002940, name_vi: Mì ăn liền, aliases: [mì gói]}
+  - {foodon_id: FOODON:00002013, name_vi: Sản phẩm mì ống và mì sợi, aliases: [sản phẩm pasta và mì]}
+  - {foodon_id: FOODON:03315013, name_vi: Thực phẩm ăn vặt, aliases: [đồ ăn nhẹ]}
+  - {foodon_id: FOODON:00002057, name_vi: Đồ uống không cồn, aliases: []}
+  - {foodon_id: FOODON:00001256, name_vi: Sản phẩm sữa, aliases: []}
+  - {foodon_id: FOODON:03311146, name_vi: Nước xốt, aliases: [xốt]}
+  - {foodon_id: FOODON:00001133, name_vi: Gia vị, aliases: []}
+  - {foodon_id: FOODON:03000288, name_vi: Bánh mì, aliases: []}
+  - {foodon_id: FOODON:00002466, name_vi: Sản phẩm bánh quy cứng, aliases: [bánh quy cứng]}
+  - {foodon_id: FOODON:03315324, name_vi: Sản phẩm ngũ cốc dạng rắn, aliases: []}
+  - {foodon_id: FOODON:03315520, name_vi: Chất béo ăn được dạng bơ, aliases: []}
+  - {foodon_id: FOODON:00001149, name_vi: Thực phẩm bánh kẹo, aliases: [bánh kẹo]}
+  - {foodon_id: FOODON:03301051, name_vi: Kẹo, aliases: []}
+  - {foodon_id: FOODON:03400923, name_vi: Nước đóng chai, aliases: []}
+  - {foodon_id: FOODON:03543273, name_vi: Nước đóng chai không ga, aliases: []}
+  - {foodon_id: FOODON:03543274, name_vi: Nước đóng chai có ga, aliases: []}
+  - {foodon_id: FOODON:03543275, name_vi: Nước đóng chai có hương, aliases: []}
+  - {foodon_id: FOODON:03543276, name_vi: Nước đóng chai tăng cường vi chất, aliases: []}
