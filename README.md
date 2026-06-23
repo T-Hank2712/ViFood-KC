@@ -1,38 +1,38 @@
-# ViFood-KG
+# ViFood-KC (Knowledge Core)
 
-ViFood-KG là knowledge graph làm lớp tri thức đáng tin cậy cho hệ thống phân tích thực phẩm đóng gói tại Việt Nam. Khi một lớp OCR/product bên ngoài đọc nhãn sản phẩm, nó gửi các term như `E621`, `Natri`, `dầu cọ` hoặc `sữa` sang ViFood-KG. Graph chuẩn hóa term đó, giải thích nó là gì, có chức năng gì, liên quan tới sức khỏe ra sao, có thể gặp trong nhóm thực phẩm nào và — khi có quy định nguồn rõ ràng — được phép dùng trong phạm vi nào.
+ViFood-KC là Knowledge Core cho hệ thống phân tích thực phẩm đóng gói tại Việt Nam. Core này chuẩn hóa các term xuất hiện trên nhãn như tên nguyên liệu, nutrient, INS, E-number, dị nguyên hoặc nhóm thực phẩm; sau đó cung cấp giải thích có nguồn, quan hệ dinh dưỡng, bằng chứng sức khỏe và quy định sử dụng phụ gia.
 
-Repository này không quản lý ảnh, OCR, Product/SKU, Brand, giá bán hay lịch sử người dùng. Những dữ liệu đó thuộc product-observation layer. ViFood-KG chỉ chứa tri thức chuẩn, có provenance và có thể tái tạo.
+ViFood-KC không xử lý ảnh, OCR, Product/SKU, Brand, giá bán hay dữ liệu người dùng. Các việc đó thuộc product-observation layer. Knowledge Core chỉ lưu tri thức chuẩn, truy vết được nguồn và không biến quan sát OCR hoặc nội dung LLM thành dữ liệu chuẩn.
 
 ```text
-Ảnh nhãn / OCR / Product layer
-        ↓  term quan sát được
-Entity linking (mã, tên chuẩn, Alias)
+Ảnh / OCR / Product layer
+        ↓ term trên nhãn
+Entity linking bằng mã, tên chuẩn và Alias
         ↓
-ViFood-KG: thực thể chuẩn + nguồn + quy định + giải thích
+ViFood-KC
         ↓
-Ứng dụng trả lời cho người dùng
+Giải thích thành phần, dinh dưỡng, dị nguyên, quy định và evidence
 ```
 
-## Đích đến của project
+## Mô hình tri thức
 
-Project hoàn chỉnh sẽ có các mảng tri thức sau:
+ViFood-KC quản lý các thực thể:
 
-- `Nutrient`: dưỡng chất, mã chuẩn, tên Việt/Anh và giải thích.
-- `Ingredient`: nguyên liệu, phân cấp, nguồn gốc, hàm lượng nutrient và dị nguyên.
-- `Additive`: phụ gia, INS, E-number, tên Việt/Anh, chức năng công nghệ và quy định sử dụng.
-- `FoodCategory`: các nhóm thực phẩm đóng gói cần thiết để đặt ngữ cảnh, không phải catalog sản phẩm.
-- `Allergen`, `HealthClaim`, `HealthOutcome`: thông tin dị nguyên và claim sức khỏe có điều kiện, mức bằng chứng và nguồn.
-- `Regulation`: văn bản pháp lý, lịch sử phiên bản, giới hạn sử dụng theo nhóm thực phẩm.
-- `Source` và Alias không trùng lặp: truy vết nguồn và entity linking an toàn.
+- `Nutrient`: dưỡng chất, mã chuẩn, tên Việt/Anh và đơn vị.
+- `Ingredient`: nguyên liệu, phân cấp, nguồn gốc và thành phần dinh dưỡng.
+- `Additive`: phụ gia, INS, E-number, tên, chức năng và quy định sử dụng.
+- `FoodCategory`: nhóm thực phẩm pháp lý Việt Nam và taxonomy ngữ nghĩa khi cần.
+- `FunctionalClass`: chức năng công nghệ của phụ gia.
+- `Allergen`: dị nguyên và quan hệ với nguyên liệu.
+- `HealthClaim`, `HealthOutcome`: claim sức khỏe có điều kiện, mức bằng chứng và nguồn.
+- `Regulation`, `Source`: văn bản pháp lý và nguồn dữ liệu.
+- `Alias`: token thay thế thật sự cần cho entity linking; không lặp `name`, `name_vi`, `ins` hoặc `external_code`.
 
-Product/OCR layer trong tương lai chỉ quan sát nhãn. Nó không được tự biến quan sát hay câu trả lời LLM thành tri thức chuẩn trong graph.
-
-## Luồng dữ liệu bắt buộc
+## Luồng dữ liệu
 
 ```text
 Nguồn chính thức
-→ raw snapshot có hash
+→ raw snapshot
 → extractor
 → staging
 → transformer theo rule/config phiên bản hóa
@@ -42,24 +42,21 @@ Nguồn chính thức
 → Neo4j
 ```
 
-Quality gate từ chối release nếu raw snapshot không đúng hash, nguồn không nằm trong registry, node thiếu provenance, schema/relationship sai, trạng thái không hợp lệ hoặc Alias mơ hồ. Không có bước review thủ công bắt buộc, nhưng cũng không có đường import trực tiếp dữ liệu tùy ý.
+Mỗi release chỉ được import khi raw hash khớp, source có trong registry, node có provenance, schema/relationship hợp lệ và Alias không mơ hồ.
 
-## Lộ trình toàn bộ
+## Quy định phụ gia
 
-1. Xây dựng master data: Nutrient, FoodCategory và Additive.
-2. Trích xuất Phụ lục 2A/2B của quy định Việt Nam để tạo `Additive -[:PERMITTED_IN]-> FoodCategory`, có mức tối đa, đơn vị, ghi chú và bằng chứng trang PDF.
-3. Bổ sung `Ingredient`, quan hệ `HAS_NUTRIENT`, dị nguyên và taxonomy cần thiết từ các nguồn được registry cho phép.
-4. Bổ sung evidence sức khỏe: `HealthClaim → subject/outcome/source`, không biến thành tư vấn y khoa.
-5. Xây dựng lớp entity linking/API để product-OCR layer truy vấn graph.
-6. Tích hợp với project OCR/Product riêng: quan sát nhãn giữ tách biệt; ViFood-KG chỉ trả về tri thức chuẩn và mức độ chắc chắn.
+Quy định phụ gia được biểu diễn bằng:
 
-## Trạng thái hiện tại
+```text
+Additive -[:PERMITTED_IN]-> FoodCategory pháp lý Việt Nam
+```
 
-- Đã có Nutrient master từ FAO/INFOODS.
-- Đã có FoodCategory core song ngữ từ FoodOn, giới hạn cho nhóm thực phẩm đóng gói.
-- Đã có 400 Additive từ Phụ lục 1 của Văn bản hợp nhất 09/VBHN-BYT.
-- Đã import các release đã qua quality gate vào Neo4j.
-- Chưa có giới hạn sử dụng Phụ lục 2A/2B, Ingredient, Allergen, HealthClaim hoặc product/OCR layer.
+Relationship `PERMITTED_IN` mang phụ lục, mức tối đa hoặc GMP, đơn vị, ghi chú và trang nguồn. FoodCategory pháp lý được giữ nguyên theo mã/tên của văn bản Việt Nam; nó không bị thay thế bằng taxonomy quốc tế.
+
+## Tích hợp product/OCR
+
+Product layer lưu quan sát như OCR text, confidence, ảnh nhãn và SKU. ViFood-KC nhận term để map về thực thể chuẩn, sau đó trả lại tri thức và provenance. Quan sát trên nhãn không đồng nghĩa với quy định pháp lý: `OBSERVED_IN`, `COMMON_IN` và `PERMITTED_IN` là ba quan hệ có nghĩa khác nhau.
 
 ## Chạy project
 
@@ -71,6 +68,6 @@ cp .env.example .env
 PYTHONPATH=src .venv/bin/python -m pytest -q
 ```
 
-Khai báo `.env` với `NEO4J_URI`, `NEO4J_USER`, `NEO4J_PASSWORD`, `NEO4J_DATABASE`; chạy [constraints.cypher](neo4j/cypher/constraints.cypher) trước khi import một curated release đã attest.
+Khai báo `NEO4J_URI`, `NEO4J_USER`, `NEO4J_PASSWORD`, `NEO4J_DATABASE` trong `.env`, rồi chạy [constraints.cypher](neo4j/cypher/constraints.cypher) trước khi import curated release.
 
-Xem [ontology](docs/ontology.md) cho mô hình graph và [nguồn dữ liệu](docs/data-sources.md) cho nguồn hiện dùng lẫn nguồn của các giai đoạn tiếp theo.
+Xem [ontology](docs/ontology.md) và [nguồn dữ liệu](docs/data-sources.md) để biết đầy đủ mô hình và các nguồn của ViFood-KC.

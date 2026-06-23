@@ -1,24 +1,17 @@
-# Nguồn dữ liệu của toàn project
+# Nguồn dữ liệu của ViFood-KC
 
-Mỗi nguồn chỉ được dùng sau khi có pipeline phù hợp. Khi ingest, dữ liệu phải đi qua `raw → staging → transform → curated release → attestation → quality gate → Neo4j`; raw snapshot được hash để tái lập và truy vết.
+ViFood-KC chỉ ingest dữ liệu từ nguồn có xuất xứ rõ ràng. Mỗi snapshot được lưu raw, hash SHA-256 và gắn `Source` vào node/relationship được tạo.
 
-## Đang dùng
+| Nguồn | Vai trò |
+|---|---|
+| FoodOn | Taxonomy FoodCategory, synonym và ngữ nghĩa thực phẩm. |
+| FAO/INFOODS Tagnames | Mã định danh Nutrient/component. |
+| 09/VBHN-BYT | Danh mục Additive, FunctionalClass, nhóm thực phẩm pháp lý và giới hạn sử dụng tại Việt Nam. |
+| ViFood-KC Vietnamese translation seed | `name_vi` và synonym tiếng Việt có rule/version rõ ràng. |
+| ChEBI | Chemical identifier, synonym và hierarchy cho ingredient/additive. |
+| USDA FoodData Central | Dữ liệu Ingredient - Nutrient. |
+| FAO/INFOODS AnFooD và Bảng thành phần thực phẩm Việt Nam | Bổ sung thành phần dinh dưỡng cho ingredient. |
+| Codex GSFA / JECFA | Đối chiếu quốc tế về phụ gia, chức năng và safety evidence; không thay thế quy định Việt Nam. |
+| WHO Healthy Diet | Evidence cho HealthClaim; không dùng làm tư vấn y khoa cá nhân. |
 
-| Nguồn | Vai trò trong project | Phạm vi hiện tại |
-|---|---|---|
-| FoodOn | `FoodCategory`, synonym và hierarchy | FoodCategory core cho thực phẩm đóng gói, không import toàn bộ ontology. |
-| FAO/INFOODS Tagnames | mã định danh `Nutrient` | Nutrient master; mã nằm trực tiếp tại `external_code`. |
-| 09/VBHN-BYT | `Additive`, `FunctionalClass`, `Regulation` | Phụ lục 1 đã tạo 400 phụ gia; Phụ lục 2A/2B là bước kế tiếp. |
-| ViFood-KG translation seed | `name_vi` và synonym tiếng Việt chọn lọc | Mapping có version, chỉ cho FoodCategory core. |
-
-## Sẽ dùng khi mở rộng đúng mảng tri thức
-
-| Nguồn | Mục đích dự kiến | Điều kiện ingest |
-|---|---|---|
-| ChEBI | chemical identifier, synonym, hierarchy cho ingredient/additive | Chỉ term cần thiết, không import toàn bộ ChEBI. |
-| USDA FoodData Central | `Ingredient -[:HAS_NUTRIENT]-> Nutrient` | Chọn dataset phù hợp, chuẩn hóa nutrient code và basis. |
-| FAO/INFOODS AnFooD và Bảng thành phần thực phẩm Việt Nam | bổ sung nutrient của ingredient | Xác minh giấy phép, cấu trúc và phiên bản trước khi tải. |
-| Codex GSFA và JECFA | đối chiếu identifier, chức năng, safety evidence | Không thay thế quy định áp dụng tại Việt Nam. |
-| WHO Healthy Diet | evidence cho `HealthClaim` | Claim phải có subject, outcome, điều kiện và source; không tạo tư vấn y khoa. |
-
-Các nguồn trên được giữ trong `config/source_registry.yaml`, nhưng không có raw dataset hay thư mục rỗng trong repository cho tới khi pipeline tương ứng được triển khai.
+Source registry nằm tại `config/source_registry.yaml`. Không source nào được import nếu chưa được đăng ký, chưa có pipeline phù hợp hoặc không vượt qua quality gate.
