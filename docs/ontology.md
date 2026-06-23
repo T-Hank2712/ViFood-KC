@@ -2,11 +2,11 @@
 
 ## Vai trò trong hệ thống
 
-ViFood-KG là reference knowledge graph, không phải product catalog. Lớp OCR/product bên ngoài quan sát nội dung nhãn; ViFood-KG chuẩn hóa term quan sát được và trả về tri thức có provenance. Không ghi output OCR, ảnh hoặc LLM trực tiếp vào graph chuẩn.
+ViFood-KG là reference knowledge graph cho toàn bộ vòng đời phân tích thực phẩm đóng gói, không phải product catalog. Lớp OCR/product bên ngoài quan sát nội dung nhãn; ViFood-KG chuẩn hóa term quan sát được và trả về tri thức có provenance. Khi project hoàn chỉnh, graph bao phủ nutrient, ingredient, additive, allergen, category, quy định và evidence sức khỏe; không ghi output OCR, ảnh hoặc LLM trực tiếp vào graph chuẩn.
 
 ```text
-"bột ngọt" / "E621" → Alias → Additive chuẩn
-"Natri" / "Na" → Alias → Nutrient chuẩn
+"bột ngọt" / "E621" → field chuẩn hoặc Alias → Additive chuẩn
+"Natri" / "Na" → field chuẩn hoặc Alias → Nutrient chuẩn
 entity chuẩn → nguồn, quy định, chức năng, allergen hoặc health claim
 ```
 
@@ -20,14 +20,14 @@ entity chuẩn → nguồn, quy định, chức năng, allergen hoặc health cl
 | `Allergen` | Dị nguyên chuẩn. |
 | `FoodCategory` | Ngữ cảnh thực phẩm cho quy định/phổ biến phụ gia; không dùng để nhận diện ảnh. |
 | `FunctionalClass` | Chức năng công nghệ của phụ gia. |
-| `Alias` | Tên Việt/Anh, mã INS/E-number hoặc cách viết khác của entity chuẩn. |
+| `Alias` | E-number, synonym hoặc cách viết khác không trùng tên chuẩn hay mã chuẩn đã có trên entity. |
 | `HealthClaim` / `HealthOutcome` | Claim sức khỏe có bối cảnh và kết quả sức khỏe. |
 | `Source` | Nguồn chuẩn, tài liệu khoa học hoặc nguồn nội bộ được registry cho phép. |
 | `Regulation` | Phiên bản văn bản pháp lý. |
 
 Mỗi node chuẩn có `id`, `name`, `source`, `source_url`, `reviewed_at` và `status`. ID là semantic ID ổn định, ví dụ `ADDITIVE:INS_621`, `CATEGORY:FOODON_00002940` hoặc `SOURCE:FOODON`.
 
-`name` giữ tên chuẩn từ nguồn; `name_vi` là tên Việt đã được map theo config; Alias hỗ trợ tìm kiếm và entity linking. Không tạo node mới chỉ vì term khác cách viết.
+`name` giữ tên chuẩn từ nguồn; `name_vi` là tên Việt chuẩn đã được map theo config. `external_code` của Nutrient và `ins` của Additive cũng là thuộc tính chuẩn. Các thuộc tính này được tìm trực tiếp trên entity, nên không tạo Alias trùng với `name`, `name_vi`, `external_code` hoặc `ins`. Alias chỉ dành cho token khác thực sự cần cho entity linking.
 
 ## Relationship
 

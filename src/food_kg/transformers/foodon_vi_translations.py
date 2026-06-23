@@ -1,4 +1,4 @@
-"""Build reviewable Vietnamese name and alias candidates for selected FoodOn categories."""
+"""Build Vietnamese name patches and non-canonical aliases for FoodOn categories."""
 
 from __future__ import annotations
 
@@ -29,7 +29,9 @@ def build_candidates(categories: list[dict], translations: dict, reviewed_at: st
                 "reviewed_at": reviewed_at, "status": "draft",
             },
         })
-        for index, alias_name in enumerate([item["name_vi"], *item.get("aliases", [])], start=1):
+        # name_vi is the canonical Vietnamese display/search name on the
+        # FoodCategory node, so do not duplicate it as an Alias node.
+        for index, alias_name in enumerate(item.get("aliases", []), start=1):
             alias_id = "ALIAS:" + re.sub(r"[^A-Z0-9_]", "_", f"{category_id.split(':', 1)[1]}_VI_{index}".upper())
             aliases.append({
                 "label": "Alias", "id": alias_id,
@@ -64,7 +66,7 @@ def main() -> None:
     write_json(args.patches_output, patches)
     write_json(args.aliases_output, aliases)
     write_json(args.relationships_output, relationships)
-    print(f"Created {len(patches)} Vietnamese name patches, {len(aliases)} aliases and {len(relationships)} relationships for review.")
+    print(f"Created {len(patches)} Vietnamese name patches, {len(aliases)} non-canonical aliases and {len(relationships)} relationships for review.")
 
 
 if __name__ == "__main__":

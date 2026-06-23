@@ -1,0 +1,254 @@
+[
+  {
+    "start_id": "NUTRIENT:ENERGY",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "ENERC"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:PROTEIN",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "PROCNT"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:TOTAL_FAT",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FAT"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:SATURATED_FAT",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FASAT"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:MONOUNSATURATED_FAT",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FAMS"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:POLYUNSATURATED_FAT",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FAPU"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:TRANS_FAT",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FATRN"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:CARBOHYDRATE",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "CHOCDF"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:DIETARY_FIBER",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FIBTG"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:TOTAL_SUGARS",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "SUGAR"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:CHOLESTEROL",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "CHOL-"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:SODIUM",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "NA"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:POTASSIUM",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "K"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:CALCIUM",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "CA"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:IRON",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FE"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:MAGNESIUM",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "MG"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:PHOSPHORUS",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "P"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:ZINC",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "ZN"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:VITAMIN_A",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITA"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:THIAMIN",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "THIA"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:RIBOFLAVIN",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "RIBF"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:NIACIN",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "NIA"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:FOLATE",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FOL"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:VITAMIN_B12",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITB12"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:VITAMIN_C",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITC"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:VITAMIN_D",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITD"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:VITAMIN_E",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITE"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:VITAMIN_K",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITK"
+    }
+  }
+]

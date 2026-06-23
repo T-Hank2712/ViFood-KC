@@ -17,7 +17,7 @@ sources:
     license: CC-BY-4.0
     formats: [tsv, json, obo, owl]
     roles: [chemical_identifier, synonym, chemical_hierarchy]
-    ingestion: selective
+    ingestion: selective_future
   - id: SOURCE:FAO_INFOODS_TAGNAMES
     name: FAO/INFOODS Tagnames
     url: https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/
@@ -29,15 +29,20 @@ sources:
     license: CC0-1.0
     formats: [csv, json, api]
     roles: [ingredient_nutrient]
-    ingestion: foundation_and_sr_legacy_only
-  - id: SOURCE:VN_TT24_2019
-    name: Thông tư 24/2019/TT-BYT
-    url: https://vfa.gov.vn/chi-dao-dieu-hanh/ban-hanh-thong-tu-so-242019tt-byt-quy-dinh-ve-quan-ly-va-su-dung-phu-gia-thuc-pham.html
+    ingestion: selective_future
+  - id: SOURCE:VN_VBHN_09_2024
+    name: Văn bản hợp nhất 09/VBHN-BYT (2024)
+    url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf
     formats: [pdf]
     roles: [vietnam_additive_regulation]
-    ingestion: extract_stage_review_only
+    ingestion: automatic_appendix_1_extraction
+  - id: SOURCE:CODEX_GSFA
+    name: Codex General Standard for Food Additives
+    url: https://www.fao.org/gsfaonline/
+    roles: [additive_identifier, additive_functional_class]
+    ingestion: selective_future
   - id: SOURCE:WHO_HEALTHY_DIET
     name: WHO Healthy Diet
     url: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
     roles: [health_claim_evidence]
-    ingestion: curated_claims_only
+    ingestion: curated_claims_future

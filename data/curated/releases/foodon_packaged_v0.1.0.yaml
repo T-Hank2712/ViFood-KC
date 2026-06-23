@@ -1,7 +1,0 @@
-version: foodon-packaged-v0.1.0
-released_at: '2026-06-22'
-source_ids:
-- SOURCE:FOODON
-node_count: 1620
-relationship_count: 3212
-notes: FoodOn packaged-food taxonomy; ambiguous aliases are held back for review.

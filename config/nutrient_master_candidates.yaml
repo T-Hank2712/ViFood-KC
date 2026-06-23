@@ -1,4 +1,4 @@
-# Các nutrient phổ biến trên nhãn; tất cả được tạo ở trạng thái draft để review.
+# Các nutrient phổ biến trên nhãn; mapping phiên bản hóa dùng để tạo nutrient master tự động.
 candidates:
   - {id: NUTRIENT:ENERGY, tagname: ENERC, name: Energy, name_vi: Năng lượng, nutrient_type: other, default_unit: kJ}
   - {id: NUTRIENT:PROTEIN, tagname: PROCNT, name: Protein, name_vi: Protein, nutrient_type: macronutrient, default_unit: g}
