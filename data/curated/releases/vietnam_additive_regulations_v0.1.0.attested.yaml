@@ -1,0 +1,14 @@
+version: vietnam_additive_regulations_v0.1.0
+released_at: '2026-06-23'
+source_ids:
+- SOURCE:VN_VBHN_09_2024
+node_count: 511
+relationship_count: 3057
+notes: Appendix 2A additive maximum-use limits.
+raw_snapshot:
+  files:
+  - path: data/raw/vietnam_regulations/vbhn_09_2024/09_vbhn_byt_2024.pdf
+    sha256: 0f1778f61c84ce732f87bed52462f696d5bb8c131e463b6b5a25e49022bbb36f
+automated_gate:
+  policy_version: strict-v1
+  ambiguous_alias_count: 0

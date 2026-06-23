@@ -1,0 +1,3 @@
+# Chỉ ingest nhóm thực phẩm phù hợp knowledge core thực phẩm đóng gói.
+include_keywords: [sữa, kẹo, bánh, đồ uống, snack, ngũ cốc, mì, gia vị, nước chấm, xốt, sốt, chất béo, dầu, nước đóng chai]
+exclude_keywords: [thịt, thủy sản, cá, gia cầm]
