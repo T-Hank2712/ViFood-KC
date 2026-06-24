@@ -9,7 +9,7 @@ from pathlib import Path
 
 import yaml
 
-from food_kg.services.nutrient_release import SOURCE_ID, build_release, write_json
+from food_kg.services.nutrient_release import SOURCE_ID, VIETNAM_FCT_SOURCE_ID, VIETNAM_LABELING_SOURCE_ID, build_release, write_json
 
 
 def main() -> None:
@@ -30,9 +30,12 @@ def main() -> None:
     args.release_output.parent.mkdir(parents=True, exist_ok=True)
     args.release_output.write_text(yaml.safe_dump({
         "version": args.version, "released_at": args.reviewed_at,
-        "source_ids": [SOURCE_ID], "node_count": len(nodes),
+        "source_ids": [SOURCE_ID,
+            *([VIETNAM_FCT_SOURCE_ID] if any(candidate["properties"].get("vietnam_presence_source") == VIETNAM_FCT_SOURCE_ID for candidate in candidates) else []),
+            *([VIETNAM_LABELING_SOURCE_ID] if any(candidate["properties"].get("vietnam_labeling_source") == VIETNAM_LABELING_SOURCE_ID for candidate in candidates) else []),
+        ], "node_count": len(nodes),
         "relationship_count": len(relationships),
-        "notes": "Reviewed nutrient master derived from FAO/INFOODS Tagnames.",
+        "notes": "Nutrient master derived from FAO/INFOODS Tagnames; Vietnam relevance is selected by exact tagname intersection with the FAO SMILING Vietnam FCT when present.",
     }, allow_unicode=True, sort_keys=False), encoding="utf-8")
     print(f"Built {args.version}: {len(nodes)} nodes, {len(relationships)} relationships")
 

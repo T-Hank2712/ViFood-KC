@@ -1,0 +1,485 @@
+[
+  {
+    "label": "Source",
+    "id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "properties": {
+      "name": "FAO/INFOODS Food Component Identifiers (Tagnames)",
+      "source_type": "standard",
+      "url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Source",
+    "id": "SOURCE:VN_SMILING_FCT_2013",
+    "properties": {
+      "name": "SMILING Food Composition Table for Vietnam (2013)",
+      "source_type": "food-composition-table",
+      "url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "source": "SOURCE:VN_SMILING_FCT_2013",
+      "source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Source",
+    "id": "SOURCE:VN_TT29_2023",
+    "properties": {
+      "name": "Thông tư 29/2023/TT-BYT về ghi thành phần, giá trị dinh dưỡng trên nhãn thực phẩm",
+      "source_type": "regulation",
+      "url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "source": "SOURCE:VN_TT29_2023",
+      "source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_ASH",
+    "properties": {
+      "name": "ash",
+      "external_code": "ASH",
+      "default_unit": "g",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "Ash(g)"
+      ],
+      "vietnam_fct_value_count": 164
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_CA",
+    "properties": {
+      "name": "calcium",
+      "external_code": "CA",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "CA(mg)"
+      ],
+      "vietnam_fct_value_count": 163
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_CHOCDF",
+    "properties": {
+      "name": "carbohydrate, total; calculated by difference",
+      "external_code": "CHOCDF",
+      "default_unit": "g",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "CHOCDF(g)"
+      ],
+      "vietnam_fct_value_count": 164,
+      "name_vi": "Carbohydrat",
+      "vietnam_labeling_source": "SOURCE:VN_TT29_2023",
+      "vietnam_labeling_source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "vietnam_label_requirement": "required",
+      "vietnam_legal_reference": "Điều 5 khoản 1 điểm c",
+      "vietnam_labeling_source_page": 4
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_ENERC",
+    "properties": {
+      "name": "energy, total metabolizable; calculated from the energy-producing food components",
+      "external_code": "ENERC",
+      "default_unit": "kJ. The value for <ENERC> may be expressed in kilocalories instead of the default unit of kilojoules. However, if expressed in kilocalories, kcal must be explicitly stated with the secondary tagname <UNIT/>. Note: It would be confusing and would imply additional information that does not exist if two <ENERC> values, i.e., one expressed in kilocalories and the other expressed in kilojoules, were included for a single food item when one value has simply been calculated from the other using the conversion equation: 1 kcal = 4.184 kJ. Consequently, one or the other should be used, but not both.",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "ENERGY"
+      ],
+      "vietnam_fct_value_count": 164,
+      "name_vi": "Năng lượng",
+      "vietnam_labeling_source": "SOURCE:VN_TT29_2023",
+      "vietnam_labeling_source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "vietnam_label_requirement": "required",
+      "vietnam_legal_reference": "Điều 5 khoản 1 điểm a",
+      "vietnam_labeling_source_page": 3
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_FASAT",
+    "properties": {
+      "name": "fatty acids, total saturated",
+      "external_code": "FASAT",
+      "default_unit": "g",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "name_vi": "Chất béo bão hòa",
+      "vietnam_labeling_source": "SOURCE:VN_TT29_2023",
+      "vietnam_labeling_source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "vietnam_label_requirement": "conditional",
+      "vietnam_legal_reference": "Điều 5 khoản 3",
+      "vietnam_labeling_source_page": 4
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_FAT",
+    "properties": {
+      "name": "fat, total",
+      "external_code": "FAT",
+      "default_unit": "g",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "FAT(g)"
+      ],
+      "vietnam_fct_value_count": 164,
+      "name_vi": "Chất béo",
+      "vietnam_labeling_source": "SOURCE:VN_TT29_2023",
+      "vietnam_labeling_source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "vietnam_label_requirement": "required",
+      "vietnam_legal_reference": "Điều 5 khoản 1 điểm d",
+      "vietnam_labeling_source_page": 4
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_FE",
+    "properties": {
+      "name": "iron, total",
+      "external_code": "FE",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "FE(mg)"
+      ],
+      "vietnam_fct_value_count": 163
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_FIBC",
+    "properties": {
+      "name": "fibre, crude",
+      "external_code": "FIBC",
+      "default_unit": "g",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "FIBC(g)"
+      ],
+      "vietnam_fct_value_count": 164
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_NA",
+    "properties": {
+      "name": "sodium",
+      "external_code": "NA",
+      "default_unit": "mg Note: If the value is expressed in millimoles, mmol must be explicitly stated with the secondary tagname <UNIT/>.",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "name_vi": "Natri",
+      "vietnam_labeling_source": "SOURCE:VN_TT29_2023",
+      "vietnam_labeling_source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "vietnam_label_requirement": "required",
+      "vietnam_legal_reference": "Điều 5 khoản 1 điểm đ",
+      "vietnam_labeling_source_page": 4
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_NIA",
+    "properties": {
+      "name": "niacin, preformed",
+      "external_code": "NIA",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "NIA(mg)"
+      ],
+      "vietnam_fct_value_count": 162
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_PROCNT",
+    "properties": {
+      "name": "protein, total; calculated from total nitrogen",
+      "external_code": "PROCNT",
+      "default_unit": "g",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "PROTCNT(g)"
+      ],
+      "vietnam_fct_value_count": 164,
+      "name_vi": "Chất đạm",
+      "vietnam_labeling_source": "SOURCE:VN_TT29_2023",
+      "vietnam_labeling_source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "vietnam_label_requirement": "required",
+      "vietnam_legal_reference": "Điều 5 khoản 1 điểm b",
+      "vietnam_labeling_source_page": 4
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_RIBF",
+    "properties": {
+      "name": "riboflavin",
+      "external_code": "RIBF",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "RIBF(mg)"
+      ],
+      "vietnam_fct_value_count": 162
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_SUGAR",
+    "properties": {
+      "name": "sugars, total",
+      "external_code": "SUGAR",
+      "default_unit": "g",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "name_vi": "Đường tổng số",
+      "vietnam_labeling_source": "SOURCE:VN_TT29_2023",
+      "vietnam_labeling_source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "vietnam_label_requirement": "conditional",
+      "vietnam_legal_reference": "Điều 5 khoản 2",
+      "vietnam_labeling_source_page": 4
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_THIA",
+    "properties": {
+      "name": "thiamin",
+      "external_code": "THIA",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "THIA(mg)"
+      ],
+      "vietnam_fct_value_count": 162
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_VITA",
+    "properties": {
+      "name": "vitamin A; calculated by summation of the vitamin A activities of retinol and the active carotenoids",
+      "external_code": "VITA",
+      "default_unit": "mcg. The value for <VITA> may be expressed in international units instead of the default unit of micrograms. International units are not preferred; however, if they are used, IU must be explicitly stated with the secondary tagname <UNIT/>. Note: It would be confusing and would imply additional information that does not exist if two <VITA> values, i.e., one expressed in mcg and the other expressed in IU, were included for a single food item when one value has simply been calculated from the other using the following conversion equation: 1 retinol equivalent = 3.33 IU vitamin A activity from retinol = 10 IU vitamin A activity from beta-carotene. Consequently, one or the other should be used, but not both.",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "VITA(mcg)"
+      ],
+      "vietnam_fct_value_count": 164
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_VITB6A",
+    "properties": {
+      "name": "vitamin B-6, total; determined by analysis",
+      "external_code": "VITB6A",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "VITB6A(mg)"
+      ],
+      "vietnam_fct_value_count": 162
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_VITB12",
+    "properties": {
+      "name": "vitamin B-12",
+      "external_code": "VITB12",
+      "default_unit": "mcg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "VITB12(mcg)"
+      ],
+      "vietnam_fct_value_count": 162
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_VITC",
+    "properties": {
+      "name": "vitamin C",
+      "external_code": "VITC",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "VITC(mg)"
+      ],
+      "vietnam_fct_value_count": 164
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_VITD",
+    "properties": {
+      "name": "vitamin D; calculated by summation of ergocalciferol and cholecalciferol",
+      "external_code": "VITD",
+      "default_unit": "mcg. The value for <VITD> may be expressed in international units instead of the default unit of micrograms. International units are not preferred; however, if they are used, IU must be explicitly stated with the secondary tagname <UNIT/>. Note: It would be confusing and would imply additional information that does not exist if two <VITD> values, i.e., one expressed in mcg and the other expressed in IU, were included for a single food item when one value has simply been calculated from the other using the conversion equation: 1 mcg vitamin D = 40 IU. Consequently, one or the other should be used, but not both.",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "VITD(mcg)"
+      ],
+      "vietnam_fct_value_count": 11
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_WATER",
+    "properties": {
+      "name": "water",
+      "external_code": "WATER",
+      "default_unit": "g",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "WATER(g)"
+      ],
+      "vietnam_fct_value_count": 164
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_ZN",
+    "properties": {
+      "name": "zinc",
+      "external_code": "ZN",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "ZN(mg)"
+      ],
+      "vietnam_fct_value_count": 162
+    }
+  }
+]

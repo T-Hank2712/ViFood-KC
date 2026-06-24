@@ -1,0 +1,484 @@
+[
+  {
+    "start_id": "NUTRIENT:INFOODS_ASH",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "ASH"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_ASH",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "Ash(g)"
+      ],
+      "food_records_with_value": 164
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_CA",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "CA"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_CA",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "CA(mg)"
+      ],
+      "food_records_with_value": 163
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_CHOCDF",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "CHOCDF"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_CHOCDF",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "CHOCDF(g)"
+      ],
+      "food_records_with_value": 164
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_CHOCDF",
+    "end_id": "SOURCE:VN_TT29_2023",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-nutrition-labelling",
+      "requirement": "required",
+      "legal_reference": "Điều 5 khoản 1 điểm c",
+      "source_page": 4
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_ENERC",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "ENERC"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_ENERC",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "ENERGY"
+      ],
+      "food_records_with_value": 164
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_ENERC",
+    "end_id": "SOURCE:VN_TT29_2023",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-nutrition-labelling",
+      "requirement": "required",
+      "legal_reference": "Điều 5 khoản 1 điểm a",
+      "source_page": 3
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_FASAT",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FASAT"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_FASAT",
+    "end_id": "SOURCE:VN_TT29_2023",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-nutrition-labelling",
+      "requirement": "conditional",
+      "legal_reference": "Điều 5 khoản 3",
+      "source_page": 4
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_FAT",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FAT"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_FAT",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "FAT(g)"
+      ],
+      "food_records_with_value": 164
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_FAT",
+    "end_id": "SOURCE:VN_TT29_2023",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-nutrition-labelling",
+      "requirement": "required",
+      "legal_reference": "Điều 5 khoản 1 điểm d",
+      "source_page": 4
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_FE",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FE"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_FE",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "FE(mg)"
+      ],
+      "food_records_with_value": 163
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_FIBC",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "FIBC"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_FIBC",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "FIBC(g)"
+      ],
+      "food_records_with_value": 164
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_NA",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "NA"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_NA",
+    "end_id": "SOURCE:VN_TT29_2023",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-nutrition-labelling",
+      "requirement": "required",
+      "legal_reference": "Điều 5 khoản 1 điểm đ",
+      "source_page": 4
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_NIA",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "NIA"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_NIA",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "NIA(mg)"
+      ],
+      "food_records_with_value": 162
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_PROCNT",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "PROCNT"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_PROCNT",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "PROTCNT(g)"
+      ],
+      "food_records_with_value": 164
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_PROCNT",
+    "end_id": "SOURCE:VN_TT29_2023",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-nutrition-labelling",
+      "requirement": "required",
+      "legal_reference": "Điều 5 khoản 1 điểm b",
+      "source_page": 4
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_RIBF",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "RIBF"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_RIBF",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "RIBF(mg)"
+      ],
+      "food_records_with_value": 162
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_SUGAR",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "SUGAR"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_SUGAR",
+    "end_id": "SOURCE:VN_TT29_2023",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-nutrition-labelling",
+      "requirement": "conditional",
+      "legal_reference": "Điều 5 khoản 2",
+      "source_page": 4
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_THIA",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "THIA"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_THIA",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "THIA(mg)"
+      ],
+      "food_records_with_value": 162
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_VITA",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITA"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_VITA",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "VITA(mcg)"
+      ],
+      "food_records_with_value": 164
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_VITB6A",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITB6A"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_VITB6A",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "VITB6A(mg)"
+      ],
+      "food_records_with_value": 162
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_VITB12",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITB12"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_VITB12",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "VITB12(mcg)"
+      ],
+      "food_records_with_value": 162
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_VITC",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITC"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_VITC",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "VITC(mg)"
+      ],
+      "food_records_with_value": 164
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_VITD",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "VITD"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_VITD",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "VITD(mcg)"
+      ],
+      "food_records_with_value": 11
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_WATER",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "WATER"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_WATER",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "WATER(g)"
+      ],
+      "food_records_with_value": 164
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_ZN",
+    "end_id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "nutrient-master",
+      "source_tagname": "ZN"
+    }
+  },
+  {
+    "start_id": "NUTRIENT:INFOODS_ZN",
+    "end_id": "SOURCE:VN_SMILING_FCT_2013",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "vietnam-food-composition-presence",
+      "source_columns": [
+        "ZN(mg)"
+      ],
+      "food_records_with_value": 162
+    }
+  }
+]

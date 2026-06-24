@@ -18,7 +18,7 @@ Giải thích thành phần, dinh dưỡng, dị nguyên, quy định và eviden
 
 ViFood-KC quản lý các thực thể:
 
-- `Nutrient`: dưỡng chất, mã chuẩn, tên Việt/Anh và đơn vị.
+- `Nutrient`: dưỡng chất, mã INFOODS chuẩn, tên/đơn vị từ nguồn gốc và bằng chứng có mặt trong bảng thành phần thực phẩm Việt Nam. Tên tiếng Việt chỉ được thêm khi có nguồn Việt Nam xác minh.
 - `Ingredient`: nguyên liệu, phân cấp, nguồn gốc và thành phần dinh dưỡng.
 - `Additive`: phụ gia, INS, E-number, tên, chức năng và quy định sử dụng.
 - `FoodCategory`: nhóm thực phẩm pháp lý Việt Nam và taxonomy ngữ nghĩa khi cần.

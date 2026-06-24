@@ -23,6 +23,24 @@ sources:
     url: https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/
     roles: [nutrient_identifier]
     ingestion: curated_master
+  - id: SOURCE:VN_FCT_2007
+    name: Bảng thành phần thực phẩm Việt Nam 2007
+    url: https://www.fao.org/fileadmin/templates/food_composition/documents/pdf/VTN_FCT_2007.pdf
+    formats: [pdf]
+    roles: [vietnam_nutrient_reference]
+    ingestion: reference_only
+  - id: SOURCE:VN_SMILING_FCT_2013
+    name: Bảng thành phần thực phẩm Việt Nam SMILING 2013
+    url: https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx
+    formats: [xlsx]
+    roles: [vietnam_nutrient_presence, vietnam_nutrient_tagname]
+    ingestion: automatic_exact_tagname_intersection
+  - id: SOURCE:VN_TT29_2023
+    name: Thông tư 29/2023/TT-BYT về ghi thành phần, giá trị dinh dưỡng trên nhãn thực phẩm
+    url: https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html
+    formats: [pdf]
+    roles: [vietnam_nutrition_labelling_requirement]
+    ingestion: verified_legal_extraction
   - id: SOURCE:USDA_FDC
     name: USDA FoodData Central
     url: https://fdc.nal.usda.gov/download-datasets/
