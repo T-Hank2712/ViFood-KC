@@ -1,0 +1,66 @@
+source_id: SOURCE:WHO_HEALTHY_DIET
+source_url: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
+claims:
+  - id: CLAIM:WHO_ENERGY_BALANCE
+    subject_external_codes: [ENERC]
+    outcome_id: OUTCOME:ENERGY_BALANCE
+    outcome_name: Energy balance
+    claim_text: Total energy intake should be balanced with energy expenditure.
+    evidence_excerpt: total energy intake is balanced with energy expenditure
+    evidence_level: authoritative public-health guidance
+    conditions_of_use: Population-level dietary guidance; not an individual diagnosis or treatment recommendation.
+    effect_direction: supports
+  - id: CLAIM:WHO_CARBOHYDRATE_ENERGY
+    subject_external_codes: [CHOCDF]
+    outcome_id: OUTCOME:ENERGY_SUPPLY
+    outcome_name: Energy supply
+    claim_text: Carbohydrates provide the primary energy source for the body.
+    evidence_excerpt: carbohydrates provide the primary energy source for the body
+    evidence_level: authoritative public-health guidance
+    conditions_of_use: Population-level dietary guidance; not an individual diagnosis or treatment recommendation.
+    effect_direction: supports
+  - id: CLAIM:WHO_PROTEIN_BODY_STRUCTURE
+    subject_external_codes: [PROCNT]
+    outcome_id: OUTCOME:BODY_STRUCTURE_AND_FUNCTION
+    outcome_name: Body structure and function
+    claim_text: Proteins provide building blocks for structural and functional elements of the body.
+    evidence_excerpt: proteins provide the building blocks for many of the structural elements of the body
+    evidence_level: authoritative public-health guidance
+    conditions_of_use: Population-level dietary guidance; not an individual diagnosis or treatment recommendation.
+    effect_direction: supports
+  - id: CLAIM:WHO_FAT_CELL_FUNCTION
+    subject_external_codes: [FAT]
+    outcome_id: OUTCOME:CELL_FUNCTION
+    outcome_name: Cell function
+    claim_text: Fat is an essential nutrient for proper cell function.
+    evidence_excerpt: fat is an essential nutrient for proper functioning of cells in the body
+    evidence_level: authoritative public-health guidance
+    conditions_of_use: Population-level dietary guidance; not an individual diagnosis or treatment recommendation.
+    effect_direction: supports
+  - id: CLAIM:WHO_SATURATED_FAT_LIMIT
+    subject_external_codes: [FASAT]
+    outcome_id: OUTCOME:SATURATED_FAT_INTAKE_LIMIT
+    outcome_name: Saturated fat intake limit
+    claim_text: Saturated fat should provide no more than 10% of total energy intake.
+    evidence_excerpt: no more than 10% of total energy intake should come from saturated fat
+    evidence_level: authoritative public-health guidance
+    conditions_of_use: Population-level dietary guidance; not an individual diagnosis or treatment recommendation.
+    effect_direction: limit
+  - id: CLAIM:SODIUM_HIGH_INTAKE_BP
+    subject_external_codes: [NA]
+    outcome_id: OUTCOME:HIGH_BLOOD_PRESSURE
+    outcome_name: Raised blood pressure
+    claim_text: High sodium intake is associated with increased blood pressure.
+    evidence_excerpt: high intake of sodium (salt) is associated with increased blood pressure
+    evidence_level: authoritative public-health guidance
+    conditions_of_use: Population-level dietary guidance; not an individual diagnosis or treatment recommendation.
+    effect_direction: increase
+  - id: CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH
+    subject_external_codes: [CA, FE, ZN, NIA, RIBF, THIA, VITA, VITB6A, VITB12, VITC, VITD]
+    outcome_id: OUTCOME:PROPER_GROWTH_AND_HEALTH
+    outcome_name: Proper growth and health
+    claim_text: Essential vitamins and minerals are needed in small amounts for proper growth and health.
+    evidence_excerpt: micronutrients are essential vitamins and minerals
+    evidence_level: authoritative public-health guidance
+    conditions_of_use: Population-level dietary guidance; not an individual diagnosis or treatment recommendation.
+    effect_direction: supports

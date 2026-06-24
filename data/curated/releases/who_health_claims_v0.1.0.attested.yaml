@@ -1,0 +1,16 @@
+version: who_health_claims_v0.1.0
+released_at: '2026-06-24'
+source_ids:
+- SOURCE:FAO_INFOODS_TAGNAMES
+- SOURCE:WHO_HEALTHY_DIET
+node_count: 33
+relationship_count: 31
+notes: WHO Healthy Diet claims whose configured evidence excerpts were verified against
+  the raw snapshot.
+raw_snapshot:
+  files:
+  - path: data/raw/who_healthy_diet/healthy_diet_2026_06_24.html
+    sha256: 9d384fd3b4e5d1e5258e98aa31b1de68f9a7e329c757c7fd0e5a43a309b42d39
+automated_gate:
+  policy_version: strict-v1
+  ambiguous_alias_count: 0

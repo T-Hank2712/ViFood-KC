@@ -19,13 +19,13 @@ def load(relative: str, model):
 
 def test_nutrient_release_import_is_idempotent() -> None:
     importer = Neo4jImporter.from_environment(os.environ["NEO4J_URI"], os.environ["NEO4J_USER"], os.environ["NEO4J_PASSWORD"], os.getenv("NEO4J_DATABASE", "neo4j"))
-    nodes = load("data/curated/nodes/nutrients_infoods_v0.1.2.json", NodeRecord)
-    relationships = load("data/curated/relationships/nutrients_infoods_v0.1.2.json", RelationshipRecord)
+    nodes = load("data/curated/nodes/nutrients_vietnam_infoods_v0.2.0.json", NodeRecord)
+    relationships = load("data/curated/relationships/nutrients_vietnam_infoods_v0.2.0.json", RelationshipRecord)
     try:
         importer.import_release(nodes, relationships)
         importer.import_release(nodes, relationships)
         with importer.driver.session(database=importer.database) as session:
             count = session.run("MATCH (n:Nutrient) WHERE n.source = 'SOURCE:FAO_INFOODS_TAGNAMES' RETURN count(n) AS count").single()["count"]
-        assert count == 28
+        assert count == 21
     finally:
         importer.close()

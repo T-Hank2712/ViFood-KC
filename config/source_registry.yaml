@@ -63,4 +63,4 @@ sources:
     name: WHO Healthy Diet
     url: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
     roles: [health_claim_evidence]
-    ingestion: curated_claims_future
+    ingestion: verified_evidence_snapshot

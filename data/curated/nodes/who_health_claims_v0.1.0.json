@@ -1,0 +1,574 @@
+[
+  {
+    "label": "Source",
+    "id": "SOURCE:FAO_INFOODS_TAGNAMES",
+    "properties": {
+      "name": "FAO/INFOODS Food Component Identifiers (Tagnames)",
+      "source_type": "standard",
+      "url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Source",
+    "id": "SOURCE:WHO_HEALTHY_DIET",
+    "properties": {
+      "name": "WHO Healthy Diet",
+      "source_type": "public-health-guidance",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_ENERC",
+    "properties": {
+      "name": "energy, total metabolizable; calculated from the energy-producing food components",
+      "external_code": "ENERC",
+      "default_unit": "kJ. The value for <ENERC> may be expressed in kilocalories instead of the default unit of kilojoules. However, if expressed in kilocalories, kcal must be explicitly stated with the secondary tagname <UNIT/>. Note: It would be confusing and would imply additional information that does not exist if two <ENERC> values, i.e., one expressed in kilocalories and the other expressed in kilojoules, were included for a single food item when one value has simply been calculated from the other using the conversion equation: 1 kcal = 4.184 kJ. Consequently, one or the other should be used, but not both.",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "ENERGY"
+      ],
+      "vietnam_fct_value_count": 164,
+      "name_vi": "Năng lượng",
+      "vietnam_labeling_source": "SOURCE:VN_TT29_2023",
+      "vietnam_labeling_source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "vietnam_label_requirement": "required",
+      "vietnam_legal_reference": "Điều 5 khoản 1 điểm a",
+      "vietnam_labeling_source_page": 3
+    }
+  },
+  {
+    "label": "HealthOutcome",
+    "id": "OUTCOME:ENERGY_BALANCE",
+    "properties": {
+      "name": "Energy balance",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "HealthClaim",
+    "id": "CLAIM:WHO_ENERGY_BALANCE",
+    "properties": {
+      "name": "Total energy intake should be balanced with energy expenditure.",
+      "claim_text": "Total energy intake should be balanced with energy expenditure.",
+      "conditions_of_use": "Population-level dietary guidance; not an individual diagnosis or treatment recommendation.",
+      "evidence_level": "authoritative public-health guidance",
+      "evidence_excerpt": "total energy intake is balanced with energy expenditure",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_CHOCDF",
+    "properties": {
+      "name": "carbohydrate, total; calculated by difference",
+      "external_code": "CHOCDF",
+      "default_unit": "g",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "CHOCDF(g)"
+      ],
+      "vietnam_fct_value_count": 164,
+      "name_vi": "Carbohydrat",
+      "vietnam_labeling_source": "SOURCE:VN_TT29_2023",
+      "vietnam_labeling_source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "vietnam_label_requirement": "required",
+      "vietnam_legal_reference": "Điều 5 khoản 1 điểm c",
+      "vietnam_labeling_source_page": 4
+    }
+  },
+  {
+    "label": "HealthOutcome",
+    "id": "OUTCOME:ENERGY_SUPPLY",
+    "properties": {
+      "name": "Energy supply",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "HealthClaim",
+    "id": "CLAIM:WHO_CARBOHYDRATE_ENERGY",
+    "properties": {
+      "name": "Carbohydrates provide the primary energy source for the body.",
+      "claim_text": "Carbohydrates provide the primary energy source for the body.",
+      "conditions_of_use": "Population-level dietary guidance; not an individual diagnosis or treatment recommendation.",
+      "evidence_level": "authoritative public-health guidance",
+      "evidence_excerpt": "carbohydrates provide the primary energy source for the body",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_PROCNT",
+    "properties": {
+      "name": "protein, total; calculated from total nitrogen",
+      "external_code": "PROCNT",
+      "default_unit": "g",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "PROTCNT(g)"
+      ],
+      "vietnam_fct_value_count": 164,
+      "name_vi": "Chất đạm",
+      "vietnam_labeling_source": "SOURCE:VN_TT29_2023",
+      "vietnam_labeling_source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "vietnam_label_requirement": "required",
+      "vietnam_legal_reference": "Điều 5 khoản 1 điểm b",
+      "vietnam_labeling_source_page": 4
+    }
+  },
+  {
+    "label": "HealthOutcome",
+    "id": "OUTCOME:BODY_STRUCTURE_AND_FUNCTION",
+    "properties": {
+      "name": "Body structure and function",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "HealthClaim",
+    "id": "CLAIM:WHO_PROTEIN_BODY_STRUCTURE",
+    "properties": {
+      "name": "Proteins provide building blocks for structural and functional elements of the body.",
+      "claim_text": "Proteins provide building blocks for structural and functional elements of the body.",
+      "conditions_of_use": "Population-level dietary guidance; not an individual diagnosis or treatment recommendation.",
+      "evidence_level": "authoritative public-health guidance",
+      "evidence_excerpt": "proteins provide the building blocks for many of the structural elements of the body",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_FAT",
+    "properties": {
+      "name": "fat, total",
+      "external_code": "FAT",
+      "default_unit": "g",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "FAT(g)"
+      ],
+      "vietnam_fct_value_count": 164,
+      "name_vi": "Chất béo",
+      "vietnam_labeling_source": "SOURCE:VN_TT29_2023",
+      "vietnam_labeling_source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "vietnam_label_requirement": "required",
+      "vietnam_legal_reference": "Điều 5 khoản 1 điểm d",
+      "vietnam_labeling_source_page": 4
+    }
+  },
+  {
+    "label": "HealthOutcome",
+    "id": "OUTCOME:CELL_FUNCTION",
+    "properties": {
+      "name": "Cell function",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "HealthClaim",
+    "id": "CLAIM:WHO_FAT_CELL_FUNCTION",
+    "properties": {
+      "name": "Fat is an essential nutrient for proper cell function.",
+      "claim_text": "Fat is an essential nutrient for proper cell function.",
+      "conditions_of_use": "Population-level dietary guidance; not an individual diagnosis or treatment recommendation.",
+      "evidence_level": "authoritative public-health guidance",
+      "evidence_excerpt": "fat is an essential nutrient for proper functioning of cells in the body",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_FASAT",
+    "properties": {
+      "name": "fatty acids, total saturated",
+      "external_code": "FASAT",
+      "default_unit": "g",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "name_vi": "Chất béo bão hòa",
+      "vietnam_labeling_source": "SOURCE:VN_TT29_2023",
+      "vietnam_labeling_source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "vietnam_label_requirement": "conditional",
+      "vietnam_legal_reference": "Điều 5 khoản 3",
+      "vietnam_labeling_source_page": 4
+    }
+  },
+  {
+    "label": "HealthOutcome",
+    "id": "OUTCOME:SATURATED_FAT_INTAKE_LIMIT",
+    "properties": {
+      "name": "Saturated fat intake limit",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "HealthClaim",
+    "id": "CLAIM:WHO_SATURATED_FAT_LIMIT",
+    "properties": {
+      "name": "Saturated fat should provide no more than 10% of total energy intake.",
+      "claim_text": "Saturated fat should provide no more than 10% of total energy intake.",
+      "conditions_of_use": "Population-level dietary guidance; not an individual diagnosis or treatment recommendation.",
+      "evidence_level": "authoritative public-health guidance",
+      "evidence_excerpt": "no more than 10% of total energy intake should come from saturated fat",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_NA",
+    "properties": {
+      "name": "sodium",
+      "external_code": "NA",
+      "default_unit": "mg Note: If the value is expressed in millimoles, mmol must be explicitly stated with the secondary tagname <UNIT/>.",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "name_vi": "Natri",
+      "vietnam_labeling_source": "SOURCE:VN_TT29_2023",
+      "vietnam_labeling_source_url": "https://vfa.gov.vn/van-ban/tai-tep-158f3069a435b314a80bdcb024f8e422.html",
+      "vietnam_label_requirement": "required",
+      "vietnam_legal_reference": "Điều 5 khoản 1 điểm đ",
+      "vietnam_labeling_source_page": 4
+    }
+  },
+  {
+    "label": "HealthOutcome",
+    "id": "OUTCOME:HIGH_BLOOD_PRESSURE",
+    "properties": {
+      "name": "Raised blood pressure",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "HealthClaim",
+    "id": "CLAIM:SODIUM_HIGH_INTAKE_BP",
+    "properties": {
+      "name": "High sodium intake is associated with increased blood pressure.",
+      "claim_text": "High sodium intake is associated with increased blood pressure.",
+      "conditions_of_use": "Population-level dietary guidance; not an individual diagnosis or treatment recommendation.",
+      "evidence_level": "authoritative public-health guidance",
+      "evidence_excerpt": "high intake of sodium (salt) is associated with increased blood pressure",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_CA",
+    "properties": {
+      "name": "calcium",
+      "external_code": "CA",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "CA(mg)"
+      ],
+      "vietnam_fct_value_count": 163
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_FE",
+    "properties": {
+      "name": "iron, total",
+      "external_code": "FE",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "FE(mg)"
+      ],
+      "vietnam_fct_value_count": 163
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_ZN",
+    "properties": {
+      "name": "zinc",
+      "external_code": "ZN",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "ZN(mg)"
+      ],
+      "vietnam_fct_value_count": 162
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_NIA",
+    "properties": {
+      "name": "niacin, preformed",
+      "external_code": "NIA",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "NIA(mg)"
+      ],
+      "vietnam_fct_value_count": 162
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_RIBF",
+    "properties": {
+      "name": "riboflavin",
+      "external_code": "RIBF",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "RIBF(mg)"
+      ],
+      "vietnam_fct_value_count": 162
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_THIA",
+    "properties": {
+      "name": "thiamin",
+      "external_code": "THIA",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "THIA(mg)"
+      ],
+      "vietnam_fct_value_count": 162
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_VITA",
+    "properties": {
+      "name": "vitamin A; calculated by summation of the vitamin A activities of retinol and the active carotenoids",
+      "external_code": "VITA",
+      "default_unit": "mcg. The value for <VITA> may be expressed in international units instead of the default unit of micrograms. International units are not preferred; however, if they are used, IU must be explicitly stated with the secondary tagname <UNIT/>. Note: It would be confusing and would imply additional information that does not exist if two <VITA> values, i.e., one expressed in mcg and the other expressed in IU, were included for a single food item when one value has simply been calculated from the other using the following conversion equation: 1 retinol equivalent = 3.33 IU vitamin A activity from retinol = 10 IU vitamin A activity from beta-carotene. Consequently, one or the other should be used, but not both.",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "VITA(mcg)"
+      ],
+      "vietnam_fct_value_count": 164
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_VITB6A",
+    "properties": {
+      "name": "vitamin B-6, total; determined by analysis",
+      "external_code": "VITB6A",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "VITB6A(mg)"
+      ],
+      "vietnam_fct_value_count": 162
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_VITB12",
+    "properties": {
+      "name": "vitamin B-12",
+      "external_code": "VITB12",
+      "default_unit": "mcg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "VITB12(mcg)"
+      ],
+      "vietnam_fct_value_count": 162
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_VITC",
+    "properties": {
+      "name": "vitamin C",
+      "external_code": "VITC",
+      "default_unit": "mg",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "VITC(mg)"
+      ],
+      "vietnam_fct_value_count": 164
+    }
+  },
+  {
+    "label": "Nutrient",
+    "id": "NUTRIENT:INFOODS_VITD",
+    "properties": {
+      "name": "vitamin D; calculated by summation of ergocalciferol and cholecalciferol",
+      "external_code": "VITD",
+      "default_unit": "mcg. The value for <VITD> may be expressed in international units instead of the default unit of micrograms. International units are not preferred; however, if they are used, IU must be explicitly stated with the secondary tagname <UNIT/>. Note: It would be confusing and would imply additional information that does not exist if two <VITD> values, i.e., one expressed in mcg and the other expressed in IU, were included for a single food item when one value has simply been calculated from the other using the conversion equation: 1 mcg vitamin D = 40 IU. Consequently, one or the other should be used, but not both.",
+      "source": "SOURCE:FAO_INFOODS_TAGNAMES",
+      "source_url": "https://www.fao.org/infoods/infoods/standards-guidelines/food-component-identifiers-tagnames/en/",
+      "source_version": "INFOODS Tagnames snapshot 2026-06-22",
+      "reviewed_at": "2026-06-24",
+      "status": "active",
+      "vietnam_presence_source": "SOURCE:VN_SMILING_FCT_2013",
+      "vietnam_presence_source_url": "https://www.fao.org/fileadmin/templates/food_composition/documents/FCT_SMILING_PROJECT_ASIA/D3_5a_SMILING_FCT_Vietnam_180713_protected.xlsx",
+      "vietnam_fct_columns": [
+        "VITD(mcg)"
+      ],
+      "vietnam_fct_value_count": 11
+    }
+  },
+  {
+    "label": "HealthOutcome",
+    "id": "OUTCOME:PROPER_GROWTH_AND_HEALTH",
+    "properties": {
+      "name": "Proper growth and health",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  },
+  {
+    "label": "HealthClaim",
+    "id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "properties": {
+      "name": "Essential vitamins and minerals are needed in small amounts for proper growth and health.",
+      "claim_text": "Essential vitamins and minerals are needed in small amounts for proper growth and health.",
+      "conditions_of_use": "Population-level dietary guidance; not an individual diagnosis or treatment recommendation.",
+      "evidence_level": "authoritative public-health guidance",
+      "evidence_excerpt": "micronutrients are essential vitamins and minerals",
+      "source": "SOURCE:WHO_HEALTHY_DIET",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "reviewed_at": "2026-06-24",
+      "status": "active"
+    }
+  }
+]

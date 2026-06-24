@@ -1,0 +1,257 @@
+[
+  {
+    "start_id": "CLAIM:WHO_ENERGY_BALANCE",
+    "end_id": "NUTRIENT:INFOODS_ENERC",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_ENERGY_BALANCE",
+    "end_id": "OUTCOME:ENERGY_BALANCE",
+    "type": "OUTCOME",
+    "properties": {
+      "effect_direction": "supports"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_ENERGY_BALANCE",
+    "end_id": "SOURCE:WHO_HEALTHY_DIET",
+    "type": "EVIDENCED_BY",
+    "properties": {
+      "evidence_role": "primary",
+      "evidence_excerpt": "total energy intake is balanced with energy expenditure"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_CARBOHYDRATE_ENERGY",
+    "end_id": "NUTRIENT:INFOODS_CHOCDF",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_CARBOHYDRATE_ENERGY",
+    "end_id": "OUTCOME:ENERGY_SUPPLY",
+    "type": "OUTCOME",
+    "properties": {
+      "effect_direction": "supports"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_CARBOHYDRATE_ENERGY",
+    "end_id": "SOURCE:WHO_HEALTHY_DIET",
+    "type": "EVIDENCED_BY",
+    "properties": {
+      "evidence_role": "primary",
+      "evidence_excerpt": "carbohydrates provide the primary energy source for the body"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_PROTEIN_BODY_STRUCTURE",
+    "end_id": "NUTRIENT:INFOODS_PROCNT",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_PROTEIN_BODY_STRUCTURE",
+    "end_id": "OUTCOME:BODY_STRUCTURE_AND_FUNCTION",
+    "type": "OUTCOME",
+    "properties": {
+      "effect_direction": "supports"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_PROTEIN_BODY_STRUCTURE",
+    "end_id": "SOURCE:WHO_HEALTHY_DIET",
+    "type": "EVIDENCED_BY",
+    "properties": {
+      "evidence_role": "primary",
+      "evidence_excerpt": "proteins provide the building blocks for many of the structural elements of the body"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_FAT_CELL_FUNCTION",
+    "end_id": "NUTRIENT:INFOODS_FAT",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_FAT_CELL_FUNCTION",
+    "end_id": "OUTCOME:CELL_FUNCTION",
+    "type": "OUTCOME",
+    "properties": {
+      "effect_direction": "supports"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_FAT_CELL_FUNCTION",
+    "end_id": "SOURCE:WHO_HEALTHY_DIET",
+    "type": "EVIDENCED_BY",
+    "properties": {
+      "evidence_role": "primary",
+      "evidence_excerpt": "fat is an essential nutrient for proper functioning of cells in the body"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_SATURATED_FAT_LIMIT",
+    "end_id": "NUTRIENT:INFOODS_FASAT",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_SATURATED_FAT_LIMIT",
+    "end_id": "OUTCOME:SATURATED_FAT_INTAKE_LIMIT",
+    "type": "OUTCOME",
+    "properties": {
+      "effect_direction": "limit"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_SATURATED_FAT_LIMIT",
+    "end_id": "SOURCE:WHO_HEALTHY_DIET",
+    "type": "EVIDENCED_BY",
+    "properties": {
+      "evidence_role": "primary",
+      "evidence_excerpt": "no more than 10% of total energy intake should come from saturated fat"
+    }
+  },
+  {
+    "start_id": "CLAIM:SODIUM_HIGH_INTAKE_BP",
+    "end_id": "NUTRIENT:INFOODS_NA",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:SODIUM_HIGH_INTAKE_BP",
+    "end_id": "OUTCOME:HIGH_BLOOD_PRESSURE",
+    "type": "OUTCOME",
+    "properties": {
+      "effect_direction": "increase"
+    }
+  },
+  {
+    "start_id": "CLAIM:SODIUM_HIGH_INTAKE_BP",
+    "end_id": "SOURCE:WHO_HEALTHY_DIET",
+    "type": "EVIDENCED_BY",
+    "properties": {
+      "evidence_role": "primary",
+      "evidence_excerpt": "high intake of sodium (salt) is associated with increased blood pressure"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "end_id": "NUTRIENT:INFOODS_CA",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "end_id": "NUTRIENT:INFOODS_FE",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "end_id": "NUTRIENT:INFOODS_ZN",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "end_id": "NUTRIENT:INFOODS_NIA",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "end_id": "NUTRIENT:INFOODS_RIBF",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "end_id": "NUTRIENT:INFOODS_THIA",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "end_id": "NUTRIENT:INFOODS_VITA",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "end_id": "NUTRIENT:INFOODS_VITB6A",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "end_id": "NUTRIENT:INFOODS_VITB12",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "end_id": "NUTRIENT:INFOODS_VITC",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "end_id": "NUTRIENT:INFOODS_VITD",
+    "type": "SUBJECT_OF",
+    "properties": {
+      "role": "primary"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "end_id": "OUTCOME:PROPER_GROWTH_AND_HEALTH",
+    "type": "OUTCOME",
+    "properties": {
+      "effect_direction": "supports"
+    }
+  },
+  {
+    "start_id": "CLAIM:WHO_MICRONUTRIENTS_GROWTH_HEALTH",
+    "end_id": "SOURCE:WHO_HEALTHY_DIET",
+    "type": "EVIDENCED_BY",
+    "properties": {
+      "evidence_role": "primary",
+      "evidence_excerpt": "micronutrients are essential vitamins and minerals"
+    }
+  }
+]
