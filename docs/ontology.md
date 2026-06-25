@@ -1,94 +1,160 @@
 # Ontology ViFood-KC
 
-ViFood-KC là reference graph cho tri thức thực phẩm đóng gói. Mỗi node chuẩn có các thuộc tính chung:
+Ontology của ViFood-KC mô tả cách tri thức thực phẩm đóng gói được biểu diễn trong Neo4j. Mục tiêu của ontology là giúp các hệ thống khác hiểu đúng các term trên nhãn thực phẩm, liên kết chúng về thực thể chuẩn và truy xuất giải thích có nguồn.
 
-- `id`
-- `name`
-- `source`
-- `source_url`
-- `reviewed_at`
-- `status`
+## Nguyên tắc chung
 
-Các thuộc tính chuyên biệt như `name_vi`, `ins`, `external_code` sẽ được bổ sung tùy theo loại node.
+Mỗi node chuẩn đều có các thuộc tính nền tảng:
 
-## Node
+- `id`: mã nội bộ ổn định trong graph.
+- `name`: tên chuẩn.
+- `source`: nguồn chính của dữ liệu.
+- `source_url`: URL hoặc vị trí nguồn.
+- `reviewed_at`: ngày dữ liệu được review/release.
+- `status`: trạng thái dữ liệu, ví dụ `active` hoặc `deprecated`.
 
-| Label | Vai trò |
+Các thuộc tính chuyên biệt như `name_vi`, `ins`, `external_code`, `foodon_id`, `source_iri` được thêm tùy loại node.
+
+Thông tin có bản chất là quan hệ nên được biểu diễn bằng relationship, không nhồi vào property. Ví dụ nhóm nguyên liệu là node `IngredientGroup`, không phải mảng property trên `Ingredient`.
+
+## Node labels
+
+| Label | Ý nghĩa |
 |---|---|
-| `Nutrient` | Dưỡng chất chuẩn. Mã từ nguồn dữ liệu được lưu tại `external_code`. |
-| `Ingredient` | Nguyên liệu thực phẩm, hiện lấy từ FoodOn theo scope thực phẩm đóng gói. Node lưu `foodon_id`, `external_code`, `source_iri` và `name_vi` khi có seed tiếng Việt. Nguồn gốc của Ingredient được thể hiện bằng `SUPPORTED_BY`, không dùng property loại chung chung. |
-| `IngredientGroup` | Nhóm nguyên liệu chuẩn như bột/ngũ cốc, sữa, dầu/chất béo, đường, cacao, nước/khoáng. Nhóm được biểu diễn thành node để query và mở rộng tri thức, không lưu như mảng property trên `Ingredient`. |
-| `Additive` | Phụ gia thực phẩm chuẩn. Mã INS được lưu tại `ins`. |
-| `FunctionalClass` | Chức năng công nghệ của phụ gia, ví dụ: chất tạo màu, chất bảo quản hoặc chất điều vị. |
-| `FoodCategory` | Nhóm thực phẩm theo quy định pháp lý hoặc taxonomy ngữ nghĩa. |
-| `Allergen` | Dị nguyên thực phẩm. |
-| `Alias` | Tên gọi khác, từ đồng nghĩa, E-number, INS code hoặc token dùng để liên kết về thực thể chuẩn. |
-| `HealthClaim` | Claim sức khỏe có điều kiện áp dụng và mức độ bằng chứng. |
-| `HealthOutcome` | Kết quả hoặc tác động sức khỏe được đề cập trong HealthClaim. |
-| `Regulation` | Văn bản pháp lý, bao gồm thông tin phiên bản và lịch sử thay thế. |
+| `Ingredient` | Nguyên liệu thực phẩm chuẩn, ví dụ bột mì, sữa bột, dầu thực vật, cacao, nước, muối, đậu nành. |
+| `IngredientGroup` | Nhóm nguyên liệu phục vụ query và giải thích, ví dụ nhóm nguyên liệu sữa, nhóm nguyên liệu bột/ngũ cốc, nhóm nguyên liệu dầu/chất béo. |
+| `Nutrient` | Dưỡng chất hoặc thành phần dinh dưỡng chuẩn, có mã định danh từ nguồn dinh dưỡng. |
+| `Additive` | Phụ gia thực phẩm chuẩn, có thể có mã INS, E-number, tên và chức năng công nghệ. |
+| `FunctionalClass` | Chức năng công nghệ của phụ gia, ví dụ chất bảo quản, chất tạo màu, chất điều chỉnh độ acid. |
+| `FoodCategory` | Nhóm thực phẩm, đặc biệt là nhóm pháp lý dùng để biểu diễn quy định phụ gia. |
+| `Allergen` | Dị nguyên thực phẩm hoặc nhóm dị nguyên liên quan đến nguyên liệu. |
+| `Alias` | Tên gọi khác hoặc token dùng để map text trên nhãn về thực thể chuẩn. |
+| `HealthClaim` | Claim sức khỏe có điều kiện áp dụng và nguồn bằng chứng. |
+| `HealthOutcome` | Kết quả sức khỏe hoặc tác động sức khỏe được claim đề cập. |
+| `Regulation` | Văn bản pháp lý hoặc tài liệu quy định. |
 | `Source` | Nguồn dữ liệu, nguồn pháp lý hoặc nguồn bằng chứng khoa học. |
 
-## Relationship
+## Relationship types
 
 | Relationship | Ý nghĩa |
 |---|---|
-| `HAS_NUTRIENT` | Liên kết một `Ingredient` với một `Nutrient` mà nguyên liệu đó chứa. Relationship có thể lưu `amount`, `unit` và `basis`. |
-| `HAS_FUNCTION` | Liên kết một `Additive` với một `FunctionalClass` thể hiện chức năng công nghệ của phụ gia. |
-| `PERMITTED_IN` | Liên kết một `Additive` với một `FoodCategory` pháp lý mà phụ gia được phép sử dụng. Relationship lưu điều kiện sử dụng, mức dùng tối đa hoặc nguyên tắc GMP khi có, kèm nguồn quy định. |
-| `COMMON_IN` | Liên kết một `Additive` với một `FoodCategory` mà phụ gia thường xuất hiện trong thực tế. Relationship phải kèm bằng chứng hoặc nguồn quan sát phù hợp. |
-| `OBSERVED_IN` | Liên kết một `Additive` với một nhóm hoặc sản phẩm thực phẩm mà phụ gia được quan sát trên nhãn. Relationship này chỉ phản ánh dữ liệu quan sát, không chứng minh tính hợp pháp. |
-| `CONTAINS_ALLERGEN` | Liên kết một `Ingredient` với một `Allergen` mà nguyên liệu có chứa hoặc có khả năng liên quan. |
-| `IS_A` | Thể hiện quan hệ phân cấp giữa các `Ingredient`, ví dụ một loại nguyên liệu cụ thể thuộc một nhóm nguyên liệu rộng hơn. |
-| `IN_GROUP` | Liên kết một `Ingredient` với một `IngredientGroup`, ví dụ bột mì thuộc nhóm nguyên liệu bột/ngũ cốc. |
-| `DERIVED_FROM` | Thể hiện nguyên liệu được tạo ra, chiết xuất hoặc dẫn xuất từ một nguyên liệu khác. |
-| `REFERS_TO` | Liên kết một `Alias` đến đúng một thực thể chuẩn như `Ingredient`, `Additive`, `Nutrient` hoặc `Allergen`. |
-| `SUPPORTED_BY` | Liên kết một thực thể chuẩn với `Source` cung cấp thông tin hoặc bằng chứng hỗ trợ cho thực thể đó. |
-| `GOVERNS` | Liên kết một `Regulation` với thực thể hoặc quan hệ mà văn bản đó điều chỉnh, ví dụ `Additive`, `FoodCategory` hoặc `PERMITTED_IN`. |
-| `SUPERSEDES` | Liên kết một `Regulation` với văn bản pháp lý cũ mà nó thay thế hoặc hợp nhất. |
-| `SUBJECT_OF` | Liên kết thực thể là đối tượng của một `HealthClaim`, ví dụ `Nutrient`, `Ingredient` hoặc `Additive`. |
-| `OUTCOME` | Liên kết một `HealthClaim` với `HealthOutcome` được đề cập trong claim. |
-| `EVIDENCED_BY` | Liên kết một `HealthClaim` với `Source` chứa bằng chứng khoa học hoặc tài liệu hỗ trợ claim đó. |
+| `SUPPORTED_BY` | Liên kết một thực thể chuẩn với nguồn hỗ trợ nó. |
+| `REFERS_TO` | Liên kết `Alias` đến đúng một thực thể chuẩn. |
+| `IS_A` | Biểu diễn quan hệ phân cấp bản chất, ví dụ một ingredient cụ thể là một loại của ingredient rộng hơn. |
+| `IN_GROUP` | Gom `Ingredient` vào `IngredientGroup` phục vụ query và giải thích nghiệp vụ. |
+| `DERIVED_FROM` | Biểu diễn nguyên liệu được tạo ra, chiết xuất hoặc dẫn xuất từ nguyên liệu khác. |
+| `HAS_NUTRIENT` | Liên kết `Ingredient` với `Nutrient` mà nguyên liệu đó chứa, kèm amount/unit/basis khi có dữ liệu định lượng. |
+| `CONTAINS_ALLERGEN` | Liên kết `Ingredient` với `Allergen` liên quan. |
+| `HAS_FUNCTION` | Liên kết `Additive` với `FunctionalClass`. |
+| `PERMITTED_IN` | Liên kết `Additive` với `FoodCategory` mà phụ gia được phép dùng theo quy định. |
+| `COMMON_IN` | Biểu diễn phụ gia hoặc thành phần thường gặp trong nhóm thực phẩm theo nguồn quan sát phù hợp. |
+| `OBSERVED_IN` | Biểu diễn việc một chất/thành phần được quan sát thấy trong nhãn hoặc dữ liệu product layer. |
+| `IN_CATEGORY` | Liên kết `Ingredient` với `FoodCategory` khi cần đặt nguyên liệu trong ngữ cảnh nhóm thực phẩm. |
+| `GOVERNS` | Liên kết `Regulation` với thực thể hoặc phạm vi mà văn bản điều chỉnh. |
+| `SUPERSEDES` | Liên kết văn bản pháp lý mới với văn bản cũ mà nó thay thế hoặc hợp nhất. |
+| `SUBJECT_OF` | Liên kết subject của `HealthClaim`, ví dụ một `Nutrient`, `Ingredient` hoặc `Additive`. |
+| `OUTCOME` | Liên kết `HealthClaim` với `HealthOutcome`. |
+| `EVIDENCED_BY` | Liên kết `HealthClaim` với `Source` chứa bằng chứng. |
 
-## Nguyên tắc phân biệt quan hệ
+## Ingredient
 
-`PERMITTED_IN`, `COMMON_IN` và `OBSERVED_IN` luôn được quản lý độc lập:
+Ingredient biểu diễn nguyên liệu thực phẩm chuẩn. Một Ingredient có thể có tên tiếng Anh từ nguồn gốc, tên tiếng Việt đã kiểm soát, mã ngoài như `foodon_id`, và các alias phục vụ entity linking.
 
-- `PERMITTED_IN` phản ánh tình trạng được phép sử dụng theo quy định pháp lý.
-- `COMMON_IN` phản ánh mức độ phổ biến của phụ gia trong một nhóm thực phẩm dựa trên bằng chứng quan sát hoặc dữ liệu đáng tin cậy.
-- `OBSERVED_IN` phản ánh việc phụ gia xuất hiện trên nhãn sản phẩm hoặc dữ liệu OCR.
-
-ViFood-KC không suy ra tính hợp pháp của phụ gia chỉ từ dữ liệu OCR hoặc dữ liệu quan sát trên nhãn. Hệ thống cũng không suy ra tác động sức khỏe chỉ vì một chất xuất hiện trong thành phần sản phẩm.
-
-## Nguyên tắc Ingredient
-
-Ingredient và Additive được giữ riêng. Một phụ gia có INS không bị import lại thành `Ingredient` chỉ vì nó cũng xuất hiện trên nhãn thành phần. Ingredient Master hiện đại diện cho nguyên liệu thực phẩm như bột, tinh bột, sữa, dầu, đường, cacao, cà phê/trà, nước, muối, hạt và đậu dùng trong thực phẩm đóng gói.
-
-Quan hệ phân cấp Ingredient dùng:
+Các quan hệ chính:
 
 ```text
-Ingredient cụ thể -[:IS_A]-> Ingredient rộng hơn
+(:Ingredient)-[:IS_A]->(:Ingredient)
+(:Ingredient)-[:IN_GROUP]->(:IngredientGroup)
+(:Ingredient)-[:SUPPORTED_BY]->(:Source)
+(:Alias)-[:REFERS_TO]->(:Ingredient)
 ```
 
-Ví dụ: `wheat flour food product` có thể `IS_A` về `flour food product`. Điều này giúp project khác khi đọc nhãn có thể hiểu “bột mì” thuộc nhóm “bột”, không cần hard-code lại cây nguyên liệu.
+`IS_A` và `IN_GROUP` có ý nghĩa khác nhau:
 
-## Quality Gate
+- `IS_A` nói về bản chất ontology: A là một loại của B.
+- `IN_GROUP` nói về nhóm nghiệp vụ trong ViFood-KC: A thuộc nhóm quản lý nào.
 
-Quality gate được chạy trước khi importer kết nối đến Neo4j. Quy trình này kiểm tra:
+Ví dụ:
 
-- Manifest của release dữ liệu.
-- SHA-256 của raw snapshot.
-- Source registry.
-- Provenance của node và relationship.
-- Trạng thái `status` của node.
-- Schema và kiểu dữ liệu thuộc tính.
-- Endpoint của relationship.
-- Alias mơ hồ hoặc Alias trỏ đến nhiều thực thể chuẩn.
-- Điều kiện dữ liệu bắt buộc của `HealthClaim`.
+```text
+Bột mì -[:IS_A]-> Bột thực phẩm
+Bột mì -[:IN_GROUP]-> Nhóm nguyên liệu bột/ngũ cốc
+```
 
-Một `HealthClaim` chỉ hợp lệ khi có đầy đủ:
+Ingredient không bị trộn với Additive. Một chất có mã INS được quản lý như `Additive`; nếu cùng một term xuất hiện trên nhãn, entity linking sẽ quyết định context thay vì tạo node trùng lặp.
 
-- Subject.
-- Health outcome.
-- Evidence source.
-- Điều kiện áp dụng.
-- Evidence level.
+## Additive và quy định
+
+Additive biểu diễn phụ gia thực phẩm chuẩn. Phụ gia có thể có:
+
+- mã INS.
+- E-number.
+- tên chuẩn.
+- tên tiếng Việt.
+- chức năng công nghệ.
+- quy định sử dụng theo nhóm thực phẩm.
+
+Các quan hệ chính:
+
+```text
+(:Additive)-[:HAS_FUNCTION]->(:FunctionalClass)
+(:Additive)-[:PERMITTED_IN]->(:FoodCategory)
+(:Additive)-[:SUPPORTED_BY]->(:Source)
+(:Alias)-[:REFERS_TO]->(:Additive)
+```
+
+`PERMITTED_IN` là quan hệ pháp lý. Nó không có nghĩa là phụ gia đó chắc chắn xuất hiện trong mọi sản phẩm thuộc nhóm đó. Nó chỉ biểu diễn việc phụ gia được phép dùng trong điều kiện được quy định.
+
+## Nutrient và HealthClaim
+
+Nutrient biểu diễn dưỡng chất hoặc thành phần dinh dưỡng chuẩn. Nutrient có thể được liên kết đến HealthClaim để mô tả tác động sức khỏe có bằng chứng.
+
+Các quan hệ chính:
+
+```text
+(:HealthClaim)-[:SUBJECT_OF]->(:Nutrient)
+(:HealthClaim)-[:OUTCOME]->(:HealthOutcome)
+(:HealthClaim)-[:EVIDENCED_BY]->(:Source)
+(:Nutrient)-[:SUPPORTED_BY]->(:Source)
+```
+
+HealthClaim không phải lời khuyên y tế cá nhân. Nó là tri thức có điều kiện, có nguồn và có phạm vi áp dụng.
+
+## Alias và entity linking
+
+Alias giúp map text trên nhãn về thực thể chuẩn. Ví dụ:
+
+```text
+“bột lúa mì” -[:REFERS_TO]-> “Bột mì”
+“INS 330” -[:REFERS_TO]-> phụ gia tương ứng
+```
+
+Alias không được dùng để tạo thêm node trùng nghĩa. Nếu alias trùng với `name`, `name_vi`, `ins` hoặc `external_code`, alias đó không cần tồn tại.
+
+Alias mơ hồ phải được xử lý cẩn thận. Một alias không nên tự động trỏ đến nhiều thực thể chuẩn trong curated graph.
+
+## Phân biệt các quan hệ quan sát và pháp lý
+
+ViFood-KC phân biệt rõ:
+
+- `PERMITTED_IN`: được phép theo quy định.
+- `COMMON_IN`: thường gặp theo nguồn quan sát hoặc dữ liệu đáng tin cậy.
+- `OBSERVED_IN`: quan sát thấy trên nhãn hoặc product layer.
+
+Ba quan hệ này không thay thế nhau. Một chất được quan sát thấy trên nhãn không tự động chứng minh rằng chất đó được phép dùng. Một chất được phép dùng cũng không có nghĩa là nó xuất hiện trong mọi sản phẩm thuộc nhóm đó.
+
+## Quality gate
+
+Quality gate là lớp kiểm tra trước khi dữ liệu vào Neo4j. Nó bảo vệ graph khỏi dữ liệu thiếu nguồn, sai schema hoặc mơ hồ.
+
+Quality gate kiểm tra:
+
+- node có đủ provenance không.
+- source có nằm trong registry không.
+- manifest có đủ metadata không.
+- hash raw snapshot có khớp không.
+- relationship có endpoint hợp lệ không.
+- alias có mơ hồ không.
+- health claim có subject, outcome và evidence không.
+
+Chỉ curated release vượt qua quality gate mới được import vào graph.

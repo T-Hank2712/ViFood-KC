@@ -1,23 +1,100 @@
 # Nguồn dữ liệu của ViFood-KC
 
-ViFood-KC chỉ ingest dữ liệu từ nguồn có xuất xứ rõ ràng. Mỗi snapshot được lưu raw, hash SHA-256 và gắn `Source` vào node/relationship được tạo.
+ViFood-KC chỉ sử dụng nguồn dữ liệu có xuất xứ rõ ràng. Mỗi nguồn được khai báo trong source registry, mỗi snapshot quan trọng được lưu lại và mỗi curated release được gắn hash SHA-256 để có thể kiểm tra lại.
 
-| Nguồn | Vai trò |
+Source không chỉ là thông tin tham khảo. Trong graph, source là một phần của mô hình tri thức:
+
+```text
+(:Entity)-[:SUPPORTED_BY]->(:Source)
+```
+
+Điều này giúp mọi node hoặc relationship quan trọng đều trả lời được câu hỏi: “Dữ liệu này đến từ đâu?”
+
+## Nguyên tắc chọn nguồn
+
+ViFood-KC ưu tiên nguồn theo thứ tự:
+
+1. Văn bản pháp lý Việt Nam cho dữ liệu áp dụng tại Việt Nam.
+2. Chuẩn quốc tế uy tín cho mã định danh, ontology và đối chiếu chuyên ngành.
+3. Tài liệu khoa học hoặc tổ chức y tế chính thống cho claim sức khỏe.
+4. Dữ liệu quan sát hoặc dữ liệu sản phẩm chỉ dùng khi có vai trò rõ ràng, không thay thế nguồn chuẩn.
+
+Không import dữ liệu chỉ vì “có vẻ đúng”. Dữ liệu phải có nguồn, vai trò, pipeline và quality gate.
+
+## Nhóm nguồn chính
+
+| Nhóm nguồn | Vai trò trong ViFood-KC |
 |---|---|
-| FoodOn | Taxonomy FoodCategory và Ingredient; synonym và ngữ nghĩa thực phẩm. |
-| FAO/INFOODS Tagnames | Mã định danh Nutrient/component. |
-| 09/VBHN-BYT | Danh mục Additive, FunctionalClass, nhóm thực phẩm pháp lý và giới hạn sử dụng tại Việt Nam. |
-| ViFood-KC Vietnamese translation seed | `name_vi` và synonym tiếng Việt có rule/version rõ ràng cho FoodCategory và Ingredient. |
-| ChEBI | Chemical identifier, synonym và hierarchy cho ingredient/additive. |
-| USDA FoodData Central | Dữ liệu Ingredient - Nutrient. |
-| Bảng thành phần thực phẩm Việt Nam SMILING 2013 (FAO) | Xác nhận Nutrient đang có dữ liệu trong bảng thành phần Việt Nam, bằng phép giao chính xác theo tagname INFOODS trong file XLSX. |
-| Bảng thành phần thực phẩm Việt Nam 2007 (FAO) | Tài liệu tham chiếu song ngữ; không dùng phép so khớp tên gần đúng để tự import Nutrient. |
-| Thông tư 29/2023/TT-BYT | Quy định thành phần dinh dưỡng phải/được ghi trên nhãn thực phẩm tại Việt Nam. |
-| Codex GSFA / JECFA | Đối chiếu quốc tế về phụ gia, chức năng và safety evidence; không thay thế quy định Việt Nam. |
-| WHO Healthy Diet | Evidence cho HealthClaim; không dùng làm tư vấn y khoa cá nhân. |
+| FoodOn | Ontology thực phẩm dùng cho Ingredient, IngredientGroup, FoodCategory ngữ nghĩa, synonym và phân cấp thực phẩm. |
+| FAO/INFOODS Tagnames | Chuẩn mã định danh cho nutrient/component. |
+| Bảng thành phần thực phẩm Việt Nam | Nguồn tham chiếu cho nutrient trong bối cảnh Việt Nam. |
+| Quy định ghi nhãn dinh dưỡng Việt Nam | Xác định các nutrient liên quan đến nhãn thực phẩm tại Việt Nam. |
+| Văn bản pháp lý phụ gia Việt Nam | Nguồn chính cho Additive, FunctionalClass, FoodCategory pháp lý và giới hạn sử dụng phụ gia. |
+| Codex GSFA / JECFA | Nguồn đối chiếu quốc tế về phụ gia, chức năng và an toàn thực phẩm. |
+| WHO và nguồn y tế chính thống | Bằng chứng cho HealthClaim và HealthOutcome. |
+| ChEBI | Định danh hóa học cho các chất/compound khi cần biểu diễn ingredient dạng hóa chất. |
+| Translation seed nội bộ | Tên tiếng Việt và alias tiếng Việt có kiểm soát, phục vụ entity linking. |
 
-Source registry nằm tại `config/source_registry.yaml`. Không source nào được import nếu chưa được đăng ký, chưa có pipeline phù hợp hoặc không vượt qua quality gate.
+## Vai trò của từng loại nguồn
 
-Với Nutrient, pipeline chỉ chọn các tagname xuất hiện đúng nguyên văn ở cả INFOODS và bảng SMILING 2013. Thành phần không giao được giữa hai chuẩn được ghi vào báo cáo loại trừ; chúng không được tự gán sang một dưỡng chất “gần giống”.
+### Ingredient
 
-Với Ingredient, pipeline hiện dùng `data/raw/foodon/foodon-v2025-02-01/foodon.owl` làm snapshot nguồn. Code trích toàn bộ class FoodOn sang staging, sau đó `config/foodon_ingredient_scope.yaml` chọn các nhánh nguyên liệu phù hợp với thực phẩm đóng gói. Những synonym mơ hồ bị giữ lại ở staging và không được đưa vào curated release. Tên tiếng Việt được quản lý ở `config/foodon_ingredient_vi_translation_seed.yaml`, không sinh Alias trùng với `name` hoặc `name_vi`.
+Ingredient dùng nguồn ontology thực phẩm để chuẩn hóa nguyên liệu và quan hệ phân cấp. Các nguyên liệu được lọc theo scope thực phẩm đóng gói để tránh import quá rộng. Tên tiếng Việt và alias tiếng Việt được quản lý riêng bằng seed có kiểm soát.
+
+Ingredient không được lấy trực tiếp từ OCR làm dữ liệu chuẩn. OCR chỉ tạo term quan sát; term đó cần được map về Ingredient chuẩn thông qua tên, alias hoặc mã định danh.
+
+### Nutrient
+
+Nutrient dùng chuẩn mã định danh để tránh nhầm lẫn giữa các chất có tên gần giống nhau. Khi kết hợp nhiều nguồn, ViFood-KC ưu tiên phép nối chính xác bằng mã hoặc tagname thay vì so khớp tên mơ hồ.
+
+### Additive và quy định phụ gia
+
+Additive dùng nguồn pháp lý Việt Nam làm nền tảng cho ngữ cảnh trong nước. Mã INS, tên phụ gia, chức năng công nghệ, nhóm thực phẩm được phép sử dụng và giới hạn sử dụng phải được truy vết về văn bản nguồn.
+
+Codex hoặc nguồn quốc tế có thể dùng để đối chiếu, nhưng không thay thế quy định Việt Nam khi hỏi về phạm vi áp dụng tại Việt Nam.
+
+### HealthClaim
+
+HealthClaim phải đi kèm nguồn bằng chứng. Claim không được sinh tự do từ LLM. Một claim hợp lệ cần có subject, outcome, điều kiện áp dụng, mức bằng chứng và source.
+
+### Alias và bản dịch
+
+Alias dùng để giúp hệ thống nhận diện nhiều cách gọi khác nhau của cùng một thực thể. Alias không được tạo nếu trùng với `name`, `name_vi`, `ins` hoặc `external_code`. Alias mơ hồ phải bị giữ lại ở staging hoặc review, không được tự động import vào graph chuẩn.
+
+## Source registry
+
+Source registry nằm tại:
+
+```text
+config/source_registry.yaml
+```
+
+Registry định nghĩa:
+
+- `id` của nguồn.
+- Tên nguồn.
+- URL hoặc vị trí nguồn.
+- Vai trò của nguồn trong project.
+- Kiểu ingest được phép.
+- License hoặc ghi chú khi cần.
+
+Quality gate dùng registry để kiểm tra release. Nếu một node tham chiếu source không có trong registry, release sẽ bị từ chối.
+
+## Snapshot và attestation
+
+Mỗi curated release cần manifest kèm thông tin nguồn:
+
+```text
+data/curated/releases/<release>.attested.yaml
+```
+
+Manifest ghi:
+
+- version của release.
+- ngày release.
+- danh sách source.
+- raw snapshot liên quan.
+- SHA-256 của file nguồn.
+- metadata của automated quality gate.
+
+Nhờ vậy, dữ liệu trong Neo4j có thể được truy ngược về file nguồn cụ thể, không chỉ về tên nguồn chung chung.
