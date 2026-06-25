@@ -16,7 +16,8 @@ Các thuộc tính chuyên biệt như `name_vi`, `ins`, `external_code` sẽ đ
 | Label | Vai trò |
 |---|---|
 | `Nutrient` | Dưỡng chất chuẩn. Mã từ nguồn dữ liệu được lưu tại `external_code`. |
-| `Ingredient` | Nguyên liệu thực phẩm, bao gồm quan hệ phân cấp và quan hệ dẫn xuất. |
+| `Ingredient` | Nguyên liệu thực phẩm, hiện lấy từ FoodOn theo scope thực phẩm đóng gói. Node lưu `foodon_id`, `external_code`, `source_iri` và `name_vi` khi có seed tiếng Việt. Nguồn gốc của Ingredient được thể hiện bằng `SUPPORTED_BY`, không dùng property loại chung chung. |
+| `IngredientGroup` | Nhóm nguyên liệu chuẩn như bột/ngũ cốc, sữa, dầu/chất béo, đường, cacao, nước/khoáng. Nhóm được biểu diễn thành node để query và mở rộng tri thức, không lưu như mảng property trên `Ingredient`. |
 | `Additive` | Phụ gia thực phẩm chuẩn. Mã INS được lưu tại `ins`. |
 | `FunctionalClass` | Chức năng công nghệ của phụ gia, ví dụ: chất tạo màu, chất bảo quản hoặc chất điều vị. |
 | `FoodCategory` | Nhóm thực phẩm theo quy định pháp lý hoặc taxonomy ngữ nghĩa. |
@@ -38,6 +39,7 @@ Các thuộc tính chuyên biệt như `name_vi`, `ins`, `external_code` sẽ đ
 | `OBSERVED_IN` | Liên kết một `Additive` với một nhóm hoặc sản phẩm thực phẩm mà phụ gia được quan sát trên nhãn. Relationship này chỉ phản ánh dữ liệu quan sát, không chứng minh tính hợp pháp. |
 | `CONTAINS_ALLERGEN` | Liên kết một `Ingredient` với một `Allergen` mà nguyên liệu có chứa hoặc có khả năng liên quan. |
 | `IS_A` | Thể hiện quan hệ phân cấp giữa các `Ingredient`, ví dụ một loại nguyên liệu cụ thể thuộc một nhóm nguyên liệu rộng hơn. |
+| `IN_GROUP` | Liên kết một `Ingredient` với một `IngredientGroup`, ví dụ bột mì thuộc nhóm nguyên liệu bột/ngũ cốc. |
 | `DERIVED_FROM` | Thể hiện nguyên liệu được tạo ra, chiết xuất hoặc dẫn xuất từ một nguyên liệu khác. |
 | `REFERS_TO` | Liên kết một `Alias` đến đúng một thực thể chuẩn như `Ingredient`, `Additive`, `Nutrient` hoặc `Allergen`. |
 | `SUPPORTED_BY` | Liên kết một thực thể chuẩn với `Source` cung cấp thông tin hoặc bằng chứng hỗ trợ cho thực thể đó. |
@@ -56,6 +58,18 @@ Các thuộc tính chuyên biệt như `name_vi`, `ins`, `external_code` sẽ đ
 - `OBSERVED_IN` phản ánh việc phụ gia xuất hiện trên nhãn sản phẩm hoặc dữ liệu OCR.
 
 ViFood-KC không suy ra tính hợp pháp của phụ gia chỉ từ dữ liệu OCR hoặc dữ liệu quan sát trên nhãn. Hệ thống cũng không suy ra tác động sức khỏe chỉ vì một chất xuất hiện trong thành phần sản phẩm.
+
+## Nguyên tắc Ingredient
+
+Ingredient và Additive được giữ riêng. Một phụ gia có INS không bị import lại thành `Ingredient` chỉ vì nó cũng xuất hiện trên nhãn thành phần. Ingredient Master hiện đại diện cho nguyên liệu thực phẩm như bột, tinh bột, sữa, dầu, đường, cacao, cà phê/trà, nước, muối, hạt và đậu dùng trong thực phẩm đóng gói.
+
+Quan hệ phân cấp Ingredient dùng:
+
+```text
+Ingredient cụ thể -[:IS_A]-> Ingredient rộng hơn
+```
+
+Ví dụ: `wheat flour food product` có thể `IS_A` về `flour food product`. Điều này giúp project khác khi đọc nhãn có thể hiểu “bột mì” thuộc nhóm “bột”, không cần hard-code lại cây nguyên liệu.
 
 ## Quality Gate
 

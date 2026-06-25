@@ -1,0 +1,20 @@
+version: foodon_ingredient_master_v0.1.0
+released_at: '2026-06-25'
+source_ids:
+- SOURCE:FOODON
+- SOURCE:VIFOOD_TRANSLATION_SEED
+node_count: 542
+relationship_count: 1426
+notes: FoodOn-derived packaged-food Ingredient master; aliases that duplicate canonical
+  names are removed automatically.
+raw_snapshot:
+  files:
+  - path: data/raw/foodon/foodon-v2025-02-01/foodon.owl
+    sha256: 1e11fc50283c6498697a7aca9606c9d914f1cda71cc5510e006d949c32df7db0
+  - path: config/foodon_ingredient_scope.yaml
+    sha256: e9e1a5adfb09c28a2e2f39ee1e63623ec03455565a0fa7ec45a37aa04f9b1f28
+  - path: config/foodon_ingredient_vi_translation_seed.yaml
+    sha256: b66b26151e412dcf75b89a6b58c014522699c13220441f7ba838850c0d179db9
+automated_gate:
+  policy_version: strict-v1
+  ambiguous_alias_count: 0

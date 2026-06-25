@@ -4,10 +4,10 @@ ViFood-KC chỉ ingest dữ liệu từ nguồn có xuất xứ rõ ràng. Mỗi
 
 | Nguồn | Vai trò |
 |---|---|
-| FoodOn | Taxonomy FoodCategory, synonym và ngữ nghĩa thực phẩm. |
+| FoodOn | Taxonomy FoodCategory và Ingredient; synonym và ngữ nghĩa thực phẩm. |
 | FAO/INFOODS Tagnames | Mã định danh Nutrient/component. |
 | 09/VBHN-BYT | Danh mục Additive, FunctionalClass, nhóm thực phẩm pháp lý và giới hạn sử dụng tại Việt Nam. |
-| ViFood-KC Vietnamese translation seed | `name_vi` và synonym tiếng Việt có rule/version rõ ràng. |
+| ViFood-KC Vietnamese translation seed | `name_vi` và synonym tiếng Việt có rule/version rõ ràng cho FoodCategory và Ingredient. |
 | ChEBI | Chemical identifier, synonym và hierarchy cho ingredient/additive. |
 | USDA FoodData Central | Dữ liệu Ingredient - Nutrient. |
 | Bảng thành phần thực phẩm Việt Nam SMILING 2013 (FAO) | Xác nhận Nutrient đang có dữ liệu trong bảng thành phần Việt Nam, bằng phép giao chính xác theo tagname INFOODS trong file XLSX. |
@@ -19,3 +19,5 @@ ViFood-KC chỉ ingest dữ liệu từ nguồn có xuất xứ rõ ràng. Mỗi
 Source registry nằm tại `config/source_registry.yaml`. Không source nào được import nếu chưa được đăng ký, chưa có pipeline phù hợp hoặc không vượt qua quality gate.
 
 Với Nutrient, pipeline chỉ chọn các tagname xuất hiện đúng nguyên văn ở cả INFOODS và bảng SMILING 2013. Thành phần không giao được giữa hai chuẩn được ghi vào báo cáo loại trừ; chúng không được tự gán sang một dưỡng chất “gần giống”.
+
+Với Ingredient, pipeline hiện dùng `data/raw/foodon/foodon-v2025-02-01/foodon.owl` làm snapshot nguồn. Code trích toàn bộ class FoodOn sang staging, sau đó `config/foodon_ingredient_scope.yaml` chọn các nhánh nguyên liệu phù hợp với thực phẩm đóng gói. Những synonym mơ hồ bị giữ lại ở staging và không được đưa vào curated release. Tên tiếng Việt được quản lý ở `config/foodon_ingredient_vi_translation_seed.yaml`, không sinh Alias trùng với `name` hoặc `name_vi`.

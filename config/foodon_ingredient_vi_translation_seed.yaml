@@ -1,0 +1,43 @@
+source_id: SOURCE:VIFOOD_TRANSLATION_SEED
+source_url: internal://vi-food-translation-seed
+translations:
+  - {foodon_id: FOODON:00001056, name_vi: Bột thực phẩm, aliases: [bột]}
+  - {foodon_id: FOODON:00004510, name_vi: Bột, aliases: []}
+  - {foodon_id: FOODON:00001210, name_vi: Bột mì, aliases: [bột lúa mì]}
+  - {foodon_id: FOODON:00002207, name_vi: Bột gạo, aliases: []}
+  - {foodon_id: FOODON:00003351, name_vi: Bột gạo lứt, aliases: []}
+  - {foodon_id: FOODON:00003353, name_vi: Bột gạo nếp, aliases: []}
+  - {foodon_id: FOODON:00002274, name_vi: Tinh bột, aliases: []}
+  - {foodon_id: FOODON:00002208, name_vi: Tinh bột gạo, aliases: []}
+  - {foodon_id: FOODON:00001093, name_vi: Ngũ cốc, aliases: []}
+  - {foodon_id: FOODON:00001189, name_vi: Yến mạch, aliases: []}
+  - {foodon_id: FOODON:03420108, name_vi: Đường, aliases: []}
+  - {foodon_id: FOODON:03420271, name_vi: Siro đường hoặc chất rắn siro, aliases: [siro đường]}
+  - {foodon_id: FOODON:00001087, name_vi: Dầu thực vật, aliases: []}
+  - {foodon_id: FOODON:00002855, name_vi: Dầu thực vật hydro hóa, aliases: []}
+  - {foodon_id: FOODON:03310351, name_vi: Bơ, aliases: []}
+  - {foodon_id: FOODON:00001257, name_vi: Sản phẩm từ sữa, aliases: []}
+  - {foodon_id: FOODON:00001091, name_vi: Sữa khô, aliases: []}
+  - {foodon_id: FOODON:00002174, name_vi: Sữa bột, aliases: []}
+  - {foodon_id: FOODON:00002173, name_vi: Sữa bò dạng bột, aliases: []}
+  - {foodon_id: FOODON:00001075, name_vi: Sữa bột tách béo, aliases: []}
+  - {foodon_id: FOODON:00002681, name_vi: Chất béo sữa, aliases: [mỡ sữa]}
+  - {foodon_id: FOODON:00002359, name_vi: Whey bò, aliases: [váng sữa whey]}
+  - {foodon_id: FOODON:00005524, name_vi: Whey protein isolate, aliases: [đạm whey cô lập]}
+  - {foodon_id: FOODON:00005590, name_vi: Bột protein whey, aliases: [bột đạm whey]}
+  - {foodon_id: FOODON:03420180, name_vi: Casein, aliases: []}
+  - {foodon_id: FOODON:00001215, name_vi: Cacao, aliases: []}
+  - {foodon_id: FOODON:00003613, name_vi: Hạt cacao, aliases: []}
+  - {foodon_id: FOODON:00005461, name_vi: Bơ cacao, aliases: [dầu bơ cacao]}
+  - {foodon_id: FOODON:03301477, name_vi: Hạt cà phê, aliases: []}
+  - {foodon_id: FOODON:03310546, name_vi: Trà, aliases: []}
+  - {foodon_id: FOODON:00001140, name_vi: Nước trái cây, aliases: [nước quả]}
+  - {foodon_id: FOODON:00002099, name_vi: Đậu phộng, aliases: [lạc]}
+  - {foodon_id: FOODON:00003206, name_vi: Đậu phộng, aliases: [lạc hạt]}
+  - {foodon_id: FOODON:00001587, name_vi: Hạnh nhân, aliases: []}
+  - {foodon_id: FOODON:00002266, name_vi: Đậu nành, aliases: [đậu tương]}
+  - {foodon_id: FOODON:00005577, name_vi: Protein đậu nành cô lập, aliases: [đạm đậu nành cô lập]}
+  - {foodon_id: FOODON:00005578, name_vi: Protein đậu nành cô đặc, aliases: [đạm đậu nành cô đặc]}
+  - {foodon_id: FOODON:00002340, name_vi: Nước, aliases: []}
+  - {foodon_id: FOODON:00002041, name_vi: Nước khoáng, aliases: []}
+  - {foodon_id: FOODON:00002221, name_vi: Muối, aliases: []}

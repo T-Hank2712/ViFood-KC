@@ -17,8 +17,9 @@ RELATION_ENDPOINTS = {
     "SUBJECT_OF": {("HealthClaim", "Nutrient"), ("HealthClaim", "Ingredient"), ("HealthClaim", "Additive")},
     "OUTCOME": {("HealthClaim", "HealthOutcome")}, "EVIDENCED_BY": {("HealthClaim", "Source")},
     "GOVERNS": {("Regulation", "Additive")}, "IN_CATEGORY": {("Ingredient", "FoodCategory")},
+    "IN_GROUP": {("Ingredient", "IngredientGroup")},
     "BROADER_THAN": {("FoodCategory", "FoodCategory")},
-    "SUPPORTED_BY": {("Ingredient", "Source"), ("Nutrient", "Source"), ("Additive", "Source"), ("FoodCategory", "Source"), ("Regulation", "Source")},
+    "SUPPORTED_BY": {("Ingredient", "Source"), ("IngredientGroup", "Source"), ("Nutrient", "Source"), ("Additive", "Source"), ("FoodCategory", "Source"), ("Regulation", "Source")},
     "SUPERSEDES": {("Regulation", "Regulation")},
 }
 

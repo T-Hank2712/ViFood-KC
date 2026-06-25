@@ -1,0 +1,44 @@
+# Ingredient core cho thực phẩm đóng gói Việt Nam.
+# File này là luật lọc tự động từ FoodOn staging, không phải danh sách node import cuối cùng.
+source_id: SOURCE:FOODON
+source_version: v2025-02-01
+include_descendants: true
+roots:
+  - {id: FOODON:00001056, label: flour food product, ingredient_group: cereal_flour, max_depth: 2}
+  - {id: FOODON:00002274, label: starch refined food product, ingredient_group: starch, max_depth: 2}
+  - {id: FOODON:00001093, label: cereal grain food product, ingredient_group: cereal_grain, max_depth: 1}
+  - {id: FOODON:03420108, label: sugar, ingredient_group: sweetener, max_depth: 2}
+  - {id: FOODON:03420271, label: sugar syrup or syrup solids, ingredient_group: sweetener, max_depth: 1}
+  - {id: FOODON:00001087, label: vegetable oil food product, ingredient_group: oil_fat, max_depth: 2}
+  - {id: FOODON:03310351, label: butter, ingredient_group: oil_fat, max_depth: 1}
+  - {id: FOODON:00001257, label: milk or milk based food product, ingredient_group: dairy, max_depth: 2}
+  - {id: FOODON:00002173, label: powdered cow milk food product, ingredient_group: dairy, max_depth: 0}
+  - {id: FOODON:00002681, label: milk fat, ingredient_group: dairy, max_depth: 0}
+  - {id: FOODON:03420180, label: casein, ingredient_group: dairy, max_depth: 0}
+  - {id: FOODON:00005524, label: whey protein isolate, ingredient_group: dairy, max_depth: 0}
+  - {id: FOODON:00005590, label: whey-based protein powder, ingredient_group: dairy, max_depth: 0}
+  - {id: FOODON:00001215, label: cacao food product, ingredient_group: cacao, max_depth: 2}
+  - {id: FOODON:00005461, label: cocoa butter oil, ingredient_group: cacao, max_depth: 0}
+  - {id: FOODON:03301477, label: coffee bean, ingredient_group: coffee_tea, max_depth: 1}
+  - {id: FOODON:03310546, label: tea, ingredient_group: coffee_tea, max_depth: 1}
+  - {id: FOODON:00001140, label: fruit juice food product, ingredient_group: fruit_juice, max_depth: 1}
+  - {id: FOODON:00002099, label: peanut food product, ingredient_group: nut_seed_legume, max_depth: 2}
+  - {id: FOODON:00001587, label: almond food product, ingredient_group: nut_seed_legume, max_depth: 2}
+  - {id: FOODON:00002266, label: soybean food product, ingredient_group: nut_seed_legume, max_depth: 2}
+  - {id: FOODON:00005577, label: soy protein isolate, ingredient_group: nut_seed_legume, max_depth: 0}
+  - {id: FOODON:00005578, label: soy protein concentrate, ingredient_group: nut_seed_legume, max_depth: 0}
+  - {id: FOODON:00002340, label: water food product, ingredient_group: water_mineral, max_depth: 1}
+  - {id: FOODON:00002221, label: salt product, ingredient_group: water_mineral, max_depth: 1}
+exclude_label_regex:
+  - '^obsolete:'
+  - '\bclaim\b'
+  - '\bprocess\b'
+  - '\bpackag'
+  - '\bsteak\b'
+  - '\bmeat\b'
+  - '\bfish\b'
+  - '\bcarcass\b'
+  - '\blive\b'
+  - '\bskin\b'
+  - '\bstubble\b'
+  - '\bresin\b'

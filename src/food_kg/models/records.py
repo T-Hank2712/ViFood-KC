@@ -8,13 +8,13 @@ from typing import Any, Literal
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 NODE_LABELS = frozenset({
-    "Nutrient", "Ingredient", "Additive", "FoodCategory", "FunctionalClass",
+    "Nutrient", "Ingredient", "IngredientGroup", "Additive", "FoodCategory", "FunctionalClass",
     "Allergen", "Alias", "HealthClaim", "HealthOutcome", "Source", "Regulation",
 })
 RELATIONSHIP_TYPES = frozenset({
     "IS_A", "DERIVED_FROM", "HAS_NUTRIENT", "CONTAINS_ALLERGEN", "HAS_FUNCTION",
     "PERMITTED_IN", "COMMON_IN", "OBSERVED_IN", "REFERS_TO", "SUBJECT_OF",
-    "OUTCOME", "EVIDENCED_BY", "GOVERNS", "IN_CATEGORY", "BROADER_THAN",
+    "OUTCOME", "EVIDENCED_BY", "GOVERNS", "IN_CATEGORY", "IN_GROUP", "BROADER_THAN",
     "SUPPORTED_BY", "SUPERSEDES",
 })
 

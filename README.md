@@ -19,7 +19,7 @@ Giải thích thành phần, dinh dưỡng, dị nguyên, quy định và eviden
 ViFood-KC quản lý các thực thể:
 
 - `Nutrient`: dưỡng chất, mã INFOODS chuẩn, tên/đơn vị từ nguồn gốc và bằng chứng có mặt trong bảng thành phần thực phẩm Việt Nam. Tên tiếng Việt chỉ được thêm khi có nguồn Việt Nam xác minh.
-- `Ingredient`: nguyên liệu, phân cấp, nguồn gốc và thành phần dinh dưỡng.
+- `Ingredient`: nguyên liệu thực phẩm dùng trong thực phẩm đóng gói, lấy từ FoodOn theo scope có kiểm soát, có `foodon_id`, `source_iri`, nhóm nguyên liệu và tên tiếng Việt khi đã có seed xác minh.
 - `Additive`: phụ gia, INS, E-number, tên, chức năng và quy định sử dụng.
 - `FoodCategory`: nhóm thực phẩm pháp lý Việt Nam và taxonomy ngữ nghĩa khi cần.
 - `FunctionalClass`: chức năng công nghệ của phụ gia.
@@ -43,6 +43,16 @@ Nguồn chính thức
 ```
 
 Mỗi release chỉ được import khi raw hash khớp, source có trong registry, node có provenance, schema/relationship hợp lệ và Alias không mơ hồ.
+
+## Ingredient Master
+
+Ingredient không được lấy từ OCR và không trộn với Additive. Pipeline hiện tại dùng FoodOn snapshot làm nguồn chuẩn, sau đó lọc bằng `config/foodon_ingredient_scope.yaml` để chỉ giữ nhóm nguyên liệu phù hợp với bánh kẹo, sữa, đồ uống đóng chai, thực phẩm ăn liền và sản phẩm đóng gói phổ biến. Tên tiếng Việt được bổ sung bằng `config/foodon_ingredient_vi_translation_seed.yaml`; nếu tên tiếng Việt đã là `name_vi` thì không tạo thêm `Alias` trùng.
+
+Release Ingredient hiện tại là:
+
+```text
+data/curated/releases/foodon_ingredient_master_v0.1.0.attested.yaml
+```
 
 ## Quy định phụ gia
 
