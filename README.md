@@ -40,10 +40,10 @@ ViFood-KC tổ chức tri thức thành các nhóm chính:
 | `Ingredient` | Chuẩn hóa nguyên liệu thực phẩm như bột, sữa, dầu, đường, cacao, nước, muối, hạt và đậu. |
 | `IngredientGroup` | Gom nguyên liệu vào các nhóm nghiệp vụ dễ query, ví dụ nhóm nguyên liệu sữa hoặc nhóm nguyên liệu bột/ngũ cốc. |
 | `Nutrient` | Chuẩn hóa dưỡng chất bằng mã và tên từ nguồn dinh dưỡng đáng tin cậy. |
-| `Additive` | Chuẩn hóa phụ gia thực phẩm, mã INS/E-number, tên và chức năng công nghệ. |
+| `Additive` | Chuẩn hóa phụ gia thực phẩm, mã INS/E-number, tên. |
 | `FoodCategory` | Biểu diễn nhóm thực phẩm, đặc biệt là nhóm pháp lý dùng trong quy định phụ gia. |
 | `FunctionalClass` | Mô tả vai trò công nghệ của phụ gia như chất bảo quản, chất tạo màu, chất điều chỉnh độ acid. |
-| `Allergen` | Biểu diễn dị nguyên và quan hệ với nguyên liệu khi có nguồn dữ liệu phù hợp. |
+| `Allergen` | Biểu diễn dị ứng nguyên và quan hệ với nguyên liệu khi có nguồn dữ liệu phù hợp. |
 | `HealthClaim` / `HealthOutcome` | Biểu diễn claim sức khỏe, kết quả sức khỏe, điều kiện áp dụng và nguồn bằng chứng. |
 | `Regulation` / `Source` | Lưu nguồn dữ liệu, văn bản pháp lý, tài liệu khoa học và provenance. |
 | `Alias` | Lưu tên gọi khác để entity linking, không dùng để nhân bản thực thể chuẩn. |

@@ -50,7 +50,7 @@ Thông tin có bản chất là quan hệ nên được biểu diễn bằng rel
 | `COMMON_IN` | Biểu diễn phụ gia hoặc thành phần thường gặp trong nhóm thực phẩm theo nguồn quan sát phù hợp. |
 | `OBSERVED_IN` | Biểu diễn việc một chất/thành phần được quan sát thấy trong nhãn hoặc dữ liệu product layer. |
 | `IN_CATEGORY` | Liên kết `Ingredient` với `FoodCategory` khi cần đặt nguyên liệu trong ngữ cảnh nhóm thực phẩm. |
-| `GOVERNS` | Liên kết `Regulation` với thực thể hoặc phạm vi mà văn bản điều chỉnh. |
+| `GOVERNS` | Liên kết `Regulation` với phạm vi pháp lý hoặc nhóm đối tượng mà văn bản quy định. |
 | `SUPERSEDES` | Liên kết văn bản pháp lý mới với văn bản cũ mà nó thay thế hoặc hợp nhất. |
 | `SUBJECT_OF` | Liên kết subject của `HealthClaim`, ví dụ một `Nutrient`, `Ingredient` hoặc `Additive`. |
 | `OUTCOME` | Liên kết `HealthClaim` với `HealthOutcome`. |
