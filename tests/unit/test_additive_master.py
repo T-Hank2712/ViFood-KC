@@ -13,6 +13,8 @@ def test_build_candidates_uses_every_staging_row(tmp_path: Path) -> None:
     candidates = build_candidates(staging, "2026-06-22")
     assert candidates[0]["id"] == "ADDITIVE:INS_621"
     assert candidates[0]["properties"]["name_vi"] == "Mononatri glutamat"
+    assert candidates[0]["functional_classes"] == ["Chất điều vị"]
+    assert "functional_classes" not in candidates[0]["properties"]
 
 
 def test_extract_rejects_pdf_without_expected_appendix(tmp_path: Path) -> None:

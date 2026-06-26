@@ -28,9 +28,6 @@
       "name": "Curcumin",
       "name_vi": "Curcumin",
       "ins": "100(i)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -46,9 +43,6 @@
       "name": "Turmeric",
       "name_vi": "Turmeric",
       "ins": "100(ii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -64,9 +58,6 @@
       "name": "Riboflavin, synthetic",
       "name_vi": "Riboflavin, tổng hợp",
       "ins": "101(i)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -82,9 +73,6 @@
       "name": "Riboflavin 5'- phosphate sodium",
       "name_vi": "Natri Riboflavin 5'-phosphat",
       "ins": "101(ii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -100,9 +88,6 @@
       "name": "Riboflavin from Bacillus subtilis",
       "name_vi": "Riboflavin từ Bacillus subtilis",
       "ins": "101(iii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -118,9 +103,6 @@
       "name": "Tartrazine",
       "name_vi": "Tartrazin",
       "ins": "102",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -136,9 +118,6 @@
       "name": "Quinoline yellow",
       "name_vi": "Quinolin yellow",
       "ins": "104",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -154,9 +133,6 @@
       "name": "Sunset yellow FCF",
       "name_vi": "Sunset yellow FCF",
       "ins": "110",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -172,9 +148,6 @@
       "name": "Carmines",
       "name_vi": "Carmin",
       "ins": "120",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -190,9 +163,6 @@
       "name": "Azorubine (Carmoisine)",
       "name_vi": "Azorubin (Carmoisin)",
       "ins": "122",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -208,9 +178,6 @@
       "name": "Amaranth",
       "name_vi": "Amaranth",
       "ins": "123",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -226,9 +193,6 @@
       "name": "Ponceau 4R (Cochineal red A)",
       "name_vi": "Ponceau 4R (Cochineal red A)",
       "ins": "124",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -244,9 +208,6 @@
       "name": "Erythrosine",
       "name_vi": "Erythrosin",
       "ins": "127",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -262,9 +223,6 @@
       "name": "Allura red AC",
       "name_vi": "Allura red AC",
       "ins": "129",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -280,9 +238,6 @@
       "name": "Indigotine (Indigocarmine)",
       "name_vi": "Indigotin (Indigocarmin)",
       "ins": "132",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -298,9 +253,6 @@
       "name": "Brilliant blue FCF",
       "name_vi": "Brilliant blue FCF",
       "ins": "133",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -316,9 +268,6 @@
       "name": "Chlorophylls",
       "name_vi": "Clorophylls",
       "ins": "140",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 12,
@@ -334,9 +283,6 @@
       "name": "Chlorophyll copper complexes",
       "name_vi": "Phức đồng clorophyll",
       "ins": "141(i)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -352,9 +298,6 @@
       "name": "Chlorophyllins, copper complexes, sodium and potassium salts",
       "name_vi": "Phức đồng clorophyllin (muối natri, kali của nó)",
       "ins": "141(ii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -370,9 +313,6 @@
       "name": "Fast green FCF",
       "name_vi": "Fast green FCF",
       "ins": "143",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -388,9 +328,6 @@
       "name": "Caramel I- plain caramel",
       "name_vi": "Caramen nhóm I (caramen nguyên chất)",
       "ins": "150a",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -406,9 +343,6 @@
       "name": "Caramel II - sulfite caramel",
       "name_vi": "Caramen nhóm II (caramen sulfit)",
       "ins": "150b",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -424,9 +358,6 @@
       "name": "Caramel III – ammonia caramel",
       "name_vi": "Caramen nhóm III (caramen amoni)",
       "ins": "150c",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -442,9 +373,6 @@
       "name": "Caramel IV –sulfite ammonia caramel",
       "name_vi": "Caramen nhóm IV (caramen amoni sulfit)",
       "ins": "150d",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -460,9 +388,6 @@
       "name": "Brilliant black",
       "name_vi": "Brilliant black",
       "ins": "151",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -478,9 +403,6 @@
       "name": "Vegetable carbon",
       "name_vi": "Carbon thực vật",
       "ins": "153",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -496,9 +418,6 @@
       "name": "Brown HT",
       "name_vi": "Brown HT",
       "ins": "155",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -514,9 +433,6 @@
       "name": "Carotenes, beta-, synthetic",
       "name_vi": "Beta-caroten tổng hợp",
       "ins": "160a(i)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -532,9 +448,6 @@
       "name": "Carotenes, beta-, vegetable",
       "name_vi": "Beta - Caroten (chiết xuất từ thực vật)",
       "ins": "160a(ii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -550,9 +463,6 @@
       "name": "Carotenes, beta-, Blakeslea trispora",
       "name_vi": "Beta-Caroten, Blakeslea trispora",
       "ins": "160a(iii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -568,9 +478,6 @@
       "name": "Annatto extracts, bixin-based",
       "name_vi": "Chất chiết xuất từ annatto, bixin based",
       "ins": "160b(i)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -586,9 +493,6 @@
       "name": "Annatto extracts, norbixin-based",
       "name_vi": "Chất chiết xuất từ annatto, norbixin-",
       "ins": "160b(ii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 13,
@@ -604,9 +508,6 @@
       "name": "Paprika oleoresin",
       "name_vi": "Paprika oleoresin",
       "ins": "160c(i)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -622,9 +523,6 @@
       "name": "Lycopene, synthetic",
       "name_vi": "Lycopen tổng hợp",
       "ins": "160d(i)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -640,9 +538,6 @@
       "name": "Lycopene, tomato",
       "name_vi": "Lycopen chiết xuất từ cà chua",
       "ins": "160d(ii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -658,9 +553,6 @@
       "name": "Lycopene, Blakeslea trispora",
       "name_vi": "Lycopen, Blakeslea trispora",
       "ins": "160d(iii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -676,9 +568,6 @@
       "name": "Carotenal, beta-apo- 8'-",
       "name_vi": "beta-apo- 8'- Carotenal",
       "ins": "160e",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -694,9 +583,6 @@
       "name": "Carotenoic acid, ethyl ester, beta- apo-8'-",
       "name_vi": "Este etyl của acid beta-apo-8'- Carotenoic",
       "ins": "160f",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -712,9 +598,6 @@
       "name": "Lutein from Tagetes erecta",
       "name_vi": "Lutein từ Tagetes erecta",
       "ins": "161b(i)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -730,9 +613,6 @@
       "name": "Lutein esters from Tagetes erecta",
       "name_vi": "Lutein este từ Tagetes erecta",
       "ins": "161b(iii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -748,9 +628,6 @@
       "name": "Canthaxanthin",
       "name_vi": "Canthaxanthin",
       "ins": "161g",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -766,9 +643,6 @@
       "name": "Zeaxanthin, synthetic",
       "name_vi": "Zeaxanthin tổng hợp",
       "ins": "161h(i)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -784,9 +658,6 @@
       "name": "Beet red",
       "name_vi": "Beet red",
       "ins": "162",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -802,9 +673,6 @@
       "name": "Grape skin extract",
       "name_vi": "Chất chiết xuất vỏ nho",
       "ins": "163(ii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -820,9 +688,6 @@
       "name": "Blackcurrant extract",
       "name_vi": "Chất chiết xuất từ quả lý chua đen",
       "ins": "163(iii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -838,9 +703,6 @@
       "name": "Purple corn colour",
       "name_vi": "Màu ngô tím",
       "ins": "163(iv)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -856,9 +718,6 @@
       "name": "Red cabbage colour",
       "name_vi": "Màu bắp cải đỏ",
       "ins": "163(v)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -874,9 +733,6 @@
       "name": "Black carrot extract",
       "name_vi": "Chất chiết xuất từ cà rốt đen",
       "ins": "163(vi)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -892,9 +748,6 @@
       "name": "Purple sweet potato colour",
       "name_vi": "Màu khoai lang tím",
       "ins": "163(vii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 14,
@@ -910,9 +763,6 @@
       "name": "Red radish colour",
       "name_vi": "Màu củ cải đỏ",
       "ins": "163(viii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -928,9 +778,6 @@
       "name": "Gardenia yellow",
       "name_vi": "Gardenia yellow",
       "ins": "164",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -946,14 +793,6 @@
       "name": "Calcium carbonate",
       "name_vi": "Calci carbonat",
       "ins": "170(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống đông vón",
-        "phẩm màu",
-        "chất làm rắn chắc",
-        "chất xử lý bột",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -969,9 +808,6 @@
       "name": "Titanium dioxide",
       "name_vi": "Titan dioxyd",
       "ins": "171",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -987,9 +823,6 @@
       "name": "Iron oxide, black",
       "name_vi": "Oxyd sắt đen",
       "ins": "172(i)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1005,9 +838,6 @@
       "name": "Iron oxide, red",
       "name_vi": "Oxyd sắt đỏ",
       "ins": "172(ii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1023,9 +853,6 @@
       "name": "Iron oxide, yellow",
       "name_vi": "Oxyd sắt vàng",
       "ins": "172(iii)",
-      "functional_classes": [
-        "Phẩm màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1041,12 +868,6 @@
       "name": "Tannic acid (Tannins)",
       "name_vi": "Acid tannic (Tannin)",
       "ins": "181",
-      "functional_classes": [
-        "Phẩm màu",
-        "chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1062,9 +883,6 @@
       "name": "Sorbic acid",
       "name_vi": "Acid sorbic",
       "ins": "200",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1080,9 +898,6 @@
       "name": "Sodium sorbate",
       "name_vi": "Natri sorbat",
       "ins": "201",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1098,9 +913,6 @@
       "name": "Potassium sorbate",
       "name_vi": "Kali sorbat",
       "ins": "202",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1116,9 +928,6 @@
       "name": "Calcium sorbate",
       "name_vi": "Calci sorbat",
       "ins": "203",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1134,9 +943,6 @@
       "name": "Benzoic acid",
       "name_vi": "Acid benzoic",
       "ins": "210",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1152,9 +958,6 @@
       "name": "Sodium benzoate",
       "name_vi": "Natri benzoat",
       "ins": "211",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1170,9 +973,6 @@
       "name": "Potassium benzoate",
       "name_vi": "Kali benzoat",
       "ins": "212",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1188,9 +988,6 @@
       "name": "Calcium benzoate",
       "name_vi": "Calci benzoat",
       "ins": "213",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1206,9 +1003,6 @@
       "name": "Ethyl para- hydroxybenzoate",
       "name_vi": "Ethyl para- hydroxybenzoat",
       "ins": "214",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1224,9 +1018,6 @@
       "name": "Methyl para- hydroxybenzoate",
       "name_vi": "Methyl para- hydroxybenzoat",
       "ins": "218",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1242,12 +1033,6 @@
       "name": "Sulfur dioxide",
       "name_vi": "Sulfua dioxyd",
       "ins": "220",
-      "functional_classes": [
-        "Chất bảo quản",
-        "chất chống oxi hóa",
-        "chất tẩy màu",
-        "chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1263,11 +1048,6 @@
       "name": "Sodium sulfite",
       "name_vi": "Natri sulfit",
       "ins": "221",
-      "functional_classes": [
-        "Chất bảo quản",
-        "chất chống oxi hóa",
-        "chất"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 15,
@@ -1283,10 +1063,6 @@
       "name": "Sodium hydrogen sulfite",
       "name_vi": "Natri hydro sulfit",
       "ins": "222",
-      "functional_classes": [
-        "Chất bảo quản",
-        "chất chống oxi hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1302,12 +1078,6 @@
       "name": "Sodium metabisulfite",
       "name_vi": "Natri metabisulfit",
       "ins": "223",
-      "functional_classes": [
-        "Chất bảo quản",
-        "chất chống oxi hóa",
-        "chất tẩy màu",
-        "chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1323,12 +1093,6 @@
       "name": "Potassium metabisulfite",
       "name_vi": "Kali metabisulfit",
       "ins": "224",
-      "functional_classes": [
-        "Chất bảo quản",
-        "chất chống oxi hóa",
-        "chất tẩy màu",
-        "chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1344,10 +1108,6 @@
       "name": "Potassium sulfite",
       "name_vi": "Kali sulfit",
       "ins": "225",
-      "functional_classes": [
-        "Chất bảo quản",
-        "chất chống oxi hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1363,9 +1123,6 @@
       "name": "Ortho-phenylphenol",
       "name_vi": "Ortho- phenylphenol",
       "ins": "231",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1381,9 +1138,6 @@
       "name": "Sodium ortho- phenylphenol",
       "name_vi": "Natri ortho- phenylphenol",
       "ins": "232",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1399,9 +1153,6 @@
       "name": "Nisin",
       "name_vi": "Nisin",
       "ins": "234",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1417,9 +1168,6 @@
       "name": "Natamycin",
       "name_vi": "Natamycin",
       "ins": "235",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1435,9 +1183,6 @@
       "name": "Hexamethylene tetramine",
       "name_vi": "Hexamethylen tetramin",
       "ins": "239",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1453,9 +1198,6 @@
       "name": "Dimethyl dicarbonate",
       "name_vi": "Dimethyl dicarbonat",
       "ins": "242",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1471,9 +1213,6 @@
       "name": "Lauric argrinate ethyl ester",
       "name_vi": "Lauric argrinat ethyl este",
       "ins": "243",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1489,10 +1228,6 @@
       "name": "Postasium nitrite",
       "name_vi": "Kali nitrit",
       "ins": "249",
-      "functional_classes": [
-        "Chất giữ màu",
-        "chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1508,10 +1243,6 @@
       "name": "Sodium nitrite",
       "name_vi": "Natri nitrit",
       "ins": "250",
-      "functional_classes": [
-        "Chất giữ màu",
-        "chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1527,10 +1258,6 @@
       "name": "Sodium nitrate",
       "name_vi": "Natri nitrat",
       "ins": "251",
-      "functional_classes": [
-        "Chất giữ màu",
-        "chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 16,
@@ -1546,10 +1273,6 @@
       "name": "Acetic acid, glacial",
       "name_vi": "Acid acetic băng",
       "ins": "260",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1565,10 +1288,6 @@
       "name": "Potassium acetate",
       "name_vi": "Kali acetat",
       "ins": "261(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1584,11 +1303,6 @@
       "name": "Sodium acetate",
       "name_vi": "Natri acetat",
       "ins": "262(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất bảo quản",
-        "chất tạo phức kim loại"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1604,11 +1318,6 @@
       "name": "Sodium diacetate",
       "name_vi": "Natri diacetat",
       "ins": "262(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất bảo quản",
-        "chất tạo phức kim loại"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1624,11 +1333,6 @@
       "name": "Calcium acetate",
       "name_vi": "Calci acetat",
       "ins": "263",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất bảo quản",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1644,9 +1348,6 @@
       "name": "Sodium dehydroacetate",
       "name_vi": "Natri dehydroacetat",
       "ins": "266",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1662,9 +1363,6 @@
       "name": "Lactic acid, L-, D- a n d D L -",
       "name_vi": "Acid lactic (L-, D- và DL-)",
       "ins": "270",
-      "functional_classes": [
-        "Chất điều chỉnh độ a c i d"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1680,9 +1378,6 @@
       "name": "Propionic acid",
       "name_vi": "Acid propionic",
       "ins": "280",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1698,9 +1393,6 @@
       "name": "Sodium propionate",
       "name_vi": "Natri propionat",
       "ins": "281",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1716,9 +1408,6 @@
       "name": "Calcium propionate",
       "name_vi": "Calci propionat",
       "ins": "282",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1734,9 +1423,6 @@
       "name": "Potassium propionate",
       "name_vi": "Kali propionat",
       "ins": "283",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1752,13 +1438,6 @@
       "name": "Carbon dioxide",
       "name_vi": "Carbon dioxyd",
       "ins": "290",
-      "functional_classes": [
-        "Chất tạo khí carbonic",
-        "chất tạo bọt",
-        "chất khí bao gói",
-        "chất bảo quản",
-        "chất khí đẩy"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1774,10 +1453,6 @@
       "name": "Malic acid, DL-",
       "name_vi": "Acid malic (DL-)",
       "ins": "296",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất tạo phức kim loại"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1793,9 +1468,6 @@
       "name": "Fumaric acid",
       "name_vi": "Acid fumaric",
       "ins": "297",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1811,9 +1483,6 @@
       "name": "Ascorbic acid, L-",
       "name_vi": "Acid ascorbic (L-)",
       "ins": "300",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 17,
@@ -1829,9 +1498,6 @@
       "name": "Sodium ascorbate",
       "name_vi": "Natri ascorbat",
       "ins": "301",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -1847,9 +1513,6 @@
       "name": "Calcium ascorbate",
       "name_vi": "Calci ascorbat",
       "ins": "302",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -1865,9 +1528,6 @@
       "name": "Ascorbyl palmitate",
       "name_vi": "Ascorbyl palmitat",
       "ins": "304",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -1883,9 +1543,6 @@
       "name": "Ascorbyl stearate",
       "name_vi": "Ascorbyl stearat",
       "ins": "305",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -1901,9 +1558,6 @@
       "name": "Tocopherol, d-alpha",
       "name_vi": "d-alpha-Tocopherol",
       "ins": "307a",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -1919,9 +1573,6 @@
       "name": "Tocopherol concentrate, mixed",
       "name_vi": "Tocopherol concentrat (dạng hỗn hợp)",
       "ins": "307b",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -1937,9 +1588,6 @@
       "name": "Tocopherol, dl- alpha-",
       "name_vi": "dl-alpha- Tocopherol",
       "ins": "307c",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -1955,9 +1603,6 @@
       "name": "Propyl gallate",
       "name_vi": "Propyl gallat",
       "ins": "310",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -1973,9 +1618,6 @@
       "name": "Guaiac resin",
       "name_vi": "Nhựa guaiac",
       "ins": "314",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -1991,9 +1633,6 @@
       "name": "Erythorbic acid (Isoascorbic Acid)",
       "name_vi": "Acid erythorbic (acid isoascorbic)",
       "ins": "315",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -2009,9 +1648,6 @@
       "name": "Sodium erythorbate",
       "name_vi": "Natri erythorbat",
       "ins": "316",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -2027,9 +1663,6 @@
       "name": "Tertiary butylhydroquinone",
       "name_vi": "Tert- butylhydroquinon (TBHQ)",
       "ins": "319",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -2045,9 +1678,6 @@
       "name": "Butylated hydroxyanisole",
       "name_vi": "Butyl hydroxyanisol (BHA)",
       "ins": "320",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -2063,9 +1693,6 @@
       "name": "Butylated Hydroxytoluene",
       "name_vi": "Butyl hydroxytoluen (BHT)",
       "ins": "321",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -2081,10 +1708,6 @@
       "name": "Lecithin",
       "name_vi": "Lecithin",
       "ins": "322(i)",
-      "functional_classes": [
-        "Chất chống oxy hóa",
-        "chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -2100,10 +1723,6 @@
       "name": "Sodium lactate",
       "name_vi": "Natri lactat",
       "ins": "325",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống oxy"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 18,
@@ -2119,12 +1738,6 @@
       "name": "Potassium lactate",
       "name_vi": "Kali lactat",
       "ins": "326",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống oxy hóa",
-        "chất nhũ hóa",
-        "chất làm ẩm"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 19,
@@ -2140,13 +1753,6 @@
       "name": "Calcium lactate",
       "name_vi": "Calci lactat",
       "ins": "327",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "muối nhũ hóa",
-        "chất xử lý bột",
-        "chất làm rắn chắc",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 19,
@@ -2162,10 +1768,6 @@
       "name": "Magnesium lactate, DL-",
       "name_vi": "Magnesi lactat, DL-",
       "ins": "329",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 19,
@@ -2181,12 +1783,6 @@
       "name": "Citric acid",
       "name_vi": "Acid citric",
       "ins": "330",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống oxy hóa",
-        "chất tạo phức kim loại",
-        "chất giữ màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 19,
@@ -2202,13 +1798,6 @@
       "name": "Sodium dihydrogen citrate",
       "name_vi": "Natri dihydro citrat",
       "ins": "331(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 19,
@@ -2224,13 +1813,6 @@
       "name": "Disodium monohydrogen citrate",
       "name_vi": "Dinatri monohydro citrat",
       "ins": "331(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 19,
@@ -2246,13 +1828,6 @@
       "name": "Trisodium citrate",
       "name_vi": "Trinatri citrat",
       "ins": "331(iii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 19,
@@ -2268,12 +1843,6 @@
       "name": "Potassium dihydrogen citrate",
       "name_vi": "Kali dihydro citrat",
       "ins": "332(i)",
-      "functional_classes": [
-        "Chất ổn định",
-        "chất điều chỉnh độ acid",
-        "muối nhũ hóa",
-        "chất tạo phức kim loại"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 20,
@@ -2289,12 +1858,6 @@
       "name": "Tripotassium citrate",
       "name_vi": "Trikali citrat",
       "ins": "332(ii)",
-      "functional_classes": [
-        "Chất ổn định",
-        "chất điều chỉnh độ acid",
-        "muối nhũ hóa",
-        "chất tạo phức kim loại"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 20,
@@ -2310,13 +1873,6 @@
       "name": "Tricalcium citrate",
       "name_vi": "Tricalci citrat",
       "ins": "333(iii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "muối nhũ hóa",
-        "chất làm rắn chắc",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 20,
@@ -2332,12 +1888,6 @@
       "name": "Tartaric acid, L(+)-",
       "name_vi": "Acid tartaric, L(+)-",
       "ins": "334",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất tạo phức kim loại",
-        "chất chống oxi hóa",
-        "chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 20,
@@ -2353,12 +1903,6 @@
       "name": "Disodium L(+)- tartrate",
       "name_vi": "Dinatri L(+)-tartrat",
       "ins": "335(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "muối nhũ hóa",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 20,
@@ -2374,12 +1918,6 @@
       "name": "Potassium sodium L(+)-tartrate",
       "name_vi": "Kali natri L(+)- tartrat",
       "ins": "337",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "muối nhũ hóa",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 20,
@@ -2395,11 +1933,6 @@
       "name": "Phosphoric acid",
       "name_vi": "Acid phosphoric",
       "ins": "338",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống oxy hóa",
-        "chất tạo phức kim loại"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 20,
@@ -2415,15 +1948,6 @@
       "name": "Sodium dihydrogen phosphate",
       "name_vi": "Natri dihydro phosphat",
       "ins": "339(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất làm ẩm",
-        "chất tạo xốp",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 20,
@@ -2439,15 +1963,6 @@
       "name": "Disodium hydrogen phosphate",
       "name_vi": "Dinatri hydro phosphat",
       "ins": "339(ii)",
-      "functional_classes": [
-        "Chất ổn định",
-        "chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất làm ẩm",
-        "chất tạo phức kim loại",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 21,
@@ -2463,16 +1978,6 @@
       "name": "Trisodium phosphate",
       "name_vi": "Trinatri phosphat",
       "ins": "339(iii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất làm ẩm",
-        "chất bảo quản",
-        "chất ổn định",
-        "chất tạo phức kim loại",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 21,
@@ -2488,15 +1993,6 @@
       "name": "Potassium dihydrogen phosphate",
       "name_vi": "Kali dihydro phosphat",
       "ins": "340(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất làm ẩm",
-        "chất ổn định",
-        "chất tạo phức kim loại",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 21,
@@ -2512,15 +2008,6 @@
       "name": "Dipotassium hydrogen phosphate",
       "name_vi": "Dikali hydro phosphat",
       "ins": "340(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất làm ẩm",
-        "chất ổn định",
-        "chất tạo phức kim loại",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 21,
@@ -2536,15 +2023,6 @@
       "name": "Tripotassium hydrogen phosphate",
       "name_vi": "Trikali hydro phosphat",
       "ins": "340(iii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất làm ẩm",
-        "chất ổn định",
-        "chất tạo phức kim loại",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 21,
@@ -2560,12 +2038,6 @@
       "name": "Calcium dihydrogen phosphate",
       "name_vi": "Calci dihydro phosphat",
       "ins": "341(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống đông vón",
-        "muối nhũ hóa",
-        "chất làm rắn chắc"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 21,
@@ -2581,17 +2053,6 @@
       "name": "Dicalcium hydrogen phosphate",
       "name_vi": "Dicalci hydro phosphat",
       "ins": "341(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống đông vón",
-        "muối nhũ hóa",
-        "chất làm rắn chắc",
-        "chất xử lý bột",
-        "chất làm ẩm",
-        "chất tạo xốp",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 22,
@@ -2607,18 +2068,6 @@
       "name": "Tricalcium phosphate",
       "name_vi": "Tricalci phosphat",
       "ins": "341(iii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống đông vón",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất làm rắn chắc",
-        "chất xử lý bột",
-        "chất làm ẩm",
-        "chất tạo xốp",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 22,
@@ -2634,13 +2083,6 @@
       "name": "Ammonium dihydrogen phosphate",
       "name_vi": "Amoni dihydro phosphat",
       "ins": "342(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất xử lý bột",
-        "chất ổn định",
-        "chất làm dày",
-        "chất tạo xốp"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 22,
@@ -2656,13 +2098,6 @@
       "name": "Diammonium hydrogen phosphate",
       "name_vi": "Diamoni hydro phosphat",
       "ins": "342(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất xử lý bột",
-        "chất tạo xốp",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 22,
@@ -2678,13 +2113,6 @@
       "name": "Magnesium dihydrogen phosphate",
       "name_vi": "Magnesi dihydro phosphat",
       "ins": "343(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống đông vón",
-        "muối nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 22,
@@ -2700,10 +2128,6 @@
       "name": "Magnesium",
       "name_vi": "Magnesi hydro",
       "ins": "343(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống đông"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 22,
@@ -2719,12 +2143,6 @@
       "name": "Trimagnesium phosphate",
       "name_vi": "Trimagnesi phosphat",
       "ins": "343(iii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống đông vón",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 23,
@@ -2740,10 +2158,6 @@
       "name": "Sodium hyrogen DL-malate",
       "name_vi": "Natri hyro DL- malat",
       "ins": "350(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất làm ẩm"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 23,
@@ -2759,10 +2173,6 @@
       "name": "Sodium DL-malate",
       "name_vi": "Natri DL-malat",
       "ins": "350(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất làm ẩm"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 23,
@@ -2778,9 +2188,6 @@
       "name": "Calcium malate, DL-",
       "name_vi": "Calci malat, DL-",
       "ins": "352(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 23,
@@ -2796,12 +2203,6 @@
       "name": "Metatartaric acid",
       "name_vi": "Acid metatartaric",
       "ins": "353",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 23,
@@ -2817,9 +2218,6 @@
       "name": "Adipic acid",
       "name_vi": "Acid adipic",
       "ins": "355",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 23,
@@ -2835,9 +2233,6 @@
       "name": "Succinic acid",
       "name_vi": "Acid succinic",
       "ins": "363",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 23,
@@ -2853,10 +2248,6 @@
       "name": "Disodium succinate",
       "name_vi": "Dinatri succinat",
       "ins": "364(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 23,
@@ -2872,9 +2263,6 @@
       "name": "Sodium fumarates",
       "name_vi": "Natri fumarat (các muối)",
       "ins": "365",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 23,
@@ -2890,9 +2278,6 @@
       "name": "Triammonium citrate",
       "name_vi": "Triamoni citrat",
       "ins": "380",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 23,
@@ -2908,9 +2293,6 @@
       "name": "Ferric ammonium citrate",
       "name_vi": "Sắt amoni citrat",
       "ins": "381",
-      "functional_classes": [
-        "Chất chống đông vón"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 23,
@@ -2926,11 +2308,6 @@
       "name": "Isopropyl citrates",
       "name_vi": "Isopropyl citrate (các muối)",
       "ins": "384",
-      "functional_classes": [
-        "Chất tạo phức kim loại",
-        "chất chống oxi hóa",
-        "chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 23,
@@ -2946,10 +2323,6 @@
       "name": "Calcium disodium ethylenediaminetetr",
       "name_vi": "Calci dinatri etylendiamintetraa",
       "ins": "385",
-      "functional_classes": [
-        "Chất tạo phức kim loại",
-        "chất chống oxi"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 23,
@@ -2965,13 +2338,6 @@
       "name": "Disodium ethylenediaminetetr aacetate",
       "name_vi": "Dinatri ethylendiamintetra acetat (EDTA)",
       "ins": "386",
-      "functional_classes": [
-        "Chất tạo phức kim loại",
-        "chất chống oxi hóa",
-        "chất giữ màu",
-        "chất bảo quản",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 24,
@@ -2987,9 +2353,6 @@
       "name": "Thiodipropionic acid",
       "name_vi": "Acid thiodipropionic",
       "ins": "388",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 24,
@@ -3005,9 +2368,6 @@
       "name": "Dilauryl thiodipropionate",
       "name_vi": "Dilauryl thiodipropionat",
       "ins": "389",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 24,
@@ -3023,9 +2383,6 @@
       "name": "Rosemary extract",
       "name_vi": "Chiết xuất hương thảo",
       "ins": "392",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 24,
@@ -3041,18 +2398,6 @@
       "name": "Alginic acid",
       "name_vi": "Acid alginic",
       "ins": "400",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất độn",
-        "chất mang",
-        "chất nhũ hóa",
-        "chất tạo bọt",
-        "chất tạo gel",
-        "chất làm bóng",
-        "chất làm ẩm",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 24,
@@ -3068,18 +2413,6 @@
       "name": "Sodium alginate",
       "name_vi": "Natri alginat",
       "ins": "401",
-      "functional_classes": [
-        "Chất độn",
-        "chất mang",
-        "chất nhũ hóa",
-        "chất tạo bọt",
-        "chất tạo gel",
-        "chất làm bóng",
-        "chất làm ẩm",
-        "chất tạo phức kim loại",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 24,
@@ -3095,18 +2428,6 @@
       "name": "Potassium alginate",
       "name_vi": "Kali alginat",
       "ins": "402",
-      "functional_classes": [
-        "Chất độn",
-        "chất mang",
-        "chất nhũ hóa",
-        "chất tạo bọt",
-        "chất tạo gel",
-        "chất làm bóng",
-        "chất làm ẩm",
-        "chất tạo phức kim loại",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 24,
@@ -3122,18 +2443,6 @@
       "name": "Ammonium alginate",
       "name_vi": "Amoni alginat",
       "ins": "403",
-      "functional_classes": [
-        "Chất độn",
-        "chất mang",
-        "chất nhũ hóa",
-        "chất tạo bọt",
-        "chất tạo gel",
-        "chất làm bóng",
-        "chất làm ẩm",
-        "chất tạo phức kim loại",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 25,
@@ -3149,17 +2458,6 @@
       "name": "Calcium alginate",
       "name_vi": "Calci alginat",
       "ins": "404",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất chống tạo bọt",
-        "chất độn",
-        "chất mang",
-        "chất tạo gel",
-        "chất làm bóng",
-        "chất làm ẩm",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 25,
@@ -3175,15 +2473,6 @@
       "name": "Propylene glycol alginate",
       "name_vi": "Propylen glycol alginat",
       "ins": "405",
-      "functional_classes": [
-        "Chất độn",
-        "chất mang",
-        "chất nhũ hóa",
-        "chất tạo bọt",
-        "chất tạo gel",
-        "chất làm dày",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 25,
@@ -3199,16 +2488,6 @@
       "name": "Agar",
       "name_vi": "Thạch Aga",
       "ins": "406",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất độn",
-        "chất mang",
-        "chất nhũ hóa",
-        "chất tạo gel",
-        "chất làm bóng",
-        "chất làm ẩm",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 25,
@@ -3224,16 +2503,6 @@
       "name": "Carrageenan",
       "name_vi": "Carrageenan",
       "ins": "407",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất độn",
-        "chất mang",
-        "chất nhũ hóa",
-        "chất tạo gel",
-        "chất làm bóng",
-        "chất làm ẩm",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 25,
@@ -3249,16 +2518,6 @@
       "name": "Processed eucheuma seaweed (PES)",
       "name_vi": "Rong biển eucheuma đã qua chế biến",
       "ins": "407a",
-      "functional_classes": [
-        "Chất độn",
-        "chất mang",
-        "chất nhũ hóa",
-        "chất tạo gel",
-        "chất làm bóng",
-        "chất làm ẩm",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 25,
@@ -3274,11 +2533,6 @@
       "name": "Carob bean gum",
       "name_vi": "Gôm đậu carob",
       "ins": "410",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 25,
@@ -3294,11 +2548,6 @@
       "name": "Guar gum",
       "name_vi": "Gôm gua",
       "ins": "412",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 26,
@@ -3314,11 +2563,6 @@
       "name": "Tragacanth gum",
       "name_vi": "Gôm tragacanth",
       "ins": "413",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 26,
@@ -3334,14 +2578,6 @@
       "name": "Gum arabic (Acacia gum)",
       "name_vi": "Gôm arabic",
       "ins": "414",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất độn",
-        "chất nhũ hóa",
-        "chất mang",
-        "chất làm bóng",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 26,
@@ -3357,12 +2593,6 @@
       "name": "Xanthan gum",
       "name_vi": "Gôm xanthan",
       "ins": "415",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất nhũ hóa",
-        "chất tạo bọt",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 26,
@@ -3378,11 +2608,6 @@
       "name": "Karaya gum",
       "name_vi": "Gôm karaya",
       "ins": "416",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 26,
@@ -3398,11 +2623,6 @@
       "name": "Tara gum",
       "name_vi": "Gôm tara",
       "ins": "417",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất tạo gel",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 26,
@@ -3418,11 +2638,6 @@
       "name": "Gellan gum",
       "name_vi": "Gôm gellan",
       "ins": "418",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất tạo gel",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 26,
@@ -3438,14 +2653,6 @@
       "name": "Sorbitol",
       "name_vi": "Sorbitol",
       "ins": "420(i)",
-      "functional_classes": [
-        "Chất tạo ngọt",
-        "chất độn",
-        "chất làm ẩm",
-        "chất tạo phức kim loại",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 26,
@@ -3461,14 +2668,6 @@
       "name": "Sorbitol syrup",
       "name_vi": "Siro sorbitol",
       "ins": "420(ii)",
-      "functional_classes": [
-        "Chất tạo ngọt",
-        "chất độn",
-        "chất làm ẩm",
-        "chất tạo phức kim loại",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 26,
@@ -3484,14 +2683,6 @@
       "name": "Mannitol",
       "name_vi": "Manitol",
       "ins": "421",
-      "functional_classes": [
-        "Chất chống đông vón",
-        "chất độn",
-        "chất làm ẩm",
-        "chất ổn định",
-        "chất tạo ngọt",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 26,
@@ -3507,10 +2698,6 @@
       "name": "Glycerol",
       "name_vi": "Glycerol",
       "ins": "422",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất làm ẩm"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 26,
@@ -3526,9 +2713,6 @@
       "name": "Octenyl succinic acid (OSA) modified gum arabic",
       "name_vi": "Gôm arabic biến tính bằng acid octenyl succinic (OSA)",
       "ins": "423",
-      "functional_classes": [
-        "Chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 27,
@@ -3544,12 +2728,6 @@
       "name": "Curdlan",
       "name_vi": "Curdlan",
       "ins": "424",
-      "functional_classes": [
-        "Chất làm rắn chắc",
-        "chất tạo gel",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 27,
@@ -3565,15 +2743,6 @@
       "name": "Konjac flour",
       "name_vi": "Bột konjac",
       "ins": "425",
-      "functional_classes": [
-        "Chất mang",
-        "chất nhũ hóa",
-        "chất tạo gel",
-        "chất làm bóng",
-        "chất làm ẩm",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 27,
@@ -3589,12 +2758,6 @@
       "name": "Cassia gum",
       "name_vi": "Gôm cassia",
       "ins": "427",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất tạo gel",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 27,
@@ -3610,9 +2773,6 @@
       "name": "Polyoxyethylene (8) stearate",
       "name_vi": "Polyoxyethylen (8) stearat",
       "ins": "430",
-      "functional_classes": [
-        "Chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 27,
@@ -3628,9 +2788,6 @@
       "name": "Polyoxyethylene (40) stearate",
       "name_vi": "Polyoxyethylen (40) stearat",
       "ins": "431",
-      "functional_classes": [
-        "Chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 27,
@@ -3646,10 +2803,6 @@
       "name": "Polyoxyethylene (20) sorbitan monolaurate",
       "name_vi": "Polyoxyethylen (20) sorbitan monolaurat",
       "ins": "432",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 27,
@@ -3665,10 +2818,6 @@
       "name": "Polyoxyethylene (20) sorbitan monooleate",
       "name_vi": "Polyoxyethylen (20) sorbitan monooleat",
       "ins": "433",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 27,
@@ -3684,9 +2833,6 @@
       "name": "Polyoxyethylene (20) sorbitan monopalmitate",
       "name_vi": "Polyoxyethylen (20) sorbitan monopalmitat",
       "ins": "434",
-      "functional_classes": [
-        "Chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 27,
@@ -3702,10 +2848,6 @@
       "name": "Polyoxyethylene (20) sorbitan monostearate",
       "name_vi": "Polyoxyethylen (20) sorbitan monostearat",
       "ins": "435",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 27,
@@ -3721,10 +2863,6 @@
       "name": "Polyoxyethylene (20) sorbitan tristearate",
       "name_vi": "Polyoxyethylen (20) sorbitan tristearat",
       "ins": "436",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 27,
@@ -3740,13 +2878,6 @@
       "name": "Pectins",
       "name_vi": "Pectin",
       "ins": "440",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất tạo gel",
-        "chất làm bóng",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 28,
@@ -3762,9 +2893,6 @@
       "name": "Ammonium salts of phosphatidic acid",
       "name_vi": "Các muối amoni của acid phosphatidic",
       "ins": "442",
-      "functional_classes": [
-        "Chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 28,
@@ -3780,10 +2908,6 @@
       "name": "Sucrose acetate isobutyrate",
       "name_vi": "Sucrose acetat isobutyrat",
       "ins": "444",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 28,
@@ -3799,10 +2923,6 @@
       "name": "Glycerol ester of wood rosin",
       "name_vi": "Glycerol ester của nhựa cây",
       "ins": "445(iii)",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 28,
@@ -3818,16 +2938,6 @@
       "name": "Disodium diphosphate",
       "name_vi": "Dinatri diphosphat",
       "ins": "450(i)",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất điều chỉnh độ acid",
-        "muối nhũ hóa",
-        "chất làm ẩm",
-        "chất tạo xốp",
-        "chất tạo phức kim loại",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 28,
@@ -3843,16 +2953,6 @@
       "name": "Trisodium diphosphate",
       "name_vi": "Trinatri diphosphat",
       "ins": "450(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất tạo xốp",
-        "chất làm ẩm",
-        "chất tạo phức kim loại",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 28,
@@ -3868,16 +2968,6 @@
       "name": "Tetrasodium diphosphate",
       "name_vi": "Tetranatri diphosphat",
       "ins": "450(iii)",
-      "functional_classes": [
-        "Chất tạo phức kim loại",
-        "chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất ổn định",
-        "chất làm ẩm",
-        "chất tạo xốp",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 28,
@@ -3893,11 +2983,6 @@
       "name": "Tetrapotassium diphosphate",
       "name_vi": "Tetrakali diphosphat",
       "ins": "450(v)",
-      "functional_classes": [
-        "Chất tạo phức kim loại",
-        "chất điều chỉnh độ acid",
-        "chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 28,
@@ -3913,16 +2998,6 @@
       "name": "Dicalcium diphosphate",
       "name_vi": "Dicalci diphosphat",
       "ins": "450(vi)",
-      "functional_classes": [
-        "Chất tạo phức kim loại",
-        "chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất làm rắn chắc",
-        "chất tạo xốp",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 29,
@@ -3938,15 +3013,6 @@
       "name": "Calcium dihydrogen diphosphate",
       "name_vi": "Calci dihydro diphosphat",
       "ins": "450(vii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất làm ẩm",
-        "chất tạo xốp",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 29,
@@ -3962,11 +3028,6 @@
       "name": "Magnesium dihydrogen diphosphate",
       "name_vi": "Magnesi dihydro diphosphat",
       "ins": "450(ix)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất tạo xốp",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 29,
@@ -3982,15 +3043,6 @@
       "name": "Pentasodium triphosphate",
       "name_vi": "Pentanatri triphosphat",
       "ins": "451(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất làm ẩm",
-        "chất tạo phức kim loại",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 29,
@@ -4006,15 +3058,6 @@
       "name": "Pentapotassium triphosphate",
       "name_vi": "Pentakali triphosphat",
       "ins": "451(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất làm ẩm",
-        "chất tạo phức kim loại",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 29,
@@ -4030,13 +3073,6 @@
       "name": "Sodium polyphosphate",
       "name_vi": "Natri polyphosphat",
       "ins": "452(i)",
-      "functional_classes": [
-        "Chất tạo phức kim loại",
-        "chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 29,
@@ -4052,16 +3088,6 @@
       "name": "Potassium polyphosphate",
       "name_vi": "Kali polyphosphat",
       "ins": "452(ii)",
-      "functional_classes": [
-        "Chất tạo phức kim loại",
-        "chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất làm ẩm",
-        "chất tạo xốp",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 30,
@@ -4077,14 +3103,6 @@
       "name": "Sodium calcium polyphosphate",
       "name_vi": "Natri calci polyphosphat",
       "ins": "452(iii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất tạo phức kim loại",
-        "chất nhũ hóa",
-        "chất làm ẩm",
-        "chất tạo xốp",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 30,
@@ -4100,16 +3118,6 @@
       "name": "Calcium polyphosphate",
       "name_vi": "Calci polyphosphat",
       "ins": "452(iv)",
-      "functional_classes": [
-        "Chất tạo phức kim loại",
-        "chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất làm ẩm",
-        "chất tạo xốp",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 30,
@@ -4125,15 +3133,6 @@
       "name": "Ammonium polyphosphate",
       "name_vi": "Amoni polyphosphat",
       "ins": "452(v)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất tạo phức kim loại",
-        "chất làm ẩm",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 30,
@@ -4149,9 +3148,6 @@
       "name": "Yeast mannoproteins",
       "name_vi": "Mannoprotein của nấm men",
       "ins": "455",
-      "functional_classes": [
-        "Chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 30,
@@ -4167,10 +3163,6 @@
       "name": "Cyclodextrin, alpha-",
       "name_vi": "alpha-Cyclodextrin",
       "ins": "457",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 30,
@@ -4186,10 +3178,6 @@
       "name": "Cyclodextrin, gamma-",
       "name_vi": "gamma- Cyclodextrin",
       "ins": "458",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 30,
@@ -4205,11 +3193,6 @@
       "name": "Cyclodextrin, beta-",
       "name_vi": "beta-Cyclodextrin",
       "ins": "459",
-      "functional_classes": [
-        "Chất mang",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 31,
@@ -4225,16 +3208,6 @@
       "name": "Microcrystalline cellulose",
       "name_vi": "Cellulose vi tinh thể",
       "ins": "460(i)",
-      "functional_classes": [
-        "Chất độn",
-        "chất chống đông vón",
-        "chất mang",
-        "chất làm bóng",
-        "chất nhũ hóa",
-        "chất tạo bọt",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 31,
@@ -4250,15 +3223,6 @@
       "name": "Powdered cellulose",
       "name_vi": "Bột cellulose",
       "ins": "460(ii)",
-      "functional_classes": [
-        "Chất độn",
-        "chất chống đông vón",
-        "chất nhũ hóa",
-        "chất làm bóng",
-        "chất làm ẩm",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 31,
@@ -4274,13 +3238,6 @@
       "name": "Methyl cellulose",
       "name_vi": "Methyl cellulose",
       "ins": "461",
-      "functional_classes": [
-        "Chất độn",
-        "chất làm bóng",
-        "chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 31,
@@ -4296,13 +3253,6 @@
       "name": "Ethyl cellulose",
       "name_vi": "Ethyl cellulose",
       "ins": "462",
-      "functional_classes": [
-        "Chất kết dính",
-        "chất làm dày",
-        "chất độn",
-        "chất mang",
-        "chất làm bóng"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 31,
@@ -4318,13 +3268,6 @@
       "name": "Hydroxypropyl cellulose",
       "name_vi": "Hydroxypropyl cellulose",
       "ins": "463",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất ổn định",
-        "chất nhũ hóa",
-        "chất tạo bọt",
-        "chất làm bóng"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 31,
@@ -4340,13 +3283,6 @@
       "name": "Hydroxypropyl methyl cellulose",
       "name_vi": "Hydroxypropyl methyl cellulose",
       "ins": "464",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất làm bóng",
-        "chất ổn định",
-        "chất làm dày",
-        "chất độn"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 31,
@@ -4362,12 +3298,6 @@
       "name": "Methyl ethyl cellulose",
       "name_vi": "Methyl ethyl cellulose",
       "ins": "465",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất tạo bọt",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 31,
@@ -4383,13 +3313,6 @@
       "name": "Sodium carboxymethyl cellulose",
       "name_vi": "Natri carboxymethyl cellulose",
       "ins": "466",
-      "functional_classes": [
-        "Chất làm dày",
-        "chất độn",
-        "chất nhũ hóa",
-        "chất làm bóng",
-        "chất"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 31,
@@ -4405,11 +3328,6 @@
       "name": "Ethyl hydroxyethyl cellulose",
       "name_vi": "Ethyl hydroxyethyl cellulose",
       "ins": "467",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 32,
@@ -4425,10 +3343,6 @@
       "name": "Cross-linked sodium carboxymethyl cellulose",
       "name_vi": "Cross-linked natri carboxymethyl cellulose",
       "ins": "468",
-      "functional_classes": [
-        "Chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 32,
@@ -4444,10 +3358,6 @@
       "name": "Sodium carboxymethyl cellulose, enzymatically hydrolysed",
       "name_vi": "Natri carboxymethyl cellulose, thủy phân bằng enzym",
       "ins": "469",
-      "functional_classes": [
-        "Chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 32,
@@ -4463,11 +3373,6 @@
       "name": "Salts of myristic, palmitic and stearic acids with ammonia, calcium, potassium and sodium",
       "name_vi": "Muối của acid myristic, palmitic và stearic (NH4, Ca, K và Na)",
       "ins": "470(i)",
-      "functional_classes": [
-        "Chất chống đông vón",
-        "chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 32,
@@ -4483,11 +3388,6 @@
       "name": "Salts of oleic acid with calcium, potassium and sodium",
       "name_vi": "Muối của acid oleic (Ca, Na và K)",
       "ins": "470(ii)",
-      "functional_classes": [
-        "Chất chống đông vón",
-        "chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 32,
@@ -4503,11 +3403,6 @@
       "name": "Magnesium stearate",
       "name_vi": "Magnesi sterat",
       "ins": "470(iii)",
-      "functional_classes": [
-        "Chất chống đông vón",
-        "chất nhũ hóa",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 32,
@@ -4523,12 +3418,6 @@
       "name": "Mono- and Di- glycerides of fatty acids",
       "name_vi": "Mono và diglycerid của các acid béo",
       "ins": "471",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất chống tạo bọt",
-        "chất làm bóng",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 32,
@@ -4544,11 +3433,6 @@
       "name": "Acetic and fatty acid esters of glycerol",
       "name_vi": "Este của glycerol với acid acetic và acid béo",
       "ins": "472a",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 32,
@@ -4564,11 +3448,6 @@
       "name": "Lactic and fatty acid esters of glycerol",
       "name_vi": "Este của glycerol với acid lactic và acid béo",
       "ins": "472b",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 32,
@@ -4584,13 +3463,6 @@
       "name": "Citric and fatty acid esters of glycerol",
       "name_vi": "Este của glycerol với acid citric và acid béo",
       "ins": "472c",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất chống oxy hóa",
-        "chất xử lý bột",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 33,
@@ -4606,11 +3478,6 @@
       "name": "Diacetyltartaric and fatty acid esters of glycerol",
       "name_vi": "Este của glycerol với acid diacetyl tartaric và acid béo",
       "ins": "472e",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 33,
@@ -4626,12 +3493,6 @@
       "name": "Sucrose esters of fatty acids",
       "name_vi": "Este của sucrose với các acid béo",
       "ins": "473",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất tạo bọt",
-        "chất làm bóng",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 33,
@@ -4647,11 +3508,6 @@
       "name": "Sucrose oligoesters type I and type II",
       "name_vi": "Oligoeste typ 1 và typ 2 của sucrose",
       "ins": "473a",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất làm bóng",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 33,
@@ -4667,9 +3523,6 @@
       "name": "Sucroglycerides",
       "name_vi": "Sucroglycerid",
       "ins": "474",
-      "functional_classes": [
-        "Chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 33,
@@ -4685,10 +3538,6 @@
       "name": "Polyglycerol esters of fatty acids",
       "name_vi": "Este của polyglycerol với các acid béo",
       "ins": "475",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 33,
@@ -4704,9 +3553,6 @@
       "name": "Polyglycerol esters of interesterified ricinoleic acid",
       "name_vi": "Este của polyglycerol với acid ricinoleic",
       "ins": "476",
-      "functional_classes": [
-        "Chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 33,
@@ -4722,9 +3568,6 @@
       "name": "Propylene glycol esters of fatty acids",
       "name_vi": "Este của propylen glycol với acid béo",
       "ins": "477",
-      "functional_classes": [
-        "Chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 33,
@@ -4740,9 +3583,6 @@
       "name": "Thermally oxydized soya bean oil interacted with mono- and diglycerides of fatty acids",
       "name_vi": "Dầu đậu nành oxy hóa nhiệt tương tác với mono và diglycerid của các acid béo",
       "ins": "479",
-      "functional_classes": [
-        "Chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 33,
@@ -4758,10 +3598,6 @@
       "name": "Dioctyl sodium sulfosuccinate",
       "name_vi": "Dioctyl natri sulfosuccinat",
       "ins": "480",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất làm ẩm"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 33,
@@ -4777,11 +3613,6 @@
       "name": "Sodium stearoyl lactylate",
       "name_vi": "Natri stearoyl lactylat",
       "ins": "481(i)",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất xử lý bột",
-        "chất tạo bọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 33,
@@ -4797,12 +3628,6 @@
       "name": "Calcium stearoyl lactylate",
       "name_vi": "Calci stearoyl lactylat",
       "ins": "482(i)",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất xử lý bột",
-        "chất tạo bọt",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 34,
@@ -4818,11 +3643,6 @@
       "name": "Stearyl citrate",
       "name_vi": "Stearyl citrat",
       "ins": "484",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất chống oxi hóa",
-        "chất tạo phức kim loại"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 34,
@@ -4838,10 +3658,6 @@
       "name": "Sorbitan monostearate",
       "name_vi": "Sorbitan monostearat",
       "ins": "491",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 34,
@@ -4857,10 +3673,6 @@
       "name": "Sorbitan tristearate",
       "name_vi": "Sorbitan tristearat",
       "ins": "492",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 34,
@@ -4876,10 +3688,6 @@
       "name": "Sorbitan monolaurate",
       "name_vi": "Sorbitan monolaurat",
       "ins": "493",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 34,
@@ -4895,10 +3703,6 @@
       "name": "Sorbitan monooleate",
       "name_vi": "Sorbitan monooleat",
       "ins": "494",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 34,
@@ -4914,9 +3718,6 @@
       "name": "Sorbitan monopalmitate",
       "name_vi": "Sorbitan monopalmitat",
       "ins": "495",
-      "functional_classes": [
-        "Chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 34,
@@ -4932,14 +3733,6 @@
       "name": "Sodium carbonate",
       "name_vi": "Natri carbonat",
       "ins": "500(i)",
-      "functional_classes": [
-        "Chất tạo xốp",
-        "chất điều chỉnh độ acid",
-        "chất chống đông vón",
-        "muối nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 34,
@@ -4955,13 +3748,6 @@
       "name": "Sodium hydrogen carbonate",
       "name_vi": "Natri hydro carbonat",
       "ins": "500(ii)",
-      "functional_classes": [
-        "Chất ổn định",
-        "chất điều chỉnh độ acid",
-        "chất chống đông vón",
-        "chất tạo xốp",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 34,
@@ -4977,11 +3763,6 @@
       "name": "Sodium sesquicarbonate",
       "name_vi": "Natri sesquicarbonat",
       "ins": "500(iii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống đông vón",
-        "chất tạo xốp"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 34,
@@ -4997,10 +3778,6 @@
       "name": "Potassium carbonate",
       "name_vi": "Kali carbonat",
       "ins": "501(i)",
-      "functional_classes": [
-        "Chất ổn định",
-        "chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 34,
@@ -5016,11 +3793,6 @@
       "name": "Potassium hydrogen carbonate",
       "name_vi": "Kali hydro carbonat",
       "ins": "501(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất tạo xốp",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5036,10 +3808,6 @@
       "name": "Ammonium carbonate",
       "name_vi": "Amoni carbonat",
       "ins": "503(i)",
-      "functional_classes": [
-        "Chất tạo xốp",
-        "chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5055,10 +3823,6 @@
       "name": "Ammonium hydrogen carbonate",
       "name_vi": "Amoni hydro carbonat",
       "ins": "503(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất tạo xốp"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5074,11 +3838,6 @@
       "name": "Magnesium carbonate",
       "name_vi": "Magnesi carbonat",
       "ins": "504(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống đông vón",
-        "chất giữ màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5094,12 +3853,6 @@
       "name": "Magnesium hydroxide carbonate",
       "name_vi": "Magnesi hydroxyd carbonat",
       "ins": "504(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất chống đông vón",
-        "chất mang",
-        "chất giữ màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5115,9 +3868,6 @@
       "name": "Hydrochloric acid",
       "name_vi": "Acid hydrocloric",
       "ins": "507",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5133,12 +3883,6 @@
       "name": "Potassium chloride",
       "name_vi": "Kali clorid",
       "ins": "508",
-      "functional_classes": [
-        "Chất ổn định",
-        "chất điều vị",
-        "chất làm rắn chắc",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5154,11 +3898,6 @@
       "name": "Calcium chloride",
       "name_vi": "Calci clorid",
       "ins": "509",
-      "functional_classes": [
-        "Chất làm rắn chắc",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5174,9 +3913,6 @@
       "name": "Ammonium chloride",
       "name_vi": "Amoni clorid",
       "ins": "510",
-      "functional_classes": [
-        "Chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5192,11 +3928,6 @@
       "name": "Magnesium chloride",
       "name_vi": "Magnesi clorid",
       "ins": "511",
-      "functional_classes": [
-        "Chất giữ màu",
-        "chất ổn định",
-        "chất làm rắn chắc"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5212,10 +3943,6 @@
       "name": "Stannous chloride",
       "name_vi": "Thiếc clorid",
       "ins": "512",
-      "functional_classes": [
-        "Chất chống oxy hóa",
-        "chất giữ màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5231,9 +3958,6 @@
       "name": "Sodium sulfate",
       "name_vi": "Natri sulfat",
       "ins": "514(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5249,9 +3973,6 @@
       "name": "Sodium hydrogen sulfate",
       "name_vi": "Natri hydro sulfat",
       "ins": "514(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5267,9 +3988,6 @@
       "name": "Potassium sulfate",
       "name_vi": "Kali sulfat",
       "ins": "515(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 35,
@@ -5285,9 +4003,6 @@
       "name": "Potassium hydrogen sulfate",
       "name_vi": "Kali hydro sulfat",
       "ins": "515(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 36,
@@ -5303,13 +4018,6 @@
       "name": "Calcium sulfate",
       "name_vi": "Calci sulfat",
       "ins": "516",
-      "functional_classes": [
-        "Chất làm rắn chắc",
-        "chất điều chỉnh độ acid",
-        "chất xử lý bột",
-        "chất tạo phức kim loại",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 36,
@@ -5325,10 +4033,6 @@
       "name": "Magnesium sulfate",
       "name_vi": "Magnesi sulfat",
       "ins": "518",
-      "functional_classes": [
-        "Chất làm rắn chắc",
-        "chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 36,
@@ -5344,13 +4048,6 @@
       "name": "Aluminium ammonium sulfate",
       "name_vi": "Nhôm amoni sulfat",
       "ins": "523",
-      "functional_classes": [
-        "Chất làm rắn chắc",
-        "chất điều chỉnh độ acid",
-        "chất giữ màu",
-        "chất tạo xốp",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 36,
@@ -5366,9 +4063,6 @@
       "name": "Sodium hydroxide",
       "name_vi": "Natri hydroxyd",
       "ins": "524",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 36,
@@ -5384,9 +4078,6 @@
       "name": "Potassium hydroxide",
       "name_vi": "Kali hydroxyd",
       "ins": "525",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 36,
@@ -5402,10 +4093,6 @@
       "name": "Calcium hydroxide",
       "name_vi": "Calci hydroxyd",
       "ins": "526",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất làm rắn chắc"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 36,
@@ -5421,9 +4108,6 @@
       "name": "Ammonium hydroxide",
       "name_vi": "Amoni hydroxyd",
       "ins": "527",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 36,
@@ -5439,10 +4123,6 @@
       "name": "Magnesium hydroxide",
       "name_vi": "Magnesi hydroxyd",
       "ins": "528",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất giữ màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 36,
@@ -5458,10 +4138,6 @@
       "name": "Calcium oxide",
       "name_vi": "Oxyd calci",
       "ins": "529",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 36,
@@ -5477,10 +4153,6 @@
       "name": "Magnesium oxide",
       "name_vi": "Oxyd magnesi",
       "ins": "530",
-      "functional_classes": [
-        "Chất chống đông vón",
-        "chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 36,
@@ -5496,9 +4168,6 @@
       "name": "Sodium ferrocyanide",
       "name_vi": "Natri ferrocyanid",
       "ins": "535",
-      "functional_classes": [
-        "Chất chống đông vón"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 36,
@@ -5514,9 +4183,6 @@
       "name": "Potassium ferrocyanide",
       "name_vi": "Kali ferrocyanid",
       "ins": "536",
-      "functional_classes": [
-        "Chất chống đông vón"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 37,
@@ -5532,9 +4198,6 @@
       "name": "Calcium ferrocyanide",
       "name_vi": "Calci ferrocyanid",
       "ins": "538",
-      "functional_classes": [
-        "Chất chống đông vón"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 37,
@@ -5550,10 +4213,6 @@
       "name": "Sodium thiosulfate",
       "name_vi": "Natri thiosulfat",
       "ins": "539",
-      "functional_classes": [
-        "Chất chống oxi hóa",
-        "chất tạo phức kim loại"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 37,
@@ -5569,14 +4228,6 @@
       "name": "Sodium aluminium phosphate, acidic",
       "name_vi": "Natri nhôm phosphat, dạng acid",
       "ins": "541(i)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất tạo xốp",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 37,
@@ -5592,13 +4243,6 @@
       "name": "Sodium aluminium phosphate, basic",
       "name_vi": "Natri nhôm phosphat, dạng bazo",
       "ins": "541(ii)",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất nhũ hóa",
-        "muối nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 37,
@@ -5614,13 +4258,6 @@
       "name": "Bone phosphate",
       "name_vi": "Bone phosphat",
       "ins": "542",
-      "functional_classes": [
-        "Chất chống đông vón",
-        "chất nhũ hóa",
-        "chất làm ẩm",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 37,
@@ -5636,11 +4273,6 @@
       "name": "Silicon dioxide, amorphous",
       "name_vi": "Dioxyd silic vô định hình",
       "ins": "551",
-      "functional_classes": [
-        "Chất chống đông vón",
-        "chất chống tạo bọt",
-        "chất mang"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 37,
@@ -5656,9 +4288,6 @@
       "name": "Calcium silicate",
       "name_vi": "Calci silicat",
       "ins": "552",
-      "functional_classes": [
-        "Chất chống đông vón"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 37,
@@ -5674,9 +4303,6 @@
       "name": "Magnesium silicate, synthetic",
       "name_vi": "Magnesi silicat tổng hợp",
       "ins": "553(i)",
-      "functional_classes": [
-        "Chất chống đông vón"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 37,
@@ -5692,11 +4318,6 @@
       "name": "Talc",
       "name_vi": "Bột talc",
       "ins": "553(iii)",
-      "functional_classes": [
-        "Chất chống đông vón",
-        "chất làm bóng",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 37,
@@ -5712,9 +4333,6 @@
       "name": "Sodium aluminium silicate",
       "name_vi": "Natri nhôm silicat",
       "ins": "554",
-      "functional_classes": [
-        "Chất chống đông vón"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 37,
@@ -5730,10 +4348,6 @@
       "name": "Glucono delta- lactone",
       "name_vi": "Glucono delta- lacton",
       "ins": "575",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất tạo xốp"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 37,
@@ -5749,11 +4363,6 @@
       "name": "Sodium gluconate",
       "name_vi": "Natri gluconat",
       "ins": "576",
-      "functional_classes": [
-        "Chất tạo phức kim loại",
-        "chất làm dày",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -5769,10 +4378,6 @@
       "name": "Potassium gluconate",
       "name_vi": "Kali gluconat",
       "ins": "577",
-      "functional_classes": [
-        "Chất tạo phức kim loại",
-        "chất điều chỉnh độ acid"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -5788,11 +4393,6 @@
       "name": "Calcium gluconate",
       "name_vi": "Calci gluconat",
       "ins": "578",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất làm rắn chắc",
-        "chất tạo phức kim loại"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -5808,9 +4408,6 @@
       "name": "Ferrous gluconate",
       "name_vi": "Sắt (II) gluconat",
       "ins": "579",
-      "functional_classes": [
-        "Chất giữ màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -5826,11 +4423,6 @@
       "name": "Magnesium gluconate",
       "name_vi": "Magnesi gluconat",
       "ins": "580",
-      "functional_classes": [
-        "Chất điều chỉnh độ acid",
-        "chất làm rắn chắc",
-        "chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -5846,9 +4438,6 @@
       "name": "Ferrous lactate",
       "name_vi": "Sắt (II) lactat",
       "ins": "585",
-      "functional_classes": [
-        "Chất giữ màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -5864,10 +4453,6 @@
       "name": "Hexylresorcinol, 4-",
       "name_vi": "4-hexylresorcinol",
       "ins": "586",
-      "functional_classes": [
-        "Chất chống oxi hóa",
-        "chất giữ màu"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -5883,9 +4468,6 @@
       "name": "Glutamic acid, L(+)-",
       "name_vi": "Acid glutamic (L(+)-)",
       "ins": "620",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -5901,9 +4483,6 @@
       "name": "Monosodium L- glutamate",
       "name_vi": "Mononatri L- glutamat",
       "ins": "621",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -5919,9 +4498,6 @@
       "name": "Monopotassium L- glutamate",
       "name_vi": "Monokali L- glutamat",
       "ins": "622",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -5937,9 +4513,6 @@
       "name": "Calcium di-L- glutamate",
       "name_vi": "Calci di-L- glutamat",
       "ins": "623",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -5955,9 +4528,6 @@
       "name": "Monoammonium glutamate",
       "name_vi": "Monoamoni glutamat",
       "ins": "624",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -5973,9 +4543,6 @@
       "name": "Magnesium di-L glutamate",
       "name_vi": "Magnesi di-L glutamat",
       "ins": "625",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -5991,9 +4558,6 @@
       "name": "Guanylic acid, 5'-",
       "name_vi": "Acid guanylic, 5'-",
       "ins": "626",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 38,
@@ -6009,9 +4573,6 @@
       "name": "Disodium 5'- guanylate",
       "name_vi": "Dinatri 5'-guanylat",
       "ins": "627",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6027,9 +4588,6 @@
       "name": "Dipotassium 5'- guanylate",
       "name_vi": "Dikali 5'-guanylat",
       "ins": "628",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6045,9 +4603,6 @@
       "name": "Calcium 5'- guanylate",
       "name_vi": "Calci 5'-guanylat",
       "ins": "629",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6063,9 +4618,6 @@
       "name": "Inosinic acid, 5'-",
       "name_vi": "Acid inosinic, 5'-",
       "ins": "630",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6081,9 +4633,6 @@
       "name": "Disodium 5'- inosinate",
       "name_vi": "Dinatri 5'-inosinat",
       "ins": "631",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6099,9 +4648,6 @@
       "name": "Potassium 5'- inosinate",
       "name_vi": "Kali 5'-inosinat",
       "ins": "632",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6117,9 +4663,6 @@
       "name": "Calcium 5'-inosinate",
       "name_vi": "Calci 5'-inosinat",
       "ins": "633",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6135,9 +4678,6 @@
       "name": "Calcium 5'- ribonucleotides",
       "name_vi": "Calci 5'- ribonucleotid",
       "ins": "634",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6153,9 +4693,6 @@
       "name": "Disodium 5'- ribonucleotides",
       "name_vi": "Dinatri 5'- ribonucleotid",
       "ins": "635",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6171,9 +4708,6 @@
       "name": "Maltol",
       "name_vi": "Maltol",
       "ins": "636",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6189,9 +4723,6 @@
       "name": "Ethyl maltol",
       "name_vi": "Ethyl maltol",
       "ins": "637",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6207,9 +4738,6 @@
       "name": "Alanine, DL-",
       "name_vi": "DL-Alanin",
       "ins": "639",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6225,9 +4753,6 @@
       "name": "Glycine",
       "name_vi": "Glycin",
       "ins": "640",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6243,11 +4768,6 @@
       "name": "Polydimethyl siloxane",
       "name_vi": "Polydimethyl siloxan",
       "ins": "900a",
-      "functional_classes": [
-        "Chất chống đông vón",
-        "chất chống tạo bọt",
-        "chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6263,13 +4783,6 @@
       "name": "Beeswax",
       "name_vi": "Sáp ong",
       "ins": "901",
-      "functional_classes": [
-        "Chất làm bóng",
-        "chất mang",
-        "chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6285,12 +4798,6 @@
       "name": "Candelilla wax",
       "name_vi": "Sáp candelilla",
       "ins": "902",
-      "functional_classes": [
-        "Chất làm bóng",
-        "chất mang",
-        "chất nhũ hóa",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6306,12 +4813,6 @@
       "name": "Carnauba wax",
       "name_vi": "Sáp carnauba",
       "ins": "903",
-      "functional_classes": [
-        "Chất độn",
-        "chất điều chỉnh độ acid",
-        "chất chống đông vón",
-        "chất"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 39,
@@ -6327,9 +4828,6 @@
       "name": "Shellac, bleached",
       "name_vi": "Shellac tẩy trắng",
       "ins": "904",
-      "functional_classes": [
-        "Chất làm bóng"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6345,10 +4843,6 @@
       "name": "Microcrystalline wax",
       "name_vi": "Sáp vi tinh thể",
       "ins": "905c(i)",
-      "functional_classes": [
-        "Chất làm bóng",
-        "chất chống tạo bọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6364,10 +4858,6 @@
       "name": "Mineral oil, high viscosity",
       "name_vi": "Dầu khoáng, độ nhớt cao",
       "ins": "905d",
-      "functional_classes": [
-        "Chất làm bóng",
-        "chất chống tạo bọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6383,9 +4873,6 @@
       "name": "Mineral oil, medium viscosity",
       "name_vi": "Dầu khoáng, độ nhớt trung bình",
       "ins": "905e",
-      "functional_classes": [
-        "Chất làm bóng"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6401,9 +4888,6 @@
       "name": "Hydrogenated poly- 1-decenes",
       "name_vi": "Hydrogenated poly-1-decenes",
       "ins": "907",
-      "functional_classes": [
-        "Chất làm bóng"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6419,9 +4903,6 @@
       "name": "Oxidised polyethylene wax",
       "name_vi": "Sáp oxidised polyethylene",
       "ins": "E914",
-      "functional_classes": [
-        "Chất làm bóng"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6437,9 +4918,6 @@
       "name": "Chlorine",
       "name_vi": "Khí clor",
       "ins": "925",
-      "functional_classes": [
-        "Chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6455,9 +4933,6 @@
       "name": "Azodicarbonamide",
       "name_vi": "Azodicarbonamid",
       "ins": "927a",
-      "functional_classes": [
-        "Chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6473,11 +4948,6 @@
       "name": "Benzoyl peroxide",
       "name_vi": "Benzoyl peroxyd",
       "ins": "928",
-      "functional_classes": [
-        "Chất tẩy màu",
-        "chất xử lý bột",
-        "chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6493,9 +4963,6 @@
       "name": "Calcium peroxide",
       "name_vi": "Calci peroxyd",
       "ins": "930",
-      "functional_classes": [
-        "Chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6511,11 +4978,6 @@
       "name": "Nitrogen",
       "name_vi": "Khí nitơ",
       "ins": "941",
-      "functional_classes": [
-        "Chất tạo bọt",
-        "chất khí đẩy",
-        "chất khí bao gói"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6531,12 +4993,6 @@
       "name": "Nitrous oxide",
       "name_vi": "Khí nitơ oxyd",
       "ins": "942",
-      "functional_classes": [
-        "Chất khí đẩy",
-        "chất tạo bọt",
-        "chất khí bao gói",
-        "chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6552,10 +5008,6 @@
       "name": "Acesulfame potassium",
       "name_vi": "Acesulfam kali",
       "ins": "950",
-      "functional_classes": [
-        "Chất tạo ngọt",
-        "chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6571,10 +5023,6 @@
       "name": "Aspartame",
       "name_vi": "Aspartam",
       "ins": "951",
-      "functional_classes": [
-        "Chất điều vị",
-        "chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6590,9 +5038,6 @@
       "name": "Cyclamic acid",
       "name_vi": "Acid cyclamic",
       "ins": "952(i)",
-      "functional_classes": [
-        "Chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6608,9 +5053,6 @@
       "name": "Calcium cyclamate",
       "name_vi": "Calci cyclamat",
       "ins": "952(ii)",
-      "functional_classes": [
-        "Chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6626,9 +5068,6 @@
       "name": "Sodium cyclamate",
       "name_vi": "Natri cyclamat",
       "ins": "952(iv)",
-      "functional_classes": [
-        "Chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6644,10 +5083,6 @@
       "name": "Isomalt",
       "name_vi": "Isomalt",
       "ins": "953",
-      "functional_classes": [
-        "Chất tạo ngọt",
-        "chất"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 40,
@@ -6663,9 +5098,6 @@
       "name": "Saccharin",
       "name_vi": "Saccharin",
       "ins": "954(i)",
-      "functional_classes": [
-        "Chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 41,
@@ -6681,9 +5113,6 @@
       "name": "Calcium saccharin",
       "name_vi": "Calci saccharin",
       "ins": "954(ii)",
-      "functional_classes": [
-        "Chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 41,
@@ -6699,9 +5128,6 @@
       "name": "Potassium saccharin",
       "name_vi": "Kali saccharin",
       "ins": "954(iii)",
-      "functional_classes": [
-        "Chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 41,
@@ -6717,9 +5143,6 @@
       "name": "Sodium saccharin",
       "name_vi": "Natri saccharin",
       "ins": "954(iv)",
-      "functional_classes": [
-        "Chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 41,
@@ -6735,10 +5158,6 @@
       "name": "Sucralose (Trichlorogalac tosucrose)",
       "name_vi": "Sucralose (Triclorogalacto sucrose)",
       "ins": "955",
-      "functional_classes": [
-        "Chất tạo ngọt",
-        "chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 41,
@@ -6754,9 +5173,6 @@
       "name": "Alitame",
       "name_vi": "Alitam",
       "ins": "956",
-      "functional_classes": [
-        "Chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 41,
@@ -6772,10 +5188,6 @@
       "name": "Thaumatin",
       "name_vi": "Thaumatin",
       "ins": "957",
-      "functional_classes": [
-        "Chất điều vị",
-        "chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 41,
@@ -6791,9 +5203,6 @@
       "name": "Steviol glycosides from Stevia rebaudiana Bertoni (Steviol glycosides from Stevia)",
       "name_vi": "Steviol glycosid từ Stevia rebaudiana Bertoni (Steviol glycosid từ Stevia)",
       "ins": "960a",
-      "functional_classes": [
-        "Chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 41,
@@ -6809,9 +5218,6 @@
       "name": "Rebaudioside A from multiple gene donors expressed in Yarrowia lipolytica",
       "name_vi": "Rebaudiosid A từ multiple gene donors expressed in Yarrowia lipolytica",
       "ins": "960b(i)",
-      "functional_classes": [
-        "Chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 41,
@@ -6827,10 +5233,6 @@
       "name": "Neotame",
       "name_vi": "Neotam",
       "ins": "961",
-      "functional_classes": [
-        "Chất điều vị",
-        "chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 41,
@@ -6846,9 +5248,6 @@
       "name": "Aspartame- acesulfame salt",
       "name_vi": "Muối aspartam- acesulfam",
       "ins": "962",
-      "functional_classes": [
-        "Chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 41,
@@ -6864,9 +5263,6 @@
       "name": "Polyglycitol syrup",
       "name_vi": "Siro polyglycitol",
       "ins": "964",
-      "functional_classes": [
-        "Chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 41,
@@ -6882,14 +5278,6 @@
       "name": "Maltitol",
       "name_vi": "Maltitol",
       "ins": "965(i)",
-      "functional_classes": [
-        "Chất độn",
-        "chất nhũ hóa",
-        "chất làm ẩm",
-        "chất ổn định",
-        "chất tạo ngọt",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 41,
@@ -6905,14 +5293,6 @@
       "name": "Maltitol syrup",
       "name_vi": "Siro maltitol",
       "ins": "965(ii)",
-      "functional_classes": [
-        "Chất độn",
-        "chất nhũ hóa",
-        "chất làm ẩm",
-        "chất ổn định",
-        "chất tạo ngọt",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 42,
@@ -6928,11 +5308,6 @@
       "name": "Lactitol",
       "name_vi": "Lactitol",
       "ins": "966",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất tạo ngọt",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 42,
@@ -6948,13 +5323,6 @@
       "name": "Xylitol",
       "name_vi": "Xylitol",
       "ins": "967",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất làm ẩm",
-        "chất ổn định",
-        "chất tạo ngọt",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 42,
@@ -6970,11 +5338,6 @@
       "name": "Erythritol",
       "name_vi": "Erythritol",
       "ins": "968",
-      "functional_classes": [
-        "Chất điều vị",
-        "chất làm ẩm",
-        "chất tạo ngọt"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 42,
@@ -6990,10 +5353,6 @@
       "name": "Quillaia extract type I",
       "name_vi": "Chất chiết xuất từ quillaia nhóm I",
       "ins": "999(i)",
-      "functional_classes": [
-        "Chất tạo bọt",
-        "chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 42,
@@ -7009,10 +5368,6 @@
       "name": "Quillaia extract type II",
       "name_vi": "Chất chiết xuất từ quillaia nhóm II",
       "ins": "999(ii)",
-      "functional_classes": [
-        "Chất tạo bọt",
-        "chất nhũ hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 42,
@@ -7028,9 +5383,6 @@
       "name": "alpha-Amylase from Aspergillus oryzae var.",
       "name_vi": "alpha-Amylase từ Aspergillus orysee var.",
       "ins": "1100(i)",
-      "functional_classes": [
-        "Chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 42,
@@ -7046,9 +5398,6 @@
       "name": "alpha-Amylase from Bacillus stearothermophilus",
       "name_vi": "alpha-Amylase từ Bacillus stearothermophilus",
       "ins": "1100(ii)",
-      "functional_classes": [
-        "Chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 42,
@@ -7064,9 +5413,6 @@
       "name": "alpha-Amylase from Bacillus subtilis",
       "name_vi": "alpha-Amylase từ Bacillus subtilis",
       "ins": "1100(iii)",
-      "functional_classes": [
-        "Chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 42,
@@ -7082,9 +5428,6 @@
       "name": "alpha-Amylase from Bacillus megaterium expressed in Bacillus subtilis",
       "name_vi": "alpha-Amylase từ Bacillus megaterium expressed in Bacillus subtilis",
       "ins": "1100(iv)",
-      "functional_classes": [
-        "Chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 42,
@@ -7100,9 +5443,6 @@
       "name": "alpha-Amylase from Bacillus stearothermophilus expressed in Bacillus subtilis",
       "name_vi": "alpha-Amylase từ Bacillus stearothermophilus expressed in Bacillus subtilis",
       "ins": "1100(v)",
-      "functional_classes": [
-        "Chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 42,
@@ -7118,9 +5458,6 @@
       "name": "Carbohydrase from Bacillus",
       "name_vi": "Carbohydrase từ Bacillus",
       "ins": "1100(vi)",
-      "functional_classes": [
-        "Chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 42,
@@ -7136,11 +5473,6 @@
       "name": "Protease from Aspergillus oryzae var.",
       "name_vi": "Protease từ Aspergillus orysee var.",
       "ins": "1101(i)",
-      "functional_classes": [
-        "Chất điều vị",
-        "chất xử lý bột",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7156,9 +5488,6 @@
       "name": "Papain",
       "name_vi": "Papain",
       "ins": "1101(ii)",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7174,11 +5503,6 @@
       "name": "Bromelain",
       "name_vi": "Bromelain",
       "ins": "1101(iii)",
-      "functional_classes": [
-        "Chất điều vị",
-        "chất xử lý bột",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7194,9 +5518,6 @@
       "name": "Glucose oxidase",
       "name_vi": "Glucose oxydase",
       "ins": "1102",
-      "functional_classes": [
-        "Chất chống oxy hóa"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7212,9 +5533,6 @@
       "name": "Lipases",
       "name_vi": "Lipases",
       "ins": "1104",
-      "functional_classes": [
-        "Chất điều vị"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7230,9 +5548,6 @@
       "name": "Lysozyme",
       "name_vi": "Lysozym",
       "ins": "1105",
-      "functional_classes": [
-        "Chất bảo quản"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7248,13 +5563,6 @@
       "name": "Polydextroses",
       "name_vi": "Polydextrose",
       "ins": "1200",
-      "functional_classes": [
-        "Chất độn",
-        "chất làm bóng",
-        "chất làm ẩm",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7270,12 +5578,6 @@
       "name": "Polyvinyl pyrrolidone",
       "name_vi": "Polyvinyl pyrrolidon",
       "ins": "1201",
-      "functional_classes": [
-        "Chất ổn định",
-        "chất nhũ hóa",
-        "chất làm bóng",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7291,10 +5593,6 @@
       "name": "Polyvinyl pyrrolidone, insoluble",
       "name_vi": "Polyvinyl pyrrolidon, không tan",
       "ins": "1202",
-      "functional_classes": [
-        "Chất giữ màu",
-        "chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7310,10 +5608,6 @@
       "name": "Polyvinyl alcohol",
       "name_vi": "Polyvinyl alcohol",
       "ins": "1203",
-      "functional_classes": [
-        "Chất làm bóng",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7329,10 +5623,6 @@
       "name": "Pullulan",
       "name_vi": "Pullulan",
       "ins": "1204",
-      "functional_classes": [
-        "Chất làm bóng",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7348,11 +5638,6 @@
       "name": "Polyvinyl alcohol (PVA) – polyethylene glucol (PEG) graft co-polymer",
       "name_vi": "Copolyme ghép của Polyvinyl alcohol (PVA) - Polyethylen glycol (PEG)",
       "ins": "1209",
-      "functional_classes": [
-        "Chất làm bóng",
-        "chất ổn định",
-        "chất kết dính"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7368,9 +5653,6 @@
       "name": "Sodium polyacrylate",
       "name_vi": "Natri polyacrylat",
       "ins": "1210",
-      "functional_classes": [
-        "Chất ổn định"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7386,12 +5668,6 @@
       "name": "Dextrins, roasted starch",
       "name_vi": "Dextrin, tinh bột rang",
       "ins": "1400",
-      "functional_classes": [
-        "Chất mang",
-        "chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 43,
@@ -7407,11 +5683,6 @@
       "name": "Acid-treated starch",
       "name_vi": "Tinh bột đã được xử lý bằng acid",
       "ins": "1401",
-      "functional_classes": [
-        "Chất nhũ hoá",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7427,11 +5698,6 @@
       "name": "Alkaline treated starch",
       "name_vi": "Tinh bột đã được xử lý bằng kiềm",
       "ins": "1402",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7447,11 +5713,6 @@
       "name": "Bleached starch",
       "name_vi": "Tinh bột đã khử màu",
       "ins": "1403",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7467,11 +5728,6 @@
       "name": "Oxydized starch",
       "name_vi": "Tinh bột xử lý oxy hóa",
       "ins": "1404",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7487,11 +5743,6 @@
       "name": "Starches, enzyme treated",
       "name_vi": "Tinh bột, xử lý bằng enzim",
       "ins": "1405",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7507,11 +5758,6 @@
       "name": "Monostarch phosphate",
       "name_vi": "Monostarch phosphat",
       "ins": "1410",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7527,11 +5773,6 @@
       "name": "Distarch phosphate",
       "name_vi": "Distarch phosphat",
       "ins": "1412",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7547,11 +5788,6 @@
       "name": "Phosphated distarch phosphate",
       "name_vi": "Phosphated distarch phosphat",
       "ins": "1413",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7567,11 +5803,6 @@
       "name": "Acetylated distarch phosphate",
       "name_vi": "Acetylated distarch phosphat",
       "ins": "1414",
-      "functional_classes": [
-        "Chất nhũ hoá",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7587,11 +5818,6 @@
       "name": "Starch acetate",
       "name_vi": "Starch acetate",
       "ins": "1420",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7607,9 +5833,6 @@
       "name": "Starch acetate esterified with vinyl acetate",
       "name_vi": "Starch acetate este hóa với vinyl acetate",
       "ins": "1421",
-      "functional_classes": [
-        "Chất xử lý bột"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7625,11 +5848,6 @@
       "name": "Acetylated distarch adipate",
       "name_vi": "Acetylated distarch adipat",
       "ins": "1422",
-      "functional_classes": [
-        "Chất nhũ hoá",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7645,11 +5863,6 @@
       "name": "Hydroxypropyl starch",
       "name_vi": "Hydroxypropyl starch",
       "ins": "1440",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7665,12 +5878,6 @@
       "name": "Hydroxypropyl distarch phosphate",
       "name_vi": "Hydroxypropyl distarch phosphat",
       "ins": "1442",
-      "functional_classes": [
-        "Chất chống đông vón",
-        "chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7686,11 +5893,6 @@
       "name": "Starch sodium octenyl succinate",
       "name_vi": "Starch natri octenyl succinat",
       "ins": "1450",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7706,11 +5908,6 @@
       "name": "Acetylated oxidized starch",
       "name_vi": "Acetylated oxydized starch",
       "ins": "1451",
-      "functional_classes": [
-        "Chất nhũ hoá",
-        "chất ổn định",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 44,
@@ -7726,12 +5923,6 @@
       "name": "Castor oil",
       "name_vi": "Dầu Castor",
       "ins": "1503",
-      "functional_classes": [
-        "Chất chống đông vón",
-        "chất mang",
-        "chất nhũ hóa",
-        "chất làm bóng"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 45,
@@ -7747,9 +5938,6 @@
       "name": "Cyclotetraglucose",
       "name_vi": "Cyclotetraglucose",
       "ins": "1504(i)",
-      "functional_classes": [
-        "Chất mang"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 45,
@@ -7765,9 +5953,6 @@
       "name": "Cyclotetraglucose syrup",
       "name_vi": "Siro cyclotetraglucose",
       "ins": "1504(ii)",
-      "functional_classes": [
-        "Chất mang"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 45,
@@ -7783,12 +5968,6 @@
       "name": "Triethyl citrate",
       "name_vi": "Triethyl citrat",
       "ins": "1505",
-      "functional_classes": [
-        "Chất mang",
-        "chất nhũ hóa",
-        "chất ổn định",
-        "chất tạo phức kim loại"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 45,
@@ -7804,11 +5983,6 @@
       "name": "Triacetin",
       "name_vi": "Triacetin",
       "ins": "1518",
-      "functional_classes": [
-        "Chất mang",
-        "chất nhũ hóa",
-        "chất làm ẩm"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 45,
@@ -7824,12 +5998,6 @@
       "name": "Propylene glycol",
       "name_vi": "Propylen glycol",
       "ins": "1520",
-      "functional_classes": [
-        "Chất nhũ hóa",
-        "chất mang",
-        "chất làm bóng",
-        "chất làm ẩm"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 45,
@@ -7845,13 +6013,6 @@
       "name": "Polyethylene glycol",
       "name_vi": "Polyethylen glycol",
       "ins": "1521",
-      "functional_classes": [
-        "Chất chống tạo bọt",
-        "chất mang",
-        "chất nhũ hóa",
-        "chất làm bóng",
-        "chất làm dày"
-      ],
       "source": "SOURCE:VN_VBHN_09_2024",
       "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/09-vbhn-byt.pdf",
       "raw_page_number": 45,

@@ -36,7 +36,13 @@ def build_release(candidates: list[dict], reviewed_at: str) -> tuple[list[dict],
     alias_target: dict[str, str] = {}
     alias_ids: set[str] = set()
     for candidate in candidates:
-        additive = {**candidate, "properties": {**candidate["properties"], "status": "active", "reviewed_at": reviewed_at}}
+        functional_class_names = candidate.get("functional_classes", candidate["properties"].get("functional_classes", []))
+        additive_properties = {key: value for key, value in candidate["properties"].items() if key != "functional_classes"}
+        additive = {
+            "label": candidate["label"],
+            "id": candidate["id"],
+            "properties": {**additive_properties, "status": "active", "reviewed_at": reviewed_at},
+        }
         approved.append(additive)
         nodes.append(additive)
         properties = additive["properties"]
@@ -44,7 +50,7 @@ def build_release(candidates: list[dict], reviewed_at: str) -> tuple[list[dict],
             {"start_id": additive["id"], "end_id": SOURCE_ID, "type": "SUPPORTED_BY", "properties": {"context": "appendix-1", "source_ins": properties["ins"]}},
             {"start_id": REGULATION_ID, "end_id": additive["id"], "type": "GOVERNS", "properties": {"appendix": "1", "ins": properties["ins"]}},
         ])
-        for class_name in properties["functional_classes"]:
+        for class_name in functional_class_names:
             class_id = stable_id("FUNCTION:", class_name)
             functional_classes.setdefault(class_id, {"label": "FunctionalClass", "id": class_id, "properties": {
                 "name": class_name, "language": "vi", "source": SOURCE_ID, "source_url": SOURCE_URL,
