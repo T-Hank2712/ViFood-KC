@@ -59,6 +59,12 @@ sources:
     url: https://www.fao.org/gsfaonline/
     roles: [additive_identifier, additive_functional_class]
     ingestion: selective_future
+  - id: SOURCE:CODEX_CXS_1_1985
+    name: Codex General Standard for the Labelling of Prepackaged Foods
+    url: https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf
+    formats: [pdf]
+    roles: [allergen_labelling, prepackaged_food_labelling]
+    ingestion: codex_allergen_master
   - id: SOURCE:WHO_HEALTHY_DIET
     name: WHO Healthy Diet
     url: https://www.who.int/news-room/fact-sheets/detail/healthy-diet

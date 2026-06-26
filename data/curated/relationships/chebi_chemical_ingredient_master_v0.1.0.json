@@ -1,0 +1,243 @@
+[
+  {
+    "start_id": "INGREDIENT_GROUP:CHEMICAL_MINERAL",
+    "end_id": "SOURCE:VIFOOD_TRANSLATION_SEED",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "chemical-ingredient-group",
+      "code": "chemical_mineral"
+    }
+  },
+  {
+    "start_id": "INGREDIENT_GROUP:CHEMICAL_STIMULANT",
+    "end_id": "SOURCE:VIFOOD_TRANSLATION_SEED",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "chemical-ingredient-group",
+      "code": "chemical_stimulant"
+    }
+  },
+  {
+    "start_id": "INGREDIENT_GROUP:CHEMICAL_SUGAR",
+    "end_id": "SOURCE:VIFOOD_TRANSLATION_SEED",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "chemical-ingredient-group",
+      "code": "chemical_sugar"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_17992",
+    "end_id": "SOURCE:CHEBI",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "chemical-ingredient",
+      "chebi_id": "CHEBI:17992"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_17992",
+    "end_id": "INGREDIENT_GROUP:CHEMICAL_SUGAR",
+    "type": "IN_GROUP",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "scope_file": "config/chebi_chemical_ingredient_scope.yaml"
+    }
+  },
+  {
+    "start_id": "ALIAS:CHEBI_17992_01",
+    "end_id": "INGREDIENT:CHEBI_17992",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED"
+    }
+  },
+  {
+    "start_id": "ALIAS:CHEBI_17992_02",
+    "end_id": "INGREDIENT:CHEBI_17992",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_17234",
+    "end_id": "SOURCE:CHEBI",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "chemical-ingredient",
+      "chebi_id": "CHEBI:17234"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_17234",
+    "end_id": "INGREDIENT_GROUP:CHEMICAL_SUGAR",
+    "type": "IN_GROUP",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "scope_file": "config/chebi_chemical_ingredient_scope.yaml"
+    }
+  },
+  {
+    "start_id": "ALIAS:CHEBI_17234_01",
+    "end_id": "INGREDIENT:CHEBI_17234",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_15824",
+    "end_id": "SOURCE:CHEBI",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "chemical-ingredient",
+      "chebi_id": "CHEBI:15824"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_15824",
+    "end_id": "INGREDIENT_GROUP:CHEMICAL_SUGAR",
+    "type": "IN_GROUP",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "scope_file": "config/chebi_chemical_ingredient_scope.yaml"
+    }
+  },
+  {
+    "start_id": "ALIAS:CHEBI_15824_01",
+    "end_id": "INGREDIENT:CHEBI_15824",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_17716",
+    "end_id": "SOURCE:CHEBI",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "chemical-ingredient",
+      "chebi_id": "CHEBI:17716"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_17716",
+    "end_id": "INGREDIENT_GROUP:CHEMICAL_SUGAR",
+    "type": "IN_GROUP",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "scope_file": "config/chebi_chemical_ingredient_scope.yaml"
+    }
+  },
+  {
+    "start_id": "ALIAS:CHEBI_17716_01",
+    "end_id": "INGREDIENT:CHEBI_17716",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED"
+    }
+  },
+  {
+    "start_id": "ALIAS:CHEBI_17716_02",
+    "end_id": "INGREDIENT:CHEBI_17716",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_17306",
+    "end_id": "SOURCE:CHEBI",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "chemical-ingredient",
+      "chebi_id": "CHEBI:17306"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_17306",
+    "end_id": "INGREDIENT_GROUP:CHEMICAL_SUGAR",
+    "type": "IN_GROUP",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "scope_file": "config/chebi_chemical_ingredient_scope.yaml"
+    }
+  },
+  {
+    "start_id": "ALIAS:CHEBI_17306_01",
+    "end_id": "INGREDIENT:CHEBI_17306",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_27732",
+    "end_id": "SOURCE:CHEBI",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "chemical-ingredient",
+      "chebi_id": "CHEBI:27732"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_27732",
+    "end_id": "INGREDIENT_GROUP:CHEMICAL_STIMULANT",
+    "type": "IN_GROUP",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "scope_file": "config/chebi_chemical_ingredient_scope.yaml"
+    }
+  },
+  {
+    "start_id": "ALIAS:CHEBI_27732_01",
+    "end_id": "INGREDIENT:CHEBI_27732",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED"
+    }
+  },
+  {
+    "start_id": "ALIAS:CHEBI_27732_02",
+    "end_id": "INGREDIENT:CHEBI_27732",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_26710",
+    "end_id": "SOURCE:CHEBI",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "chemical-ingredient",
+      "chebi_id": "CHEBI:26710"
+    }
+  },
+  {
+    "start_id": "INGREDIENT:CHEBI_26710",
+    "end_id": "INGREDIENT_GROUP:CHEMICAL_MINERAL",
+    "type": "IN_GROUP",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "scope_file": "config/chebi_chemical_ingredient_scope.yaml"
+    }
+  },
+  {
+    "start_id": "ALIAS:CHEBI_26710_01",
+    "end_id": "INGREDIENT:CHEBI_26710",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED"
+    }
+  },
+  {
+    "start_id": "ALIAS:CHEBI_26710_02",
+    "end_id": "INGREDIENT:CHEBI_26710",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED"
+    }
+  }
+]

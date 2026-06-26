@@ -1,0 +1,49 @@
+source_id: SOURCE:CHEBI
+source_url: https://www.ebi.ac.uk/chebi/
+snapshot_date: '2026-06-25'
+groups:
+  chemical_sugar:
+    name: Chemical sugar ingredients
+    name_vi: Nguyên liệu đường dạng hóa chất
+  chemical_stimulant:
+    name: Chemical stimulant ingredients
+    name_vi: Nguyên liệu chất kích thích dạng hóa chất
+  chemical_mineral:
+    name: Chemical mineral ingredients
+    name_vi: Nguyên liệu khoáng dạng hóa chất
+chemicals:
+  - chebi_id: CHEBI:17992
+    expected_name: sucrose
+    name_vi: Sucrose
+    group: chemical_sugar
+    aliases: [đường sucrose, đường mía]
+  - chebi_id: CHEBI:17234
+    expected_name: glucose
+    name_vi: Glucose
+    group: chemical_sugar
+    aliases: [đường glucose]
+  - chebi_id: CHEBI:15824
+    expected_name: D-fructose
+    name_vi: Fructose
+    group: chemical_sugar
+    aliases: [đường fructose]
+  - chebi_id: CHEBI:17716
+    expected_name: lactose
+    name_vi: Lactose
+    group: chemical_sugar
+    aliases: [đường lactose, đường sữa]
+  - chebi_id: CHEBI:17306
+    expected_name: maltose
+    name_vi: Maltose
+    group: chemical_sugar
+    aliases: [đường maltose]
+  - chebi_id: CHEBI:27732
+    expected_name: caffeine
+    name_vi: Caffeine
+    group: chemical_stimulant
+    aliases: [cafein, caffein]
+  - chebi_id: CHEBI:26710
+    expected_name: sodium chloride
+    name_vi: Natri clorid
+    group: chemical_mineral
+    aliases: [muối ăn, natri chloride, sodium chloride]

@@ -1,0 +1,326 @@
+[
+  {
+    "label": "Source",
+    "id": "SOURCE:CHEBI",
+    "properties": {
+      "name": "ChEBI",
+      "source_type": "standard",
+      "url": "https://www.ebi.ac.uk/chebi/",
+      "source": "SOURCE:CHEBI",
+      "source_url": "https://www.ebi.ac.uk/chebi/",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Source",
+    "id": "SOURCE:VIFOOD_TRANSLATION_SEED",
+    "properties": {
+      "name": "ViFood-KG Vietnamese translation seed",
+      "source_type": "internal-curation",
+      "url": "internal://vi-food-translation-seed",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "IngredientGroup",
+    "id": "INGREDIENT_GROUP:CHEMICAL_MINERAL",
+    "properties": {
+      "name": "Chemical mineral ingredients",
+      "name_vi": "Nguyên liệu khoáng dạng hóa chất",
+      "code": "chemical_mineral",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "IngredientGroup",
+    "id": "INGREDIENT_GROUP:CHEMICAL_STIMULANT",
+    "properties": {
+      "name": "Chemical stimulant ingredients",
+      "name_vi": "Nguyên liệu chất kích thích dạng hóa chất",
+      "code": "chemical_stimulant",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "IngredientGroup",
+    "id": "INGREDIENT_GROUP:CHEMICAL_SUGAR",
+    "properties": {
+      "name": "Chemical sugar ingredients",
+      "name_vi": "Nguyên liệu đường dạng hóa chất",
+      "code": "chemical_sugar",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Ingredient",
+    "id": "INGREDIENT:CHEBI_17992",
+    "properties": {
+      "name": "sucrose",
+      "name_vi": "Sucrose",
+      "chebi_id": "CHEBI:17992",
+      "external_code": "CHEBI:17992",
+      "molecular_formula": "C12H22O11",
+      "source": "SOURCE:CHEBI",
+      "source_url": "https://www.ebi.ac.uk/chebi/CHEBI:17992",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:CHEBI_17992_01",
+    "properties": {
+      "name": "đường sucrose",
+      "normalized_name": "đường sucrose",
+      "language": "vi",
+      "alias_type": "chemical_ingredient_alias",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:CHEBI_17992_02",
+    "properties": {
+      "name": "đường mía",
+      "normalized_name": "đường mía",
+      "language": "vi",
+      "alias_type": "chemical_ingredient_alias",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Ingredient",
+    "id": "INGREDIENT:CHEBI_17234",
+    "properties": {
+      "name": "glucose",
+      "name_vi": "Glucose",
+      "chebi_id": "CHEBI:17234",
+      "external_code": "CHEBI:17234",
+      "molecular_formula": "C6H12O6",
+      "source": "SOURCE:CHEBI",
+      "source_url": "https://www.ebi.ac.uk/chebi/CHEBI:17234",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:CHEBI_17234_01",
+    "properties": {
+      "name": "đường glucose",
+      "normalized_name": "đường glucose",
+      "language": "vi",
+      "alias_type": "chemical_ingredient_alias",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Ingredient",
+    "id": "INGREDIENT:CHEBI_15824",
+    "properties": {
+      "name": "D-fructose",
+      "name_vi": "Fructose",
+      "chebi_id": "CHEBI:15824",
+      "external_code": "CHEBI:15824",
+      "molecular_formula": "C6H12O6",
+      "source": "SOURCE:CHEBI",
+      "source_url": "https://www.ebi.ac.uk/chebi/CHEBI:15824",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:CHEBI_15824_01",
+    "properties": {
+      "name": "đường fructose",
+      "normalized_name": "đường fructose",
+      "language": "vi",
+      "alias_type": "chemical_ingredient_alias",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Ingredient",
+    "id": "INGREDIENT:CHEBI_17716",
+    "properties": {
+      "name": "lactose",
+      "name_vi": "Lactose",
+      "chebi_id": "CHEBI:17716",
+      "external_code": "CHEBI:17716",
+      "molecular_formula": "C12H22O11",
+      "source": "SOURCE:CHEBI",
+      "source_url": "https://www.ebi.ac.uk/chebi/CHEBI:17716",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:CHEBI_17716_01",
+    "properties": {
+      "name": "đường lactose",
+      "normalized_name": "đường lactose",
+      "language": "vi",
+      "alias_type": "chemical_ingredient_alias",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:CHEBI_17716_02",
+    "properties": {
+      "name": "đường sữa",
+      "normalized_name": "đường sữa",
+      "language": "vi",
+      "alias_type": "chemical_ingredient_alias",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Ingredient",
+    "id": "INGREDIENT:CHEBI_17306",
+    "properties": {
+      "name": "maltose",
+      "name_vi": "Maltose",
+      "chebi_id": "CHEBI:17306",
+      "external_code": "CHEBI:17306",
+      "molecular_formula": "C12H22O11",
+      "source": "SOURCE:CHEBI",
+      "source_url": "https://www.ebi.ac.uk/chebi/CHEBI:17306",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:CHEBI_17306_01",
+    "properties": {
+      "name": "đường maltose",
+      "normalized_name": "đường maltose",
+      "language": "vi",
+      "alias_type": "chemical_ingredient_alias",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Ingredient",
+    "id": "INGREDIENT:CHEBI_27732",
+    "properties": {
+      "name": "caffeine",
+      "name_vi": "Caffeine",
+      "chebi_id": "CHEBI:27732",
+      "external_code": "CHEBI:27732",
+      "molecular_formula": "C8H10N4O2",
+      "source": "SOURCE:CHEBI",
+      "source_url": "https://www.ebi.ac.uk/chebi/CHEBI:27732",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:CHEBI_27732_01",
+    "properties": {
+      "name": "cafein",
+      "normalized_name": "cafein",
+      "language": "en",
+      "alias_type": "chemical_ingredient_alias",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:CHEBI_27732_02",
+    "properties": {
+      "name": "caffein",
+      "normalized_name": "caffein",
+      "language": "en",
+      "alias_type": "chemical_ingredient_alias",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Ingredient",
+    "id": "INGREDIENT:CHEBI_26710",
+    "properties": {
+      "name": "sodium chloride",
+      "name_vi": "Natri clorid",
+      "chebi_id": "CHEBI:26710",
+      "external_code": "CHEBI:26710",
+      "molecular_formula": "Cl.Na",
+      "source": "SOURCE:CHEBI",
+      "source_url": "https://www.ebi.ac.uk/chebi/CHEBI:26710",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:CHEBI_26710_01",
+    "properties": {
+      "name": "muối ăn",
+      "normalized_name": "muối ăn",
+      "language": "vi",
+      "alias_type": "chemical_ingredient_alias",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:CHEBI_26710_02",
+    "properties": {
+      "name": "natri chloride",
+      "normalized_name": "natri chloride",
+      "language": "en",
+      "alias_type": "chemical_ingredient_alias",
+      "source": "SOURCE:VIFOOD_TRANSLATION_SEED",
+      "source_url": "internal://vi-food-translation-seed",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  }
+]

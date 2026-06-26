@@ -1,0 +1,611 @@
+[
+  {
+    "start_id": "ALLERGEN:CRUSTACEA",
+    "end_id": "SOURCE:CODEX_CXS_1_1985",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "codex-allergen-master",
+      "codex_section": "4.2.1.4"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_CRUSTACEA_01",
+    "end_id": "ALLERGEN:CRUSTACEA",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_CRUSTACEA_02",
+    "end_id": "ALLERGEN:CRUSTACEA",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_CRUSTACEA_03",
+    "end_id": "ALLERGEN:CRUSTACEA",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_CRUSTACEA_04",
+    "end_id": "ALLERGEN:CRUSTACEA",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_CRUSTACEA_05",
+    "end_id": "ALLERGEN:CRUSTACEA",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_CRUSTACEA_06",
+    "end_id": "ALLERGEN:CRUSTACEA",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_CRUSTACEA_07",
+    "end_id": "ALLERGEN:CRUSTACEA",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_CRUSTACEA_08",
+    "end_id": "ALLERGEN:CRUSTACEA",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALLERGEN:EGGS",
+    "end_id": "SOURCE:CODEX_CXS_1_1985",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "codex-allergen-master",
+      "codex_section": "4.2.1.4"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_EGGS_01",
+    "end_id": "ALLERGEN:EGGS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_EGGS_02",
+    "end_id": "ALLERGEN:EGGS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_EGGS_03",
+    "end_id": "ALLERGEN:EGGS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_EGGS_04",
+    "end_id": "ALLERGEN:EGGS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_EGGS_05",
+    "end_id": "ALLERGEN:EGGS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALLERGEN:FISH",
+    "end_id": "SOURCE:CODEX_CXS_1_1985",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "codex-allergen-master",
+      "codex_section": "4.2.1.4"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_FISH_01",
+    "end_id": "ALLERGEN:FISH",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_FISH_02",
+    "end_id": "ALLERGEN:FISH",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_FISH_03",
+    "end_id": "ALLERGEN:FISH",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALLERGEN:GLUTEN_CEREALS",
+    "end_id": "SOURCE:CODEX_CXS_1_1985",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "codex-allergen-master",
+      "codex_section": "4.2.1.4"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_01",
+    "end_id": "ALLERGEN:GLUTEN_CEREALS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_02",
+    "end_id": "ALLERGEN:GLUTEN_CEREALS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_03",
+    "end_id": "ALLERGEN:GLUTEN_CEREALS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_04",
+    "end_id": "ALLERGEN:GLUTEN_CEREALS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_05",
+    "end_id": "ALLERGEN:GLUTEN_CEREALS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_06",
+    "end_id": "ALLERGEN:GLUTEN_CEREALS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_07",
+    "end_id": "ALLERGEN:GLUTEN_CEREALS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_08",
+    "end_id": "ALLERGEN:GLUTEN_CEREALS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_09",
+    "end_id": "ALLERGEN:GLUTEN_CEREALS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_10",
+    "end_id": "ALLERGEN:GLUTEN_CEREALS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALLERGEN:MILK",
+    "end_id": "SOURCE:CODEX_CXS_1_1985",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "codex-allergen-master",
+      "codex_section": "4.2.1.4"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_MILK_01",
+    "end_id": "ALLERGEN:MILK",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_MILK_02",
+    "end_id": "ALLERGEN:MILK",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_MILK_03",
+    "end_id": "ALLERGEN:MILK",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_MILK_04",
+    "end_id": "ALLERGEN:MILK",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_MILK_05",
+    "end_id": "ALLERGEN:MILK",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_MILK_06",
+    "end_id": "ALLERGEN:MILK",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_MILK_07",
+    "end_id": "ALLERGEN:MILK",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_MILK_08",
+    "end_id": "ALLERGEN:MILK",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALLERGEN:PEANUTS",
+    "end_id": "SOURCE:CODEX_CXS_1_1985",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "codex-allergen-master",
+      "codex_section": "4.2.1.4"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_PEANUTS_01",
+    "end_id": "ALLERGEN:PEANUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_PEANUTS_02",
+    "end_id": "ALLERGEN:PEANUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_PEANUTS_03",
+    "end_id": "ALLERGEN:PEANUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_PEANUTS_04",
+    "end_id": "ALLERGEN:PEANUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALLERGEN:SOYBEANS",
+    "end_id": "SOURCE:CODEX_CXS_1_1985",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "codex-allergen-master",
+      "codex_section": "4.2.1.4"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SOYBEANS_01",
+    "end_id": "ALLERGEN:SOYBEANS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SOYBEANS_02",
+    "end_id": "ALLERGEN:SOYBEANS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SOYBEANS_03",
+    "end_id": "ALLERGEN:SOYBEANS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SOYBEANS_04",
+    "end_id": "ALLERGEN:SOYBEANS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SOYBEANS_05",
+    "end_id": "ALLERGEN:SOYBEANS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SOYBEANS_06",
+    "end_id": "ALLERGEN:SOYBEANS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SOYBEANS_07",
+    "end_id": "ALLERGEN:SOYBEANS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALLERGEN:SULPHITES",
+    "end_id": "SOURCE:CODEX_CXS_1_1985",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "codex-allergen-master",
+      "codex_section": "4.2.1.4"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SULPHITES_01",
+    "end_id": "ALLERGEN:SULPHITES",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SULPHITES_02",
+    "end_id": "ALLERGEN:SULPHITES",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SULPHITES_03",
+    "end_id": "ALLERGEN:SULPHITES",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SULPHITES_04",
+    "end_id": "ALLERGEN:SULPHITES",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SULPHITES_05",
+    "end_id": "ALLERGEN:SULPHITES",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SULPHITES_06",
+    "end_id": "ALLERGEN:SULPHITES",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SULPHITES_07",
+    "end_id": "ALLERGEN:SULPHITES",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_SULPHITES_08",
+    "end_id": "ALLERGEN:SULPHITES",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALLERGEN:TREE_NUTS",
+    "end_id": "SOURCE:CODEX_CXS_1_1985",
+    "type": "SUPPORTED_BY",
+    "properties": {
+      "context": "codex-allergen-master",
+      "codex_section": "4.2.1.4"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_TREE_NUTS_01",
+    "end_id": "ALLERGEN:TREE_NUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_TREE_NUTS_02",
+    "end_id": "ALLERGEN:TREE_NUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_TREE_NUTS_03",
+    "end_id": "ALLERGEN:TREE_NUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_TREE_NUTS_04",
+    "end_id": "ALLERGEN:TREE_NUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_TREE_NUTS_05",
+    "end_id": "ALLERGEN:TREE_NUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_TREE_NUTS_06",
+    "end_id": "ALLERGEN:TREE_NUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_TREE_NUTS_07",
+    "end_id": "ALLERGEN:TREE_NUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_TREE_NUTS_08",
+    "end_id": "ALLERGEN:TREE_NUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_TREE_NUTS_09",
+    "end_id": "ALLERGEN:TREE_NUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_TREE_NUTS_10",
+    "end_id": "ALLERGEN:TREE_NUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_TREE_NUTS_11",
+    "end_id": "ALLERGEN:TREE_NUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_TREE_NUTS_12",
+    "end_id": "ALLERGEN:TREE_NUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  },
+  {
+    "start_id": "ALIAS:ALLERGEN_TREE_NUTS_13",
+    "end_id": "ALLERGEN:TREE_NUTS",
+    "type": "REFERS_TO",
+    "properties": {
+      "source": "SOURCE:CODEX_CXS_1_1985"
+    }
+  }
+]

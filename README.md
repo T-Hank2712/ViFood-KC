@@ -27,6 +27,7 @@ ViFood-KC đóng vai trò như “bộ não tri thức nền” cho các ứng d
 - Phụ gia đó được quy định như thế nào trong nhóm thực phẩm liên quan?
 - Một nutrient có mã chuẩn nào, đơn vị nào và liên quan đến claim sức khỏe nào?
 - Một claim sức khỏe dựa trên nguồn bằng chứng nào?
+- Một dị ứng nguyên trên nhãn thuộc nhóm nào theo chuẩn Codex?
 - Dữ liệu này đến từ nguồn nào và có thể kiểm tra lại không?
 
 ViFood-KC không biến dữ liệu OCR, nội dung do LLM sinh ra hoặc quan sát từ một sản phẩm đơn lẻ thành tri thức chuẩn. Các quan sát thực tế có thể được dùng để liên kết hoặc bổ sung ngữ cảnh, nhưng tri thức chuẩn phải đi qua source registry, release manifest, hash nguồn và quality gate.
@@ -37,13 +38,13 @@ ViFood-KC tổ chức tri thức thành các nhóm chính:
 
 | Nhóm | Mục đích |
 |---|---|
-| `Ingredient` | Chuẩn hóa nguyên liệu thực phẩm như bột, sữa, dầu, đường, cacao, nước, muối, hạt và đậu. |
-| `IngredientGroup` | Gom nguyên liệu vào các nhóm nghiệp vụ dễ query, ví dụ nhóm nguyên liệu sữa hoặc nhóm nguyên liệu bột/ngũ cốc. |
+| `Ingredient` | Chuẩn hóa nguyên liệu thực phẩm và ingredient dạng hóa chất như bột, sữa, dầu, đường, caffeine, sodium chloride. |
+| `IngredientGroup` | Gom nguyên liệu vào các nhóm nghiệp vụ dễ query, ví dụ nhóm nguyên liệu sữa, bột/ngũ cốc, đường hóa học hoặc khoáng hóa học. |
 | `Nutrient` | Chuẩn hóa dưỡng chất bằng mã và tên từ nguồn dinh dưỡng đáng tin cậy. |
 | `Additive` | Chuẩn hóa phụ gia thực phẩm, mã INS/E-number, tên. |
 | `FoodCategory` | Biểu diễn nhóm thực phẩm, đặc biệt là nhóm pháp lý dùng trong quy định phụ gia. |
 | `FunctionalClass` | Mô tả vai trò công nghệ của phụ gia như chất bảo quản, chất tạo màu, chất điều chỉnh độ acid. |
-| `Allergen` | Biểu diễn dị ứng nguyên và quan hệ với nguyên liệu khi có nguồn dữ liệu phù hợp. |
+| `Allergen` | Chuẩn hóa nhóm dị ứng nguyên/dị ứng không dung nạp từ Codex CXS 1-1985 để phục vụ nhận diện allergen trên nhãn. |
 | `HealthClaim` / `HealthOutcome` | Biểu diễn claim sức khỏe, kết quả sức khỏe, điều kiện áp dụng và nguồn bằng chứng. |
 | `Regulation` / `Source` | Lưu nguồn dữ liệu, văn bản pháp lý, tài liệu khoa học và provenance. |
 | `Alias` | Lưu tên gọi khác để entity linking, không dùng để nhân bản thực thể chuẩn. |
@@ -102,7 +103,7 @@ Phân cấp bản chất giữa nguyên liệu dùng:
 Tên gọi khác dùng:
 
 ```text
-(:Alias)-[:REFERS_TO]->(:Ingredient | :Additive | :Nutrient | :FoodCategory)
+(:Alias)-[:REFERS_TO]->(:Ingredient | :Additive | :Nutrient | :FoodCategory | :Allergen)
 ```
 
 Nguồn dữ liệu dùng:

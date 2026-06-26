@@ -13,7 +13,7 @@ Mỗi node chuẩn đều có các thuộc tính nền tảng:
 - `reviewed_at`: ngày dữ liệu được review/release.
 - `status`: trạng thái dữ liệu, ví dụ `active` hoặc `deprecated`.
 
-Các thuộc tính chuyên biệt như `name_vi`, `ins`, `external_code`, `foodon_id`, `source_iri` được thêm tùy loại node.
+Các thuộc tính chuyên biệt như `name_vi`, `ins`, `external_code`, `foodon_id`, `chebi_id`, `source_iri` hoặc `molecular_formula` được thêm tùy loại node.
 
 Thông tin có bản chất là quan hệ nên được biểu diễn bằng relationship, không nhồi vào property. Ví dụ nhóm nguyên liệu là node `IngredientGroup`, không phải mảng property trên `Ingredient`.
 
@@ -21,13 +21,13 @@ Thông tin có bản chất là quan hệ nên được biểu diễn bằng rel
 
 | Label | Ý nghĩa |
 |---|---|
-| `Ingredient` | Nguyên liệu thực phẩm chuẩn, ví dụ bột mì, sữa bột, dầu thực vật, cacao, nước, muối, đậu nành. |
+| `Ingredient` | Nguyên liệu thực phẩm chuẩn, gồm nguyên liệu food-based như bột mì, sữa bột, dầu thực vật và ingredient dạng hóa chất như glucose, caffeine, sodium chloride. |
 | `IngredientGroup` | Nhóm nguyên liệu phục vụ query và giải thích, ví dụ nhóm nguyên liệu sữa, nhóm nguyên liệu bột/ngũ cốc, nhóm nguyên liệu dầu/chất béo. |
 | `Nutrient` | Dưỡng chất hoặc thành phần dinh dưỡng chuẩn, có mã định danh từ nguồn dinh dưỡng. |
 | `Additive` | Phụ gia thực phẩm chuẩn, có thể có mã INS, E-number, tên và chức năng công nghệ. |
 | `FunctionalClass` | Chức năng công nghệ của phụ gia, ví dụ chất bảo quản, chất tạo màu, chất điều chỉnh độ acid. |
 | `FoodCategory` | Nhóm thực phẩm, đặc biệt là nhóm pháp lý dùng để biểu diễn quy định phụ gia. |
-| `Allergen` | Dị nguyên thực phẩm hoặc nhóm dị nguyên liên quan đến nguyên liệu. |
+| `Allergen` | Dị ứng nguyên thực phẩm hoặc nhóm chất gây không dung nạp được chuẩn hóa từ nguồn như Codex CXS 1-1985. |
 | `Alias` | Tên gọi khác hoặc token dùng để map text trên nhãn về thực thể chuẩn. |
 | `HealthClaim` | Claim sức khỏe có điều kiện áp dụng và nguồn bằng chứng. |
 | `HealthOutcome` | Kết quả sức khỏe hoặc tác động sức khỏe được claim đề cập. |
@@ -104,6 +104,20 @@ Các quan hệ chính:
 ```
 
 `PERMITTED_IN` là quan hệ pháp lý. Nó không có nghĩa là phụ gia đó chắc chắn xuất hiện trong mọi sản phẩm thuộc nhóm đó. Nó chỉ biểu diễn việc phụ gia được phép dùng trong điều kiện được quy định.
+
+## Allergen
+
+Allergen biểu diễn các nhóm dị ứng nguyên/dị ứng không dung nạp cần nhận diện trên nhãn thực phẩm đóng gói. Nguồn chính hiện tại là Codex CXS 1-1985.
+
+Các quan hệ chính:
+
+```text
+(:Allergen)-[:SUPPORTED_BY]->(:Source)
+(:Alias)-[:REFERS_TO]->(:Allergen)
+(:Ingredient)-[:CONTAINS_ALLERGEN]->(:Allergen)
+```
+
+Trong đó `CONTAINS_ALLERGEN` chỉ được tạo khi có mapping đủ chắc chắn từ ingredient sang allergen. Ví dụ “sữa bột” có thể map sang nhóm allergen “sữa”, nhưng mapping này cần release riêng có rule/source rõ ràng, không được suy diễn tự do từ LLM.
 
 ## Nutrient và HealthClaim
 

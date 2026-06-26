@@ -1,0 +1,1184 @@
+[
+  {
+    "label": "Source",
+    "id": "SOURCE:CODEX_CXS_1_1985",
+    "properties": {
+      "name": "Codex General Standard for the Labelling of Prepackaged Foods",
+      "source_type": "standard",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Allergen",
+    "id": "ALLERGEN:CRUSTACEA",
+    "properties": {
+      "name": "Crustacea and products thereof",
+      "name_vi": "Giáp xác và sản phẩm từ giáp xác",
+      "external_code": "CRUSTACEA",
+      "category_type": "allergen_group",
+      "codex_standard": "CXS 1-1985",
+      "codex_section": "4.2.1.4",
+      "codex_text": "Crustacea and products of these.",
+      "examples": [
+        "shrimp",
+        "crab",
+        "lobster"
+      ],
+      "examples_vi": [
+        "tôm",
+        "cua",
+        "tôm hùm"
+      ],
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_CRUSTACEA_01",
+    "properties": {
+      "name": "crustacean shellfish",
+      "normalized_name": "crustacean shellfish",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_CRUSTACEA_02",
+    "properties": {
+      "name": "shrimp",
+      "normalized_name": "shrimp",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_CRUSTACEA_03",
+    "properties": {
+      "name": "crab",
+      "normalized_name": "crab",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_CRUSTACEA_04",
+    "properties": {
+      "name": "lobster",
+      "normalized_name": "lobster",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_CRUSTACEA_05",
+    "properties": {
+      "name": "giáp xác",
+      "normalized_name": "giáp xác",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_CRUSTACEA_06",
+    "properties": {
+      "name": "tôm",
+      "normalized_name": "tôm",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_CRUSTACEA_07",
+    "properties": {
+      "name": "cua",
+      "normalized_name": "cua",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_CRUSTACEA_08",
+    "properties": {
+      "name": "tôm hùm",
+      "normalized_name": "tôm hùm",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Allergen",
+    "id": "ALLERGEN:EGGS",
+    "properties": {
+      "name": "Eggs and products thereof",
+      "name_vi": "Trứng và sản phẩm từ trứng",
+      "external_code": "EGGS",
+      "category_type": "allergen_group",
+      "codex_standard": "CXS 1-1985",
+      "codex_section": "4.2.1.4",
+      "codex_text": "Eggs and egg products.",
+      "examples": [
+        "egg",
+        "albumen"
+      ],
+      "examples_vi": [
+        "trứng",
+        "lòng trắng trứng"
+      ],
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_EGGS_01",
+    "properties": {
+      "name": "egg",
+      "normalized_name": "egg",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_EGGS_02",
+    "properties": {
+      "name": "albumen",
+      "normalized_name": "albumen",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_EGGS_03",
+    "properties": {
+      "name": "ovalbumin",
+      "normalized_name": "ovalbumin",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_EGGS_04",
+    "properties": {
+      "name": "trứng",
+      "normalized_name": "trứng",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_EGGS_05",
+    "properties": {
+      "name": "lòng trắng trứng",
+      "normalized_name": "lòng trắng trứng",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Allergen",
+    "id": "ALLERGEN:FISH",
+    "properties": {
+      "name": "Fish and products thereof",
+      "name_vi": "Cá và sản phẩm từ cá",
+      "external_code": "FISH",
+      "category_type": "allergen_group",
+      "codex_standard": "CXS 1-1985",
+      "codex_section": "4.2.1.4",
+      "codex_text": "Fish and fish products.",
+      "examples": [
+        "fish"
+      ],
+      "examples_vi": [
+        "cá"
+      ],
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_FISH_01",
+    "properties": {
+      "name": "fish products",
+      "normalized_name": "fish products",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_FISH_02",
+    "properties": {
+      "name": "cá",
+      "normalized_name": "cá",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_FISH_03",
+    "properties": {
+      "name": "sản phẩm từ cá",
+      "normalized_name": "sản phẩm từ cá",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Allergen",
+    "id": "ALLERGEN:GLUTEN_CEREALS",
+    "properties": {
+      "name": "Cereals containing gluten",
+      "name_vi": "Ngũ cốc chứa gluten",
+      "external_code": "GLUTEN_CEREALS",
+      "category_type": "allergen_group",
+      "codex_standard": "CXS 1-1985",
+      "codex_section": "4.2.1.4",
+      "codex_text": "Cereals containing gluten, e.g. wheat, rye, barley, oats, spelt or their hybridized strains and products of these.",
+      "examples": [
+        "wheat",
+        "rye",
+        "barley",
+        "oats",
+        "spelt"
+      ],
+      "examples_vi": [
+        "lúa mì",
+        "lúa mạch đen",
+        "lúa mạch",
+        "yến mạch",
+        "lúa mì spelt"
+      ],
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_01",
+    "properties": {
+      "name": "gluten",
+      "normalized_name": "gluten",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_02",
+    "properties": {
+      "name": "wheat",
+      "normalized_name": "wheat",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_03",
+    "properties": {
+      "name": "rye",
+      "normalized_name": "rye",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_04",
+    "properties": {
+      "name": "barley",
+      "normalized_name": "barley",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_05",
+    "properties": {
+      "name": "oats",
+      "normalized_name": "oats",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_06",
+    "properties": {
+      "name": "spelt",
+      "normalized_name": "spelt",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_07",
+    "properties": {
+      "name": "lúa mì",
+      "normalized_name": "lúa mì",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_08",
+    "properties": {
+      "name": "lúa mạch đen",
+      "normalized_name": "lúa mạch đen",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_09",
+    "properties": {
+      "name": "lúa mạch",
+      "normalized_name": "lúa mạch",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_GLUTEN_CEREALS_10",
+    "properties": {
+      "name": "yến mạch",
+      "normalized_name": "yến mạch",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Allergen",
+    "id": "ALLERGEN:MILK",
+    "properties": {
+      "name": "Milk and milk products",
+      "name_vi": "Sữa và sản phẩm từ sữa",
+      "external_code": "MILK",
+      "category_type": "allergen_group",
+      "codex_standard": "CXS 1-1985",
+      "codex_section": "4.2.1.4",
+      "codex_text": "Milk and milk products, lactose included.",
+      "examples": [
+        "milk",
+        "lactose",
+        "whey",
+        "casein"
+      ],
+      "examples_vi": [
+        "sữa",
+        "lactose",
+        "whey",
+        "casein"
+      ],
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_MILK_01",
+    "properties": {
+      "name": "lactose",
+      "normalized_name": "lactose",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_MILK_02",
+    "properties": {
+      "name": "whey",
+      "normalized_name": "whey",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_MILK_03",
+    "properties": {
+      "name": "casein",
+      "normalized_name": "casein",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_MILK_04",
+    "properties": {
+      "name": "milk powder",
+      "normalized_name": "milk powder",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_MILK_05",
+    "properties": {
+      "name": "sữa",
+      "normalized_name": "sữa",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_MILK_06",
+    "properties": {
+      "name": "sữa bột",
+      "normalized_name": "sữa bột",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_MILK_07",
+    "properties": {
+      "name": "đạm sữa",
+      "normalized_name": "đạm sữa",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_MILK_08",
+    "properties": {
+      "name": "đường sữa",
+      "normalized_name": "đường sữa",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Allergen",
+    "id": "ALLERGEN:PEANUTS",
+    "properties": {
+      "name": "Peanuts and products thereof",
+      "name_vi": "Đậu phộng và sản phẩm từ đậu phộng",
+      "external_code": "PEANUTS",
+      "category_type": "allergen_group",
+      "codex_standard": "CXS 1-1985",
+      "codex_section": "4.2.1.4",
+      "codex_text": "Peanuts, soybeans and products of these.",
+      "examples": [
+        "peanut"
+      ],
+      "examples_vi": [
+        "đậu phộng",
+        "lạc"
+      ],
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_PEANUTS_01",
+    "properties": {
+      "name": "peanut",
+      "normalized_name": "peanut",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_PEANUTS_02",
+    "properties": {
+      "name": "groundnut",
+      "normalized_name": "groundnut",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_PEANUTS_03",
+    "properties": {
+      "name": "đậu phộng",
+      "normalized_name": "đậu phộng",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_PEANUTS_04",
+    "properties": {
+      "name": "lạc",
+      "normalized_name": "lạc",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Allergen",
+    "id": "ALLERGEN:SOYBEANS",
+    "properties": {
+      "name": "Soybeans and products thereof",
+      "name_vi": "Đậu nành và sản phẩm từ đậu nành",
+      "external_code": "SOYBEANS",
+      "category_type": "allergen_group",
+      "codex_standard": "CXS 1-1985",
+      "codex_section": "4.2.1.4",
+      "codex_text": "Peanuts, soybeans and products of these.",
+      "examples": [
+        "soybean",
+        "soy protein",
+        "soy lecithin"
+      ],
+      "examples_vi": [
+        "đậu nành",
+        "protein đậu nành",
+        "lecithin đậu nành"
+      ],
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SOYBEANS_01",
+    "properties": {
+      "name": "soybean",
+      "normalized_name": "soybean",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SOYBEANS_02",
+    "properties": {
+      "name": "soy",
+      "normalized_name": "soy",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SOYBEANS_03",
+    "properties": {
+      "name": "soya",
+      "normalized_name": "soya",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SOYBEANS_04",
+    "properties": {
+      "name": "soy protein",
+      "normalized_name": "soy protein",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SOYBEANS_05",
+    "properties": {
+      "name": "đậu nành",
+      "normalized_name": "đậu nành",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SOYBEANS_06",
+    "properties": {
+      "name": "đậu tương",
+      "normalized_name": "đậu tương",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SOYBEANS_07",
+    "properties": {
+      "name": "protein đậu nành",
+      "normalized_name": "protein đậu nành",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Allergen",
+    "id": "ALLERGEN:SULPHITES",
+    "properties": {
+      "name": "Sulphites",
+      "name_vi": "Sulphit",
+      "external_code": "SULPHITES",
+      "category_type": "intolerance_substance",
+      "codex_standard": "CXS 1-1985",
+      "codex_section": "4.2.1.4",
+      "codex_text": "Sulphite in concentrations of 10 mg/kg or more.",
+      "examples": [
+        "sulphite",
+        "sulfite",
+        "sulphur dioxide"
+      ],
+      "examples_vi": [
+        "sulphit",
+        "sulfit",
+        "lưu huỳnh dioxit"
+      ],
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active",
+      "threshold": "10 mg/kg or more"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SULPHITES_01",
+    "properties": {
+      "name": "sulfites",
+      "normalized_name": "sulfites",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SULPHITES_02",
+    "properties": {
+      "name": "sulphite",
+      "normalized_name": "sulphite",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SULPHITES_03",
+    "properties": {
+      "name": "sulfite",
+      "normalized_name": "sulfite",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SULPHITES_04",
+    "properties": {
+      "name": "sulphur dioxide",
+      "normalized_name": "sulphur dioxide",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SULPHITES_05",
+    "properties": {
+      "name": "sulfur dioxide",
+      "normalized_name": "sulfur dioxide",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SULPHITES_06",
+    "properties": {
+      "name": "SO2",
+      "normalized_name": "so2",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SULPHITES_07",
+    "properties": {
+      "name": "sulfit",
+      "normalized_name": "sulfit",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_SULPHITES_08",
+    "properties": {
+      "name": "lưu huỳnh dioxit",
+      "normalized_name": "lưu huỳnh dioxit",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Allergen",
+    "id": "ALLERGEN:TREE_NUTS",
+    "properties": {
+      "name": "Tree nuts and nut products",
+      "name_vi": "Hạt cây và sản phẩm từ hạt cây",
+      "external_code": "TREE_NUTS",
+      "category_type": "allergen_group",
+      "codex_standard": "CXS 1-1985",
+      "codex_section": "4.2.1.4",
+      "codex_text": "Tree nuts and nut products.",
+      "examples": [
+        "almond",
+        "hazelnut",
+        "walnut",
+        "cashew",
+        "pistachio"
+      ],
+      "examples_vi": [
+        "hạnh nhân",
+        "hạt phỉ",
+        "óc chó",
+        "hạt điều",
+        "hồ trăn"
+      ],
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_TREE_NUTS_01",
+    "properties": {
+      "name": "tree nuts",
+      "normalized_name": "tree nuts",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_TREE_NUTS_02",
+    "properties": {
+      "name": "nuts",
+      "normalized_name": "nuts",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_TREE_NUTS_03",
+    "properties": {
+      "name": "almond",
+      "normalized_name": "almond",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_TREE_NUTS_04",
+    "properties": {
+      "name": "hazelnut",
+      "normalized_name": "hazelnut",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_TREE_NUTS_05",
+    "properties": {
+      "name": "walnut",
+      "normalized_name": "walnut",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_TREE_NUTS_06",
+    "properties": {
+      "name": "cashew",
+      "normalized_name": "cashew",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_TREE_NUTS_07",
+    "properties": {
+      "name": "pistachio",
+      "normalized_name": "pistachio",
+      "language": "en",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_TREE_NUTS_08",
+    "properties": {
+      "name": "hạt cây",
+      "normalized_name": "hạt cây",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_TREE_NUTS_09",
+    "properties": {
+      "name": "hạnh nhân",
+      "normalized_name": "hạnh nhân",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_TREE_NUTS_10",
+    "properties": {
+      "name": "hạt phỉ",
+      "normalized_name": "hạt phỉ",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_TREE_NUTS_11",
+    "properties": {
+      "name": "óc chó",
+      "normalized_name": "óc chó",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_TREE_NUTS_12",
+    "properties": {
+      "name": "hạt điều",
+      "normalized_name": "hạt điều",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  },
+  {
+    "label": "Alias",
+    "id": "ALIAS:ALLERGEN_TREE_NUTS_13",
+    "properties": {
+      "name": "hồ trăn",
+      "normalized_name": "hồ trăn",
+      "language": "vi",
+      "alias_type": "allergen_alias",
+      "source": "SOURCE:CODEX_CXS_1_1985",
+      "source_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf",
+      "reviewed_at": "2026-06-25",
+      "status": "active"
+    }
+  }
+]

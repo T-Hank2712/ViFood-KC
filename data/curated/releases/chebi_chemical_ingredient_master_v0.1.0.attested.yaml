@@ -1,0 +1,29 @@
+version: chebi_chemical_ingredient_master_v0.1.0
+released_at: '2026-06-25'
+source_ids:
+- SOURCE:CHEBI
+- SOURCE:VIFOOD_TRANSLATION_SEED
+node_count: 23
+relationship_count: 28
+notes: ChEBI-backed chemical Ingredient master for scoped packaged-food label terms.
+raw_snapshot:
+  files:
+  - path: config/chebi_chemical_ingredient_scope.yaml
+    sha256: 711d2da6389b25e4934164d7892962310223ac1d78e26f8eb1abc52adad26d2b
+  - path: data/raw/chebi/chebi_2026_06_25/CHEBI_17234.html
+    sha256: 3466071472c2f91568d4658f6486257e4a7fe00b95996ee8483f79cdd1fce239
+  - path: data/raw/chebi/chebi_2026_06_25/CHEBI_17306.html
+    sha256: 759bd489a6a45c976e29c952f6d52f66b559d8937e94914e380a38860e1ce806
+  - path: data/raw/chebi/chebi_2026_06_25/CHEBI_17716.html
+    sha256: 54d7a39ca77be200761d7ea6170812909b284d1dc66142592e382af1f722d95e
+  - path: data/raw/chebi/chebi_2026_06_25/CHEBI_17992.html
+    sha256: c61fada03ccfed46ba4a186da1187642a8b0e01cb3ced72f3adab659276ed84f
+  - path: data/raw/chebi/chebi_2026_06_25/CHEBI_26710.html
+    sha256: 0120986545731c2c941c79c80a27541c99ced8e912caae26ed68e39b13b5afd0
+  - path: data/raw/chebi/chebi_2026_06_25/CHEBI_27732.html
+    sha256: 26b0f550e09c0885ceedcc4edb728f4669002eeb4e150a33ac1a64adca5924f7
+  - path: data/raw/chebi/chebi_2026_06_25/CHEBI_15824.html
+    sha256: 9ca3c3030868ab2acf462c4ea58e5e430dcb70a71a99f1e08f6e8f3f11ee95a6
+automated_gate:
+  policy_version: strict-v1
+  ambiguous_alias_count: 0

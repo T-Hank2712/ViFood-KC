@@ -1,0 +1,156 @@
+source:
+  id: SOURCE:CODEX_CXS_1_1985
+  name: Codex General Standard for the Labelling of Prepackaged Foods
+  url: https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf
+  standard_code: CXS 1-1985
+  section: 4.2.1.4
+allergens:
+  - code: GLUTEN_CEREALS
+    name: Cereals containing gluten
+    name_vi: Ngũ cốc chứa gluten
+    category_type: allergen_group
+    codex_text: Cereals containing gluten, e.g. wheat, rye, barley, oats, spelt or their hybridized strains and products of these.
+    examples: [wheat, rye, barley, oats, spelt]
+    examples_vi: [lúa mì, lúa mạch đen, lúa mạch, yến mạch, lúa mì spelt]
+    aliases:
+      - gluten
+      - cereals containing gluten
+      - wheat
+      - rye
+      - barley
+      - oats
+      - spelt
+      - ngũ cốc chứa gluten
+      - lúa mì
+      - lúa mạch đen
+      - lúa mạch
+      - yến mạch
+  - code: CRUSTACEA
+    name: Crustacea and products thereof
+    name_vi: Giáp xác và sản phẩm từ giáp xác
+    category_type: allergen_group
+    codex_text: Crustacea and products of these.
+    examples: [shrimp, crab, lobster]
+    examples_vi: [tôm, cua, tôm hùm]
+    aliases:
+      - crustacea
+      - crustacean shellfish
+      - shrimp
+      - crab
+      - lobster
+      - giáp xác
+      - tôm
+      - cua
+      - tôm hùm
+  - code: EGGS
+    name: Eggs and products thereof
+    name_vi: Trứng và sản phẩm từ trứng
+    category_type: allergen_group
+    codex_text: Eggs and egg products.
+    examples: [egg, albumen]
+    examples_vi: [trứng, lòng trắng trứng]
+    aliases:
+      - eggs
+      - egg
+      - albumen
+      - ovalbumin
+      - trứng
+      - lòng trắng trứng
+  - code: FISH
+    name: Fish and products thereof
+    name_vi: Cá và sản phẩm từ cá
+    category_type: allergen_group
+    codex_text: Fish and fish products.
+    examples: [fish]
+    examples_vi: [cá]
+    aliases:
+      - fish
+      - fish products
+      - cá
+      - sản phẩm từ cá
+  - code: PEANUTS
+    name: Peanuts and products thereof
+    name_vi: Đậu phộng và sản phẩm từ đậu phộng
+    category_type: allergen_group
+    codex_text: Peanuts, soybeans and products of these.
+    examples: [peanut]
+    examples_vi: [đậu phộng, lạc]
+    aliases:
+      - peanuts
+      - peanut
+      - groundnut
+      - đậu phộng
+      - lạc
+  - code: SOYBEANS
+    name: Soybeans and products thereof
+    name_vi: Đậu nành và sản phẩm từ đậu nành
+    category_type: allergen_group
+    codex_text: Peanuts, soybeans and products of these.
+    examples: [soybean, soy protein, soy lecithin]
+    examples_vi: [đậu nành, protein đậu nành, lecithin đậu nành]
+    aliases:
+      - soybeans
+      - soybean
+      - soy
+      - soya
+      - soy protein
+      - đậu nành
+      - đậu tương
+      - protein đậu nành
+  - code: MILK
+    name: Milk and milk products
+    name_vi: Sữa và sản phẩm từ sữa
+    category_type: allergen_group
+    codex_text: Milk and milk products, lactose included.
+    examples: [milk, lactose, whey, casein]
+    examples_vi: [sữa, lactose, whey, casein]
+    aliases:
+      - milk
+      - lactose
+      - whey
+      - casein
+      - milk powder
+      - sữa
+      - sữa bột
+      - đạm sữa
+      - đường sữa
+  - code: TREE_NUTS
+    name: Tree nuts and nut products
+    name_vi: Hạt cây và sản phẩm từ hạt cây
+    category_type: allergen_group
+    codex_text: Tree nuts and nut products.
+    examples: [almond, hazelnut, walnut, cashew, pistachio]
+    examples_vi: [hạnh nhân, hạt phỉ, óc chó, hạt điều, hồ trăn]
+    aliases:
+      - tree nuts
+      - nuts
+      - almond
+      - hazelnut
+      - walnut
+      - cashew
+      - pistachio
+      - hạt cây
+      - hạnh nhân
+      - hạt phỉ
+      - óc chó
+      - hạt điều
+      - hồ trăn
+  - code: SULPHITES
+    name: Sulphites
+    name_vi: Sulphit
+    category_type: intolerance_substance
+    codex_text: Sulphite in concentrations of 10 mg/kg or more.
+    threshold: 10 mg/kg or more
+    examples: [sulphite, sulfite, sulphur dioxide]
+    examples_vi: [sulphit, sulfit, lưu huỳnh dioxit]
+    aliases:
+      - sulphites
+      - sulfites
+      - sulphite
+      - sulfite
+      - sulphur dioxide
+      - sulfur dioxide
+      - SO2
+      - sulphit
+      - sulfit
+      - lưu huỳnh dioxit
